@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/internal/graphcycles.h"
+#include "tink/absl/synchronization/internal/graphcycles.h"
 
 #include <map>
 #include <random>
@@ -21,9 +21,9 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/macros.h"
-#include "absl/log/check.h"
-#include "absl/log/log.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/log/log.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

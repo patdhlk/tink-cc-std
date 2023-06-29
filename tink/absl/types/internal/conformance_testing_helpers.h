@@ -36,9 +36,9 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/meta/type_traits.h"
-#include "absl/strings/string_view.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/utility/utility.h"
 
 #if ABSL_TYPES_INTERNAL_HAS_CXA_DEMANGLE
 #include <cxxabi.h>

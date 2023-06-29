@@ -23,7 +23,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/cleartext_keyset_handle.h"
 #include "tink/json_keyset_reader.h"
 #include "tink/json_keyset_writer.h"

@@ -21,10 +21,10 @@
 #include <limits>
 #include <type_traits>
 
-#include "absl/meta/type_traits.h"
-#include "absl/random/internal/fast_uniform_bits.h"
-#include "absl/random/internal/generate_real.h"
-#include "absl/random/internal/iostream_state_saver.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/random/internal/fast_uniform_bits.h"
+#include "tink/absl/random/internal/generate_real.h"
+#include "tink/absl/random/internal/iostream_state_saver.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

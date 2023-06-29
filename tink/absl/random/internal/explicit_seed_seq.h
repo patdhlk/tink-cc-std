@@ -22,8 +22,8 @@
 #include <iterator>
 #include <vector>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/endian.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/endian.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

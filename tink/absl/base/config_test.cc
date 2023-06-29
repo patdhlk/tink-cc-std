@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #include <cstdint>
 
 #include "gtest/gtest.h"
-#include "absl/synchronization/internal/thread_pool.h"
+#include "tink/absl/synchronization/internal/thread_pool.h"
 
 namespace {
 

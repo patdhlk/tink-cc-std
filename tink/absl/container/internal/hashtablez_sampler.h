@@ -44,12 +44,12 @@
 #include <memory>
 #include <vector>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/per_thread_tls.h"
-#include "absl/base/optimization.h"
-#include "absl/profiling/internal/sample_recorder.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/per_thread_tls.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/profiling/internal/sample_recorder.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

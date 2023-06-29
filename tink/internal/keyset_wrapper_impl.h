@@ -21,7 +21,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/container/flat_hash_map.h"
+#include "tink/absl/container/flat_hash_map.h"
 #include "tink/internal/key_info.h"
 #include "tink/internal/keyset_wrapper.h"
 #include "tink/primitive_set.h"

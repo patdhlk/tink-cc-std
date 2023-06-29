@@ -81,8 +81,8 @@
 #include <tuple>
 #include <utility>
 
-#include "absl/functional/function_ref.h"
-#include "absl/hash/internal/hash.h"
+#include "tink/absl/functional/function_ref.h"
+#include "tink/absl/hash/internal/hash.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

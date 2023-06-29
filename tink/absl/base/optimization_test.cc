@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/optimization.h"
+#include "tink/absl/base/optimization.h"
 
 #include "gtest/gtest.h"
-#include "absl/types/optional.h"
+#include "tink/absl/types/optional.h"
 
 namespace {
 

@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/log_severity.h"
+#include "tink/absl/base/log_severity.h"
 
 #include <ostream>
 
-#include "absl/base/attributes.h"
+#include "tink/absl/base/attributes.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

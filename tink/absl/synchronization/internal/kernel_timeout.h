@@ -25,10 +25,10 @@
 #include <ctime>
 #include <limits>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/wide_multiply.h"
+#include "tink/absl/random/internal/wide_multiply.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/numeric/int128.h"
+#include "tink/absl/numeric/int128.h"
 
 using absl::random_internal::MultiplyU128ToU256;
 using absl::random_internal::U256;

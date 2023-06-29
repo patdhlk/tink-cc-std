@@ -32,13 +32,13 @@
 #include <string>
 #include <type_traits>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/optimization.h"
-#include "absl/flags/config.h"
-#include "absl/flags/internal/flag.h"
-#include "absl/flags/internal/registry.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/flags/config.h"
+#include "tink/absl/flags/internal/flag.h"
+#include "tink/absl/flags/internal/registry.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN
@@ -75,7 +75,7 @@ ABSL_NAMESPACE_BEGIN
 template <typename T>
 using Flag = flags_internal::Flag<T>;
 #else
-#include "absl/flags/internal/flag_msvc.inc"
+#include "tink/absl/flags/internal/flag_msvc.inc"
 #endif
 
 // GetFlag()

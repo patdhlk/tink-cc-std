@@ -25,10 +25,10 @@
 #include <string>
 
 #include "gmock/gmock.h"
-#include "absl/base/config.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/log_entry.h"
-#include "absl/log/log_sink.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/log_entry.h"
+#include "tink/absl/log/log_sink.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

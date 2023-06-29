@@ -22,7 +22,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/chunked_mac.h"
 #include "tink/mac/internal/chunked_mac_impl.h"
 #include "tink/subtle/mac/stateful_mac.h"

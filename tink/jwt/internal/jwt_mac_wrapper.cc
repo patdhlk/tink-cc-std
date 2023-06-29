@@ -20,7 +20,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/jwt/internal/jwt_format.h"
 #include "tink/jwt/internal/jwt_mac_internal.h"
 #include "tink/jwt/jwt_mac.h"

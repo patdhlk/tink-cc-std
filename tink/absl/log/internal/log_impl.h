@@ -15,9 +15,9 @@
 #ifndef ABSL_LOG_INTERNAL_LOG_IMPL_H_
 #define ABSL_LOG_INTERNAL_LOG_IMPL_H_
 
-#include "absl/log/internal/conditions.h"
-#include "absl/log/internal/log_message.h"
-#include "absl/log/internal/strip.h"
+#include "tink/absl/log/internal/conditions.h"
+#include "tink/absl/log/internal/log_message.h"
+#include "tink/absl/log/internal/strip.h"
 
 // ABSL_LOG()
 #define ABSL_LOG_INTERNAL_LOG_IMPL(severity)             \

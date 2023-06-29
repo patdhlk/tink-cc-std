@@ -17,7 +17,7 @@
 
 #include <string>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 #include "time_zone_if.h"
 
 namespace absl {

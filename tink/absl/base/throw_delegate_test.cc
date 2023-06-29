@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/throw_delegate.h"
+#include "tink/absl/base/internal/throw_delegate.h"
 
 #include <functional>
 #include <new>
 #include <stdexcept>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 #include "gtest/gtest.h"
 
 namespace {

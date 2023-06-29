@@ -187,7 +187,7 @@
 #ifndef ABSL_LOG_LOG_H_
 #define ABSL_LOG_LOG_H_
 
-#include "absl/log/internal/log_impl.h"
+#include "tink/absl/log/internal/log_impl.h"
 
 // LOG()
 //

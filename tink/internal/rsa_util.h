@@ -20,7 +20,7 @@
 
 #include <string>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "openssl/bn.h"
 #include "openssl/rsa.h"
 #include "tink/internal/ssl_unique_ptr.h"

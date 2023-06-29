@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/btree_test.h"
+#include "tink/absl/container/btree_test.h"
 
 #include <algorithm>
 #include <array>
@@ -32,22 +32,22 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/algorithm/container.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/macros.h"
-#include "absl/container/btree_map.h"
-#include "absl/container/btree_set.h"
-#include "absl/container/internal/counting_allocator.h"
-#include "absl/container/internal/test_instance_tracker.h"
-#include "absl/flags/flag.h"
-#include "absl/hash/hash_testing.h"
-#include "absl/memory/memory.h"
-#include "absl/random/random.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_split.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/compare.h"
-#include "absl/types/optional.h"
+#include "tink/absl/algorithm/container.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/container/btree_map.h"
+#include "tink/absl/container/btree_set.h"
+#include "tink/absl/container/internal/counting_allocator.h"
+#include "tink/absl/container/internal/test_instance_tracker.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/hash/hash_testing.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_split.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/compare.h"
+#include "tink/absl/types/optional.h"
 
 ABSL_FLAG(int, test_values, 10000, "The number of values to use for tests");
 

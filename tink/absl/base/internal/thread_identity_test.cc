@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/thread_identity.h"
+#include "tink/absl/base/internal/thread_identity.h"
 
 #include <thread>  // NOLINT(build/c++11)
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/base/macros.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/synchronization/internal/per_thread_sem.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/synchronization/internal/per_thread_sem.h"
+#include "tink/absl/synchronization/mutex.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

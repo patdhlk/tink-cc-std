@@ -20,8 +20,8 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/strings/escaping.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/escaping.h"
 #include "tink/internal/fips_utils.h"
 #include "tink/mac.h"
 #include "tink/subtle/common_enums.h"

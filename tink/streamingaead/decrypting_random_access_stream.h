@@ -22,7 +22,7 @@
 #include <utility>
 #include <vector>
 
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/synchronization/mutex.h"
 #include "tink/primitive_set.h"
 #include "tink/random_access_stream.h"
 #include "tink/streaming_aead.h"

@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/string_constant.h"
+#include "tink/absl/strings/internal/string_constant.h"
 
-#include "absl/meta/type_traits.h"
+#include "tink/absl/meta/type_traits.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
 

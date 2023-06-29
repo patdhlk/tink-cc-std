@@ -19,7 +19,7 @@
 
 #include <memory>
 
-#include "absl/base/attributes.h"
+#include "tink/absl/base/attributes.h"
 #include "tink/aead.h"
 #include "tink/key_manager.h"
 #include "tink/keyset_handle.h"

@@ -19,8 +19,8 @@
 #include <string>
 #include <vector>
 
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/subtle/wycheproof_util.h"
 
 namespace crypto {

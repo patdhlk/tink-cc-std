@@ -37,7 +37,7 @@
 #include <unordered_set>
 #include <vector>
 
-#include "absl/meta/type_traits.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -17,7 +17,7 @@
 
 #include <memory>
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/prf/aes_cmac_prf_key_manager.h"
 #include "tink/prf/hkdf_prf_key_manager.h"
 #include "tink/prf/hmac_prf_key_manager.h"

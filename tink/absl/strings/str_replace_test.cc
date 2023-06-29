@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/str_replace.h"
+#include "tink/absl/strings/str_replace.h"
 
 #include <list>
 #include <map>
 #include <tuple>
 
 #include "gtest/gtest.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_split.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_split.h"
 
 TEST(StrReplaceAll, OneReplacement) {
   std::string s;

@@ -19,10 +19,10 @@
 #ifndef ABSL_LOG_INTERNAL_LOG_SINK_SET_H_
 #define ABSL_LOG_INTERNAL_LOG_SINK_SET_H_
 
-#include "absl/base/config.h"
-#include "absl/log/log_entry.h"
-#include "absl/log/log_sink.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/log/log_entry.h"
+#include "tink/absl/log/log_sink.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -13,14 +13,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/debugging/internal/stack_consumption.h"
+#include "tink/absl/debugging/internal/stack_consumption.h"
 
 #ifdef ABSL_INTERNAL_HAVE_DEBUGGING_STACK_CONSUMPTION
 
 #include <string.h>
 
 #include "gtest/gtest.h"
-#include "absl/log/log.h"
+#include "tink/absl/log/log.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

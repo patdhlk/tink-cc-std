@@ -19,8 +19,8 @@
 #include <cstdint>
 #include <memory>
 
-#include "absl/strings/string_view.h"
-#include "absl/types/span.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/span.h"
 #include "openssl/aes.h"
 #include "tink/util/secret_data.h"
 #include "tink/util/status.h"

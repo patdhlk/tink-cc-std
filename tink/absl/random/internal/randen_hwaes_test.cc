@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/randen_hwaes.h"
+#include "tink/absl/random/internal/randen_hwaes.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/log/log.h"
-#include "absl/random/internal/platform.h"
-#include "absl/random/internal/randen_detect.h"
-#include "absl/random/internal/randen_traits.h"
-#include "absl/strings/str_format.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/random/internal/platform.h"
+#include "tink/absl/random/internal/randen_detect.h"
+#include "tink/absl/random/internal/randen_traits.h"
+#include "tink/absl/strings/str_format.h"
 
 namespace {
 

@@ -16,7 +16,7 @@
 
 #include <windows.h>
 #include <atomic>
-#include "absl/base/internal/scheduling_mode.h"
+#include "tink/absl/base/internal/scheduling_mode.h"
 
 extern "C" {
 

@@ -21,10 +21,10 @@
 #ifndef ABSL_LOG_GLOBALS_H_
 #define ABSL_LOG_GLOBALS_H_
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/log_severity.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

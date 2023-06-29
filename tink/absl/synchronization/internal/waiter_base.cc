@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/internal/waiter_base.h"
+#include "tink/absl/synchronization/internal/waiter_base.h"
 
-#include "absl/base/config.h"
-#include "absl/base/internal/thread_identity.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/thread_identity.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

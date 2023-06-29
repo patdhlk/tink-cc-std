@@ -64,16 +64,16 @@
 #include <iterator>
 #include <string>
 
-#include "absl/base/const_init.h"
-#include "absl/base/internal/identity.h"
-#include "absl/base/internal/low_level_alloc.h"
-#include "absl/base/internal/thread_identity.h"
-#include "absl/base/internal/tsan_mutex_interface.h"
-#include "absl/base/port.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/synchronization/internal/kernel_timeout.h"
-#include "absl/synchronization/internal/per_thread_sem.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/const_init.h"
+#include "tink/absl/base/internal/identity.h"
+#include "tink/absl/base/internal/low_level_alloc.h"
+#include "tink/absl/base/internal/thread_identity.h"
+#include "tink/absl/base/internal/tsan_mutex_interface.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/synchronization/internal/per_thread_sem.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN
@@ -1071,7 +1071,7 @@ inline Condition::Condition(const T* object,
 //
 // The function pointer registered here will be called whenever a mutex is
 // contended.  The callback is given the cycles for which waiting happened (as
-// measured by //absl/base/internal/cycleclock.h, and which may not
+// measured by //tink/absl/base/internal/cycleclock.h, and which may not
 // be real "cycle" counts.)
 //
 // There is no ordering guarantee between when the hook is registered and when
@@ -1086,7 +1086,7 @@ void RegisterMutexProfiler(void (*fn)(int64_t wait_cycles));
 // The function pointer registered here will be called whenever a mutex is
 // contended.  The callback is given an opaque handle to the contended mutex,
 // an event name, and the number of wait cycles (as measured by
-// //absl/base/internal/cycleclock.h, and which may not be real
+// //tink/absl/base/internal/cycleclock.h, and which may not be real
 // "cycle" counts.)
 //
 // The only event name currently sent is "slow release".

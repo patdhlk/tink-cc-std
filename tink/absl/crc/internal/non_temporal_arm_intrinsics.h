@@ -15,7 +15,7 @@
 #ifndef ABSL_CRC_INTERNAL_NON_TEMPORAL_ARM_INTRINSICS_H_
 #define ABSL_CRC_INTERNAL_NON_TEMPORAL_ARM_INTRINSICS_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #ifdef __aarch64__
 #include <arm_neon.h>

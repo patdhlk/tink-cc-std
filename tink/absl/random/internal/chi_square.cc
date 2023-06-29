@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/chi_square.h"
+#include "tink/absl/random/internal/chi_square.h"
 
 #include <cmath>
 
-#include "absl/random/internal/distribution_test_util.h"
+#include "tink/absl/random/internal/distribution_test_util.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

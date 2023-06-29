@@ -34,10 +34,10 @@
 #ifndef ABSL_BASE_THREAD_ANNOTATIONS_H_
 #define ABSL_BASE_THREAD_ANNOTATIONS_H_
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
 // TODO(mbonadei): Remove after the backward compatibility period.
-#include "absl/base/internal/thread_annotations.h"  // IWYU pragma: export
+#include "tink/absl/base/internal/thread_annotations.h"  // IWYU pragma: export
 
 // ABSL_GUARDED_BY()
 //

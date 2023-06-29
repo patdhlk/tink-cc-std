@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/parse.h"
+#include "tink/absl/flags/parse.h"
 
 #include <stdlib.h>
 
@@ -32,30 +32,30 @@
 #include <windows.h>
 #endif
 
-#include "absl/algorithm/container.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/const_init.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/flags/commandlineflag.h"
-#include "absl/flags/config.h"
-#include "absl/flags/flag.h"
-#include "absl/flags/internal/commandlineflag.h"
-#include "absl/flags/internal/flag.h"
-#include "absl/flags/internal/parse.h"
-#include "absl/flags/internal/private_handle_accessor.h"
-#include "absl/flags/internal/program_name.h"
-#include "absl/flags/internal/usage.h"
-#include "absl/flags/reflection.h"
-#include "absl/flags/usage.h"
-#include "absl/flags/usage_config.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/internal/damerau_levenshtein_distance.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_join.h"
-#include "absl/strings/string_view.h"
-#include "absl/strings/strip.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/algorithm/container.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/const_init.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/flags/commandlineflag.h"
+#include "tink/absl/flags/config.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/flags/internal/commandlineflag.h"
+#include "tink/absl/flags/internal/flag.h"
+#include "tink/absl/flags/internal/parse.h"
+#include "tink/absl/flags/internal/private_handle_accessor.h"
+#include "tink/absl/flags/internal/program_name.h"
+#include "tink/absl/flags/internal/usage.h"
+#include "tink/absl/flags/reflection.h"
+#include "tink/absl/flags/usage.h"
+#include "tink/absl/flags/usage_config.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/internal/damerau_levenshtein_distance.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_join.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/strings/strip.h"
+#include "tink/absl/synchronization/mutex.h"
 
 // --------------------------------------------------------------------
 

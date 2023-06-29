@@ -15,8 +15,8 @@
 #ifndef ABSL_STRINGS_INTERNAL_STRING_CONSTANT_H_
 #define ABSL_STRINGS_INTERNAL_STRING_CONSTANT_H_
 
-#include "absl/meta/type_traits.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

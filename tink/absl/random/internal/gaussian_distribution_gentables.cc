@@ -16,7 +16,7 @@
 //
 // $ blaze run :gaussian_distribution_gentables > gaussian_distribution.cc
 //
-#include "absl/random/gaussian_distribution.h"
+#include "tink/absl/random/gaussian_distribution.h"
 
 #include <cmath>
 #include <cstddef>
@@ -24,7 +24,7 @@
 #include <limits>
 #include <string>
 
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

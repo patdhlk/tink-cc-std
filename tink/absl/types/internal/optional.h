@@ -20,10 +20,10 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/internal/inline_variable.h"
-#include "absl/memory/memory.h"
-#include "absl/meta/type_traits.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/internal/inline_variable.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

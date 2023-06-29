@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/str_split.h"
+#include "tink/absl/strings/str_split.h"
 
 #include <deque>
 #include <initializer_list>
@@ -27,13 +27,13 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/macros.h"
-#include "absl/container/btree_map.h"
-#include "absl/container/btree_set.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/container/node_hash_map.h"
-#include "absl/strings/numbers.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/container/btree_map.h"
+#include "tink/absl/container/btree_set.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/container/node_hash_map.h"
+#include "tink/absl/strings/numbers.h"
 
 namespace {
 

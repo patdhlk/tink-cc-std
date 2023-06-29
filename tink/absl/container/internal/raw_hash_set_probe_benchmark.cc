@@ -19,16 +19,16 @@
 #include <regex>  // NOLINT
 #include <vector>
 
-#include "absl/container/flat_hash_map.h"
-#include "absl/container/internal/hash_function_defaults.h"
-#include "absl/container/internal/hashtable_debug.h"
-#include "absl/container/internal/raw_hash_set.h"
-#include "absl/random/distributions.h"
-#include "absl/random/random.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/string_view.h"
-#include "absl/strings/strip.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/container/internal/hash_function_defaults.h"
+#include "tink/absl/container/internal/hashtable_debug.h"
+#include "tink/absl/container/internal/raw_hash_set.h"
+#include "tink/absl/random/distributions.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/strings/strip.h"
 
 namespace {
 

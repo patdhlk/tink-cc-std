@@ -73,9 +73,9 @@
 #include <iosfwd>
 #include <string>
 
-#include "absl/base/config.h"
-#include "absl/strings/string_view.h"
-#include "absl/time/internal/cctz/include/cctz/civil_time.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/time/internal/cctz/include/cctz/civil_time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

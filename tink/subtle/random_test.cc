@@ -22,8 +22,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/flat_hash_set.h"
-#include "absl/types/span.h"
+#include "tink/absl/container/flat_hash_set.h"
+#include "tink/absl/types/span.h"
 #include "tink/util/secret_data.h"
 #include "tink/util/test_matchers.h"
 

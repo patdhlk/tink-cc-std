@@ -52,18 +52,18 @@
 #include <random>
 #include <type_traits>
 
-#include "absl/base/internal/inline_variable.h"
-#include "absl/random/bernoulli_distribution.h"
-#include "absl/random/beta_distribution.h"
-#include "absl/random/exponential_distribution.h"
-#include "absl/random/gaussian_distribution.h"
-#include "absl/random/internal/distribution_caller.h"  // IWYU pragma: export
-#include "absl/random/internal/uniform_helper.h"  // IWYU pragma: export
-#include "absl/random/log_uniform_int_distribution.h"
-#include "absl/random/poisson_distribution.h"
-#include "absl/random/uniform_int_distribution.h"
-#include "absl/random/uniform_real_distribution.h"
-#include "absl/random/zipf_distribution.h"
+#include "tink/absl/base/internal/inline_variable.h"
+#include "tink/absl/random/bernoulli_distribution.h"
+#include "tink/absl/random/beta_distribution.h"
+#include "tink/absl/random/exponential_distribution.h"
+#include "tink/absl/random/gaussian_distribution.h"
+#include "tink/absl/random/internal/distribution_caller.h"  // IWYU pragma: export
+#include "tink/absl/random/internal/uniform_helper.h"  // IWYU pragma: export
+#include "tink/absl/random/log_uniform_int_distribution.h"
+#include "tink/absl/random/poisson_distribution.h"
+#include "tink/absl/random/uniform_int_distribution.h"
+#include "tink/absl/random/uniform_real_distribution.h"
+#include "tink/absl/random/zipf_distribution.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

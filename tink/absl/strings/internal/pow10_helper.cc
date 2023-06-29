@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/pow10_helper.h"
+#include "tink/absl/strings/internal/pow10_helper.h"
 
 #include <cmath>
 

@@ -22,8 +22,8 @@
 #include <utility>
 #include <vector>
 
-#include "absl/container/flat_hash_map.h"
-#include "absl/status/status.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/status/status.h"
 #include "tink/keyset_handle.h"
 #include "tink/keyset_reader.h"
 #include "tink/util/errors.h"

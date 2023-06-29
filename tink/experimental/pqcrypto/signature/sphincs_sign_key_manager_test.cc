@@ -21,8 +21,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/flat_hash_set.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/container/flat_hash_set.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/experimental/pqcrypto/signature/sphincs_verify_key_manager.h"
 #include "tink/experimental/pqcrypto/signature/subtle/sphincs_sign.h"
 #include "tink/experimental/pqcrypto/signature/subtle/sphincs_subtle_utils.h"

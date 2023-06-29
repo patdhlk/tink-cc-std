@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/debugging/symbolize.h"
+#include "tink/absl/debugging/symbolize.h"
 
 #ifndef _WIN32
 #include <fcntl.h>
@@ -25,16 +25,16 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/casts.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/per_thread_tls.h"
-#include "absl/base/optimization.h"
-#include "absl/debugging/internal/stack_consumption.h"
-#include "absl/log/check.h"
-#include "absl/log/log.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/per_thread_tls.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/debugging/internal/stack_consumption.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/string_view.h"
 
 using testing::Contains;
 

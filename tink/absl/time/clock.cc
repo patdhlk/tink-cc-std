@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/time/clock.h"
+#include "tink/absl/time/clock.h"
 
-#include "absl/base/attributes.h"
-#include "absl/base/optimization.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/optimization.h"
 
 #ifdef _WIN32
 #include <windows.h>
@@ -28,11 +28,11 @@
 #include <ctime>
 #include <limits>
 
-#include "absl/base/internal/spinlock.h"
-#include "absl/base/internal/unscaledcycleclock.h"
-#include "absl/base/macros.h"
-#include "absl/base/port.h"
-#include "absl/base/thread_annotations.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/base/internal/unscaledcycleclock.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/base/thread_annotations.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN
@@ -60,9 +60,9 @@ ABSL_NAMESPACE_END
 #endif
 
 #if defined(__APPLE__) || defined(_WIN32)
-#include "absl/time/internal/get_current_time_chrono.inc"
+#include "tink/absl/time/internal/get_current_time_chrono.inc"
 #else
-#include "absl/time/internal/get_current_time_posix.inc"
+#include "tink/absl/time/internal/get_current_time_posix.inc"
 #endif
 
 // Allows override by test.

@@ -58,19 +58,19 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/macros.h"
-#include "absl/container/internal/common.h"
-#include "absl/container/internal/common_policy_traits.h"
-#include "absl/container/internal/compressed_tuple.h"
-#include "absl/container/internal/container_memory.h"
-#include "absl/container/internal/layout.h"
-#include "absl/memory/memory.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/cord.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/compare.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/container/internal/common.h"
+#include "tink/absl/container/internal/common_policy_traits.h"
+#include "tink/absl/container/internal/compressed_tuple.h"
+#include "tink/absl/container/internal/container_memory.h"
+#include "tink/absl/container/internal/layout.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/cord.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/compare.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

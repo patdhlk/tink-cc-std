@@ -16,12 +16,12 @@
 #ifndef ABSL_SYNCHRONIZATION_INTERNAL_WAITER_H_
 #define ABSL_SYNCHRONIZATION_INTERNAL_WAITER_H_
 
-#include "absl/base/config.h"
-#include "absl/synchronization/internal/futex_waiter.h"
-#include "absl/synchronization/internal/pthread_waiter.h"
-#include "absl/synchronization/internal/sem_waiter.h"
-#include "absl/synchronization/internal/stdcpp_waiter.h"
-#include "absl/synchronization/internal/win32_waiter.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/synchronization/internal/futex_waiter.h"
+#include "tink/absl/synchronization/internal/pthread_waiter.h"
+#include "tink/absl/synchronization/internal/sem_waiter.h"
+#include "tink/absl/synchronization/internal/stdcpp_waiter.h"
+#include "tink/absl/synchronization/internal/win32_waiter.h"
 
 // May be chosen at compile time via -DABSL_FORCE_WAITER_MODE=<index>
 #define ABSL_WAITER_MODE_FUTEX 0

@@ -15,7 +15,7 @@
 #ifndef ABSL_CRC_INTERNAL_CPU_DETECT_H_
 #define ABSL_CRC_INTERNAL_CPU_DETECT_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

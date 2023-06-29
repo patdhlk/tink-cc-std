@@ -21,10 +21,10 @@
 #include <string>
 #include <vector>
 
-#include "absl/base/config.h"
-#include "absl/flags/declare.h"
-#include "absl/flags/internal/usage.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/flags/declare.h"
+#include "tink/absl/flags/internal/usage.h"
+#include "tink/absl/strings/string_view.h"
 
 ABSL_DECLARE_FLAG(std::vector<std::string>, flagfile);
 ABSL_DECLARE_FLAG(std::vector<std::string>, fromenv);

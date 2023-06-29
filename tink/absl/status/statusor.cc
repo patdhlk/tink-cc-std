@@ -11,15 +11,15 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-#include "absl/status/statusor.h"
+#include "tink/absl/status/statusor.h"
 
 #include <cstdlib>
 #include <utility>
 
-#include "absl/base/call_once.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

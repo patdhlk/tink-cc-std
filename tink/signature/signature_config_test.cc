@@ -22,8 +22,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "openssl/crypto.h"
 #include "tink/internal/fips_utils.h"
 #include "tink/keyset_handle.h"

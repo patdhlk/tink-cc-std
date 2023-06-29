@@ -24,8 +24,8 @@
 #include <cstdint>
 #include <cstring>
 
-#include "absl/base/macros.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/port.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

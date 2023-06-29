@@ -20,10 +20,10 @@
 #include <string>
 #include <vector>
 
-#include "absl/hash/hash.h"
-#include "absl/strings/match.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/str_join.h"
+#include "tink/absl/hash/hash.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/str_join.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

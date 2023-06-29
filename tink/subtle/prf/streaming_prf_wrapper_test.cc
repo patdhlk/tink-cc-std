@@ -23,8 +23,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/util/input_stream_util.h"
 #include "tink/util/istream_input_stream.h"
 #include "tink/util/test_matchers.h"

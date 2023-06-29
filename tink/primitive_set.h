@@ -23,11 +23,11 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/thread_annotations.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/synchronization/mutex.h"
 #include "tink/crypto_format.h"
 #include "tink/util/errors.h"
 #include "tink/util/statusor.h"

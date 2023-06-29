@@ -8,7 +8,7 @@ cc_library(
     include_prefix = "tink/subtle/prf",
     deps = [
         "//tink:input_stream",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
     ],
 )
 
@@ -28,9 +28,9 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -44,8 +44,8 @@ cc_library(
         "//tink:primitive_set",
         "//tink:primitive_wrapper",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -61,9 +61,9 @@ cc_library(
         "//tink/util:input_stream_util",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -79,7 +79,7 @@ cc_test(
         "//tink/util:secret_data",
         "//tink/util:test_matchers",
         "//tink/util:test_util",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -94,8 +94,8 @@ cc_test(
         "//tink/util:istream_input_stream",
         "//tink/util:test_matchers",
         "//tink/util:test_util",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -110,9 +110,9 @@ cc_test(
         "//tink/util:istream_input_stream",
         "//tink/util:status",
         "//tink/util:test_matchers",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )

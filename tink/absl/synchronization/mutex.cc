@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/synchronization/mutex.h"
 
 #ifdef _WIN32
 #include <windows.h>
@@ -40,25 +40,25 @@
 #include <cstring>
 #include <thread>  // NOLINT(build/c++11)
 
-#include "absl/base/attributes.h"
-#include "absl/base/call_once.h"
-#include "absl/base/config.h"
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/internal/atomic_hook.h"
-#include "absl/base/internal/cycleclock.h"
-#include "absl/base/internal/hide_ptr.h"
-#include "absl/base/internal/low_level_alloc.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/base/internal/sysinfo.h"
-#include "absl/base/internal/thread_identity.h"
-#include "absl/base/internal/tsan_mutex_interface.h"
-#include "absl/base/optimization.h"
-#include "absl/debugging/stacktrace.h"
-#include "absl/debugging/symbolize.h"
-#include "absl/synchronization/internal/graphcycles.h"
-#include "absl/synchronization/internal/per_thread_sem.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/internal/atomic_hook.h"
+#include "tink/absl/base/internal/cycleclock.h"
+#include "tink/absl/base/internal/hide_ptr.h"
+#include "tink/absl/base/internal/low_level_alloc.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/base/internal/sysinfo.h"
+#include "tink/absl/base/internal/thread_identity.h"
+#include "tink/absl/base/internal/tsan_mutex_interface.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/debugging/stacktrace.h"
+#include "tink/absl/debugging/symbolize.h"
+#include "tink/absl/synchronization/internal/graphcycles.h"
+#include "tink/absl/synchronization/internal/per_thread_sem.h"
+#include "tink/absl/time/time.h"
 
 using absl::base_internal::CurrentThreadIdentityIfPresent;
 using absl::base_internal::CycleClock;

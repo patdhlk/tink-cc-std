@@ -19,9 +19,9 @@
 #include <algorithm>
 #include <string>
 
-#include "absl/algorithm/container.h"
-#include "absl/strings/str_cat.h"
-#include "absl/types/span.h"
+#include "tink/absl/algorithm/container.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/types/span.h"
 #include "tink/input_stream.h"
 #include "tink/util/statusor.h"
 

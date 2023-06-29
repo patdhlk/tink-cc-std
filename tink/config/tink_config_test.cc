@@ -17,7 +17,7 @@
 #include "tink/config/tink_config.h"
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/aead.h"
 #include "tink/aead/aes_gcm_key_manager.h"
 #include "tink/deterministic_aead.h"

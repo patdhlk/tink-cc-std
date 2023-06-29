@@ -1,7 +1,7 @@
 // BEGIN GENERATED CODE; DO NOT EDIT
 // clang-format off
 
-#include "absl/random/gaussian_distribution.h"
+#include "tink/absl/random/gaussian_distribution.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

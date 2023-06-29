@@ -51,13 +51,13 @@
 #include <cstdint>
 #include <type_traits>
 
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/optimization.h"
-#include "absl/base/prefetch.h"
-#include "absl/crc/crc32c.h"
-#include "absl/crc/internal/cpu_detect.h"
-#include "absl/crc/internal/crc_memcpy.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/base/prefetch.h"
+#include "tink/absl/crc/crc32c.h"
+#include "tink/absl/crc/internal/cpu_detect.h"
+#include "tink/absl/crc/internal/crc_memcpy.h"
+#include "tink/absl/strings/string_view.h"
 
 #ifdef ABSL_INTERNAL_HAVE_X86_64_ACCELERATED_CRC_MEMCPY_ENGINE
 

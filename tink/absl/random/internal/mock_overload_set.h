@@ -19,8 +19,8 @@
 #include <type_traits>
 
 #include "gmock/gmock.h"
-#include "absl/random/internal/mock_helpers.h"
-#include "absl/random/mocking_bit_gen.h"
+#include "tink/absl/random/internal/mock_helpers.h"
+#include "tink/absl/random/mocking_bit_gen.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

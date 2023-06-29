@@ -13,22 +13,22 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/usage_config.h"
+#include "tink/absl/flags/usage_config.h"
 
 #include <functional>
 #include <iostream>
 #include <string>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/const_init.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/flags/internal/path_util.h"
-#include "absl/flags/internal/program_name.h"
-#include "absl/strings/match.h"
-#include "absl/strings/string_view.h"
-#include "absl/strings/strip.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/const_init.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/flags/internal/path_util.h"
+#include "tink/absl/flags/internal/program_name.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/strings/strip.h"
+#include "tink/absl/synchronization/mutex.h"
 
 extern "C" {
 

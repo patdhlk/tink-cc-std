@@ -20,7 +20,7 @@
 #include <memory>
 #include <utility>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "openssl/ec.h"
 #include "openssl/evp.h"
 #include "tink/internal/fips_utils.h"

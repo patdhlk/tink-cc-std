@@ -18,8 +18,8 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/random/distributions.h"
-#include "absl/random/random.h"
+#include "tink/absl/random/distributions.h"
+#include "tink/absl/random/random.h"
 
 namespace {
 

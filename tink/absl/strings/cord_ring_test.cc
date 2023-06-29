@@ -20,14 +20,14 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/macros.h"
-#include "absl/debugging/leak_check.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_ring.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/debugging/leak_check.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_ring.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 
 extern thread_local bool cord_ring;
 

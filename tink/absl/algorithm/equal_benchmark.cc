@@ -15,7 +15,7 @@
 #include <cstdint>
 #include <cstring>
 
-#include "absl/algorithm/algorithm.h"
+#include "tink/absl/algorithm/algorithm.h"
 #include "benchmark/benchmark.h"
 
 namespace {

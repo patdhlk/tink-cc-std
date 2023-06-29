@@ -21,8 +21,8 @@
 #include <memory>
 #include <new>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
 #include "openssl/crypto.h"
 
 namespace crypto {

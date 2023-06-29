@@ -18,9 +18,9 @@
 
 #include <memory>
 
-#include "absl/memory/memory.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/experimental/pqcrypto/signature/falcon_verify_key_manager.h"
 #include "tink/experimental/pqcrypto/signature/subtle/falcon_sign.h"
 #include "tink/experimental/pqcrypto/signature/subtle/falcon_subtle_utils.h"

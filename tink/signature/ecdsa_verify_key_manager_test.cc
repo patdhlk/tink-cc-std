@@ -20,7 +20,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/internal/ec_util.h"
 #include "tink/public_key_sign.h"
 #include "tink/public_key_verify.h"

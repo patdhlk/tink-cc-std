@@ -23,9 +23,9 @@
 #include <utility>
 
 #include "gmock/gmock.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead.h"
 #include "tink/aead/aead_config.h"
 #include "walkthrough/load_cleartext_keyset.h"

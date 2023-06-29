@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/hash/internal/low_level_hash.h"
+#include "tink/absl/hash/internal/low_level_hash.h"
 
 #include <cinttypes>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/escaping.h"
+#include "tink/absl/strings/escaping.h"
 
 #define UPDATE_GOLDEN 0
 

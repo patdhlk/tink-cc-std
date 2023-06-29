@@ -25,8 +25,8 @@
 #include <atomic>
 #include <cstring>
 
-#include "absl/base/attributes.h"
-#include "absl/debugging/stacktrace.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/debugging/stacktrace.h"
 
 extern "C" {
 uintptr_t emscripten_stack_snapshot();

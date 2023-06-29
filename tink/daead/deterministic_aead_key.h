@@ -17,7 +17,7 @@
 #ifndef TINK_DAEAD_DETERMINISTIC_AEAD_KEY_H_
 #define TINK_DAEAD_DETERMINISTIC_AEAD_KEY_H_
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/daead/deterministic_aead_parameters.h"
 #include "tink/key.h"
 

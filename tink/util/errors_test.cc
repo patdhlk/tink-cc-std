@@ -17,7 +17,7 @@
 #include "tink/util/errors.h"
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/util/status.h"
 
 namespace crypto {

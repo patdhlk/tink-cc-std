@@ -52,7 +52,7 @@
 #ifndef ABSL_DEBUGGING_SYMBOLIZE_H_
 #define ABSL_DEBUGGING_SYMBOLIZE_H_
 
-#include "absl/debugging/internal/symbolize.h"
+#include "tink/absl/debugging/internal/symbolize.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

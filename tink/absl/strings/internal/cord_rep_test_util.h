@@ -21,12 +21,12 @@
 #include <string>
 #include <vector>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_btree.h"
-#include "absl/strings/internal/cord_rep_flat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_btree.h"
+#include "tink/absl/strings/internal/cord_rep_flat.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

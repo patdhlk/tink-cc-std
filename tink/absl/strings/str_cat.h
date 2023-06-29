@@ -28,7 +28,7 @@
 // to your function, your callers will automagically convert bools, integers,
 // and floating point values to strings for you.
 //
-// NOTE: Use of `AlphaNum` outside of the //absl/strings package is unsupported
+// NOTE: Use of `AlphaNum` outside of the //tink/absl/strings package is unsupported
 // except for the specific case of function parameters of type `AlphaNum` or
 // `const AlphaNum &`. In particular, instantiating `AlphaNum` directly as a
 // stack variable is not supported.
@@ -96,12 +96,12 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/attributes.h"
-#include "absl/base/port.h"
-#include "absl/strings/internal/has_absl_stringify.h"
-#include "absl/strings/internal/stringify_sink.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/strings/internal/has_absl_stringify.h"
+#include "tink/absl/strings/internal/stringify_sink.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

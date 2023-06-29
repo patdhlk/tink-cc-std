@@ -19,7 +19,7 @@
 
 #include <memory>
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/util/status.h"
 #include "tink/util/statusor.h"
 

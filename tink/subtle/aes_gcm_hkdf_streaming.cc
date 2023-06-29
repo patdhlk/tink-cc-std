@@ -20,8 +20,8 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "tink/subtle/aes_gcm_hkdf_stream_segment_decrypter.h"
 #include "tink/subtle/aes_gcm_hkdf_stream_segment_encrypter.h"
 #include "tink/subtle/common_enums.h"

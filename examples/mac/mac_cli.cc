@@ -24,10 +24,10 @@
 #include <string>
 #include <utility>
 
-#include "absl/flags/flag.h"
-#include "absl/flags/parse.h"
-#include "absl/log/check.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/flags/parse.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/strings/string_view.h"
 #include "util/util.h"
 #include "tink/keyset_handle.h"
 #include "tink/mac.h"

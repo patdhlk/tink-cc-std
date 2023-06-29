@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// See also //absl/synchronization:mutex_benchmark for a comparison of SpinLock
+// See also //tink/absl/synchronization:mutex_benchmark for a comparison of SpinLock
 // and Mutex performance under varying levels of contention.
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/scheduling_mode.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/synchronization/internal/create_thread_identity.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/scheduling_mode.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/synchronization/internal/create_thread_identity.h"
 #include "benchmark/benchmark.h"
 
 namespace {

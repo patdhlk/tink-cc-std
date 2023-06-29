@@ -18,7 +18,7 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/random/random.h"
+#include "tink/absl/random/random.h"
 
 template <typename T>
 void Use(T) {}

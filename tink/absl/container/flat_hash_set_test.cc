@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/flat_hash_set.h"
+#include "tink/absl/container/flat_hash_set.h"
 
 #include <vector>
 
-#include "absl/container/internal/hash_generator_testing.h"
-#include "absl/container/internal/unordered_set_constructor_test.h"
-#include "absl/container/internal/unordered_set_lookup_test.h"
-#include "absl/container/internal/unordered_set_members_test.h"
-#include "absl/container/internal/unordered_set_modifiers_test.h"
-#include "absl/log/check.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/container/internal/hash_generator_testing.h"
+#include "tink/absl/container/internal/unordered_set_constructor_test.h"
+#include "tink/absl/container/internal/unordered_set_lookup_test.h"
+#include "tink/absl/container/internal/unordered_set_members_test.h"
+#include "tink/absl/container/internal/unordered_set_modifiers_test.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

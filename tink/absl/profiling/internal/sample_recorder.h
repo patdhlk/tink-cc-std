@@ -28,10 +28,10 @@
 #include <cstddef>
 #include <functional>
 
-#include "absl/base/config.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

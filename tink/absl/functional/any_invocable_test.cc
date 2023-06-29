@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/functional/any_invocable.h"
+#include "tink/absl/functional/any_invocable.h"
 
 #include <cstddef>
 #include <initializer_list>
@@ -21,9 +21,9 @@
 #include <type_traits>
 
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/meta/type_traits.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/utility/utility.h"
 
 static_assert(absl::internal_any_invocable::kStorageSize >= sizeof(void*),
               "These tests assume that the small object storage is at least "

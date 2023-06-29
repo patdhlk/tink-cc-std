@@ -15,7 +15,7 @@
 // This file contains string processing functions related to
 // numeric values.
 
-#include "absl/strings/numbers.h"
+#include "tink/absl/strings/numbers.h"
 
 #include <algorithm>
 #include <cassert>
@@ -30,17 +30,17 @@
 #include <memory>
 #include <utility>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/endian.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/optimization.h"
-#include "absl/numeric/bits.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/charconv.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/internal/memutil.h"
-#include "absl/strings/match.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/numeric/bits.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/charconv.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/internal/memutil.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

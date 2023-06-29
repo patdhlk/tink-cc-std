@@ -17,9 +17,9 @@
 
 #include <cstdint>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/endian.h"
-#include "absl/crc/internal/crc32_x86_arm_combined_simd.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/crc/internal/crc32_x86_arm_combined_simd.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

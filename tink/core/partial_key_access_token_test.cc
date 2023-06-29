@@ -20,7 +20,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
+#include "tink/absl/base/attributes.h"
 #include "tink/partial_key_access.h"
 
 namespace crypto {

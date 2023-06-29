@@ -17,7 +17,7 @@
 #ifndef TINK_SIGNATURE_SIGNATURE_KEY_TEMPLATES_H_
 #define TINK_SIGNATURE_SIGNATURE_KEY_TEMPLATES_H_
 
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 #include "proto/tink.pb.h"
 
 namespace crypto {

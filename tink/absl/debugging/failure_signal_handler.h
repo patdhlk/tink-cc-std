@@ -44,7 +44,7 @@
 #ifndef ABSL_DEBUGGING_FAILURE_SIGNAL_HANDLER_H_
 #define ABSL_DEBUGGING_FAILURE_SIGNAL_HANDLER_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

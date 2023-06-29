@@ -21,8 +21,8 @@
 #include <utility>
 #include <vector>
 
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/chunked_mac.h"
 #include "tink/crypto_format.h"
 #include "tink/internal/util.h"

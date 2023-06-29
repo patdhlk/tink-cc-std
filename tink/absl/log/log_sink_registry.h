@@ -21,9 +21,9 @@
 #ifndef ABSL_LOG_LOG_SINK_REGISTRY_H_
 #define ABSL_LOG_LOG_SINK_REGISTRY_H_
 
-#include "absl/base/config.h"
-#include "absl/log/internal/log_sink_set.h"
-#include "absl/log/log_sink.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/log/internal/log_sink_set.h"
+#include "tink/absl/log/log_sink.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

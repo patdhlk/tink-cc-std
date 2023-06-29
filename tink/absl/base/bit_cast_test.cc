@@ -18,8 +18,8 @@
 #include <cstring>
 
 #include "gtest/gtest.h"
-#include "absl/base/casts.h"
-#include "absl/base/macros.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/base/macros.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

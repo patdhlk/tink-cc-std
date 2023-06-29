@@ -29,8 +29,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/str_format.h"
-#include "absl/time/time.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/time/time.h"
 
 namespace {
 

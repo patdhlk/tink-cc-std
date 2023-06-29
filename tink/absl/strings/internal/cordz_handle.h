@@ -18,8 +18,8 @@
 #include <atomic>
 #include <vector>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

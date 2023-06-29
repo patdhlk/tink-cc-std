@@ -23,7 +23,7 @@
 #ifndef ABSL_LOG_INTERNAL_VOIDIFY_H_
 #define ABSL_LOG_INTERNAL_VOIDIFY_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -19,8 +19,8 @@
 #include <memory>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "openssl/bn.h"
 #include "openssl/ec.h"
 #include "openssl/evp.h"

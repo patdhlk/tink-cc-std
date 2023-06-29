@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/utility/utility.h"
+#include "tink/absl/utility/utility.h"
 
 #include <memory>
 #include <sstream>
@@ -24,9 +24,9 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace {
 

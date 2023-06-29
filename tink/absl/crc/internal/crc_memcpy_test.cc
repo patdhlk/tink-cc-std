@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/crc/internal/crc_memcpy.h"
+#include "tink/absl/crc/internal/crc_memcpy.h"
 
 #include <cstddef>
 #include <cstdint>
@@ -23,12 +23,12 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/crc/crc32c.h"
-#include "absl/memory/memory.h"
-#include "absl/random/distributions.h"
-#include "absl/random/random.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/crc/crc32c.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/random/distributions.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace {
 

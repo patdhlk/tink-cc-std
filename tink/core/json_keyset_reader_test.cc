@@ -25,8 +25,8 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/substitute.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/substitute.h"
 #include "tink/util/test_matchers.h"
 #include "tink/util/test_util.h"
 #include "proto/aes_eax.pb.h"

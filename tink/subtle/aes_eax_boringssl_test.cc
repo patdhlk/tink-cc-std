@@ -22,8 +22,8 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "openssl/err.h"
 #include "tink/config/tink_fips.h"
 #include "tink/subtle/wycheproof_util.h"

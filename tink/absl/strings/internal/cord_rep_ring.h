@@ -22,9 +22,9 @@
 #include <limits>
 #include <memory>
 
-#include "absl/container/internal/layout.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_flat.h"
+#include "tink/absl/container/internal/layout.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_flat.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

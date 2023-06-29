@@ -24,10 +24,10 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/memory/memory.h"
-#include "absl/meta/type_traits.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/utility/utility.h"
 
 #ifdef ABSL_HAVE_ADDRESS_SANITIZER
 #include <sanitizer/asan_interface.h>

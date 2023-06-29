@@ -20,7 +20,7 @@
 #ifndef ABSL_LOG_INTERNAL_CONFIG_H_
 #define ABSL_LOG_INTERNAL_CONFIG_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #ifdef _WIN32
 #include <cstdint>

@@ -12,22 +12,22 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/cordz_info.h"
+#include "tink/absl/strings/internal/cordz_info.h"
 
-#include "absl/base/config.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/container/inlined_vector.h"
-#include "absl/debugging/stacktrace.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_btree.h"
-#include "absl/strings/internal/cord_rep_crc.h"
-#include "absl/strings/internal/cord_rep_ring.h"
-#include "absl/strings/internal/cordz_handle.h"
-#include "absl/strings/internal/cordz_statistics.h"
-#include "absl/strings/internal/cordz_update_tracker.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/time/clock.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/container/inlined_vector.h"
+#include "tink/absl/debugging/stacktrace.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_btree.h"
+#include "tink/absl/strings/internal/cord_rep_crc.h"
+#include "tink/absl/strings/internal/cord_rep_ring.h"
+#include "tink/absl/strings/internal/cordz_handle.h"
+#include "tink/absl/strings/internal/cordz_statistics.h"
+#include "tink/absl/strings/internal/cordz_update_tracker.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

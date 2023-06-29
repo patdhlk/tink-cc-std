@@ -17,7 +17,7 @@
 #ifndef TINK_UTIL_ERRORS_H_
 #define TINK_UTIL_ERRORS_H_
 
-#include "absl/strings/str_format.h"
+#include "tink/absl/strings/str_format.h"
 #include "tink/util/status.h"
 
 namespace crypto {

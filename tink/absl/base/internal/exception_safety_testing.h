@@ -17,7 +17,7 @@
 #ifndef ABSL_BASE_INTERNAL_EXCEPTION_SAFETY_TESTING_H_
 #define ABSL_BASE_INTERNAL_EXCEPTION_SAFETY_TESTING_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #ifdef ABSL_HAVE_EXCEPTIONS
 
@@ -31,12 +31,12 @@
 #include <unordered_map>
 
 #include "gtest/gtest.h"
-#include "absl/base/internal/pretty_function.h"
-#include "absl/memory/memory.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/string_view.h"
-#include "absl/strings/substitute.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/internal/pretty_function.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/strings/substitute.h"
+#include "tink/absl/utility/utility.h"
 
 namespace testing {
 

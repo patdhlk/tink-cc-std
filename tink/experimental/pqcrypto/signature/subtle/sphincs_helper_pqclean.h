@@ -20,7 +20,7 @@
 #include <memory>
 #include <vector>
 
-#include "absl/base/attributes.h"
+#include "tink/absl/base/attributes.h"
 
 namespace crypto {
 namespace tink {

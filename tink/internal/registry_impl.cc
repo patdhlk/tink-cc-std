@@ -20,10 +20,10 @@
 #include <memory>
 #include <utility>
 
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/synchronization/mutex.h"
 #include "tink/input_stream.h"
 #include "tink/internal/keyset_wrapper_store.h"
 #include "tink/key_manager.h"

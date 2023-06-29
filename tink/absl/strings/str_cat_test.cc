@@ -14,15 +14,15 @@
 
 // Unit tests for all str_cat.h functions
 
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 
 #include <cstdint>
 #include <string>
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/substitute.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/substitute.h"
 
 #ifdef __ANDROID__
 // Android assert messages only go to system log, so death tests cannot inspect

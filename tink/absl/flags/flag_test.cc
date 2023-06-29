@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/flag.h"
+#include "tink/absl/flags/flag.h"
 
 #include <stddef.h>
 #include <stdint.h>
@@ -26,21 +26,21 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/macros.h"
-#include "absl/flags/config.h"
-#include "absl/flags/declare.h"
-#include "absl/flags/internal/flag.h"
-#include "absl/flags/marshalling.h"
-#include "absl/flags/reflection.h"
-#include "absl/flags/usage_config.h"
-#include "absl/numeric/int128.h"
-#include "absl/strings/match.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_split.h"
-#include "absl/strings/string_view.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/flags/config.h"
+#include "tink/absl/flags/declare.h"
+#include "tink/absl/flags/internal/flag.h"
+#include "tink/absl/flags/marshalling.h"
+#include "tink/absl/flags/reflection.h"
+#include "tink/absl/flags/usage_config.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_split.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/time/time.h"
 
 ABSL_DECLARE_FLAG(int64_t, mistyped_int_flag);
 ABSL_DECLARE_FLAG(std::vector<std::string>, mistyped_string_flag);

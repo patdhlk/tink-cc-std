@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/pool_urbg.h"
+#include "tink/absl/random/internal/pool_urbg.h"
 
 #include <algorithm>
 #include <bitset>
@@ -21,8 +21,8 @@
 #include <iterator>
 
 #include "gtest/gtest.h"
-#include "absl/meta/type_traits.h"
-#include "absl/types/span.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/types/span.h"
 
 using absl::random_internal::PoolURBG;
 using absl::random_internal::RandenPool;

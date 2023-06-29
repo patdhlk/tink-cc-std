@@ -67,15 +67,15 @@
 #include <cstdlib>
 #include <cstring>
 
-#include "absl/base/casts.h"
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/internal/low_level_alloc.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/base/port.h"
-#include "absl/debugging/internal/demangle.h"
-#include "absl/debugging/internal/vdso_support.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/internal/low_level_alloc.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/debugging/internal/demangle.h"
+#include "tink/absl/debugging/internal/vdso_support.h"
+#include "tink/absl/strings/string_view.h"
 
 #if defined(__FreeBSD__) && !defined(ElfW)
 #define ElfW(x) __ElfN(x)

@@ -14,13 +14,13 @@
 // limitations under the License.
 //
 
-#include "absl/debugging/internal/examine_stack.h"
+#include "tink/absl/debugging/internal/examine_stack.h"
 
 #ifndef _WIN32
 #include <unistd.h>
 #endif
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #ifdef ABSL_HAVE_MMAP
 #include <sys/mman.h>
@@ -33,11 +33,11 @@
 #include <csignal>
 #include <cstdio>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/macros.h"
-#include "absl/debugging/stacktrace.h"
-#include "absl/debugging/symbolize.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/debugging/stacktrace.h"
+#include "tink/absl/debugging/symbolize.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

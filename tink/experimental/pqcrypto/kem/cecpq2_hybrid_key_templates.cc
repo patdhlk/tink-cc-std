@@ -18,7 +18,7 @@
 
 #include <string>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead/aead_key_templates.h"
 #include "tink/daead/deterministic_aead_key_templates.h"
 #include "proto/common.pb.h"

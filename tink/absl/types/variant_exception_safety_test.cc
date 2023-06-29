@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/types/variant.h"
+#include "tink/absl/types/variant.h"
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // This test is a no-op when absl::variant is an alias for std::variant and when
 // exceptions are not enabled.
@@ -27,8 +27,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/internal/exception_safety_testing.h"
-#include "absl/memory/memory.h"
+#include "tink/absl/base/internal/exception_safety_testing.h"
+#include "tink/absl/memory/memory.h"
 
 // See comment in absl/base/config.h
 #if !defined(ABSL_INTERNAL_MSVC_2017_DBG_MODE)

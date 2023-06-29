@@ -18,8 +18,8 @@
 
 #include <atomic>
 
-#include "absl/base/attributes.h"
-#include "absl/status/status.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/status/status.h"
 #include "openssl/crypto.h"
 #include "tink/util/status.h"
 

@@ -34,7 +34,7 @@
 #ifndef ABSL_BASE_ATTRIBUTES_H_
 #define ABSL_BASE_ATTRIBUTES_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // ABSL_HAVE_ATTRIBUTE
 //

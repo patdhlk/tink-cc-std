@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/escaping.h"
+#include "tink/absl/strings/escaping.h"
 
 #include <cstdio>
 #include <cstring>
 #include <random>
 
 #include "benchmark/benchmark.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/strings/internal/escaping_test_common.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/strings/internal/escaping_test_common.h"
 
 namespace {
 

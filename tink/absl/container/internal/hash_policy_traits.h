@@ -21,8 +21,8 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/container/internal/common_policy_traits.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/container/internal/common_policy_traits.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

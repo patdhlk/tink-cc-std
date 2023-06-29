@@ -17,7 +17,7 @@
 #include "tink/hybrid/internal/hpke_public_key_manager.h"
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/hybrid/internal/hpke_test_util.h"
 #include "tink/util/test_matchers.h"
 #include "tink/util/test_util.h"

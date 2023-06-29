@@ -84,11 +84,11 @@ struct timeval;
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/base/macros.h"
-#include "absl/strings/string_view.h"
-#include "absl/time/civil_time.h"
-#include "absl/time/internal/cctz/include/cctz/time_zone.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/time/civil_time.h"
+#include "tink/absl/time/internal/cctz/include/cctz/time_zone.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

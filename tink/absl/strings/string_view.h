@@ -36,12 +36,12 @@
 #include <limits>
 #include <string>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/throw_delegate.h"
-#include "absl/base/macros.h"
-#include "absl/base/optimization.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/throw_delegate.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/base/port.h"
 
 #ifdef ABSL_USES_STD_STRING_VIEW
 

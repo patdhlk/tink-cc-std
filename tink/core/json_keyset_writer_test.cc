@@ -23,8 +23,8 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/substitute.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/substitute.h"
 #include "include/rapidjson/document.h"
 #include "include/rapidjson/error/en.h"
 #include "tink/json_keyset_reader.h"

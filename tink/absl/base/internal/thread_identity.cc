@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/thread_identity.h"
+#include "tink/absl/base/internal/thread_identity.h"
 
 #if !defined(_WIN32) || defined(__MINGW32__)
 #include <pthread.h>
@@ -23,10 +23,10 @@
 #include <cassert>
 #include <memory>
 
-#include "absl/base/attributes.h"
-#include "absl/base/call_once.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/spinlock.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/spinlock.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

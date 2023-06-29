@@ -45,10 +45,10 @@
 #include <tuple>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/inline_variable.h"
-#include "absl/base/internal/invoke.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/inline_variable.h"
+#include "tink/absl/base/internal/invoke.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

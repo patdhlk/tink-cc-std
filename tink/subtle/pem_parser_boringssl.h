@@ -19,7 +19,7 @@
 #include <memory>
 #include <string>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/internal/rsa_util.h"
 #include "tink/subtle/subtle_util_boringssl.h"
 #include "tink/util/statusor.h"

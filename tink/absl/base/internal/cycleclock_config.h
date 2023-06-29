@@ -17,9 +17,9 @@
 
 #include <cstdint>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/inline_variable.h"
-#include "absl/base/internal/unscaledcycleclock_config.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/inline_variable.h"
+#include "tink/absl/base/internal/unscaledcycleclock_config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

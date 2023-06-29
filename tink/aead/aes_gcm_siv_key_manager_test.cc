@@ -23,7 +23,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/aead.h"
 #include "tink/internal/ssl_util.h"
 #include "tink/subtle/aead_test_util.h"

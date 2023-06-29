@@ -16,7 +16,7 @@
 //
 // VDSOSupport -- a class representing kernel VDSO (if present).
 
-#include "absl/debugging/internal/vdso_support.h"
+#include "tink/absl/debugging/internal/vdso_support.h"
 
 #ifdef ABSL_HAVE_VDSO_SUPPORT     // defined in vdso_support.h
 
@@ -42,9 +42,9 @@
 #include <sys/auxv.h>
 #endif
 
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/port.h"
 
 #ifndef AT_SYSINFO_EHDR
 #define AT_SYSINFO_EHDR 33  // for crosstoolv10

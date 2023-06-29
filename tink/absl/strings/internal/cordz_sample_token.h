@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/config.h"
-#include "absl/strings/internal/cordz_handle.h"
-#include "absl/strings/internal/cordz_info.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/internal/cordz_handle.h"
+#include "tink/absl/strings/internal/cordz_info.h"
 
 #ifndef ABSL_STRINGS_INTERNAL_CORDZ_SAMPLE_TOKEN_H_
 #define ABSL_STRINGS_INTERNAL_CORDZ_SAMPLE_TOKEN_H_

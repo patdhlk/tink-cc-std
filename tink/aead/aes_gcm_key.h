@@ -20,8 +20,8 @@
 #include <string>
 #include <utility>
 
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 #include "tink/aead/aead_key.h"
 #include "tink/aead/aes_gcm_parameters.h"
 #include "tink/partial_key_access_token.h"

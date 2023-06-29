@@ -19,10 +19,10 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 #include "openssl/bio.h"
 #include "openssl/bn.h"
 #include "openssl/ec.h"

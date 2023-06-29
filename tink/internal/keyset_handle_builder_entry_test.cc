@@ -20,9 +20,9 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/types/optional.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/types/optional.h"
 #include "tink/config/tink_config.h"
 #include "tink/insecure_secret_key_access.h"
 #include "tink/internal/legacy_proto_key.h"

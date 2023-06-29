@@ -19,17 +19,17 @@
 #include <cstdint>
 #include <functional>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cordz_functions.h"
-#include "absl/strings/internal/cordz_handle.h"
-#include "absl/strings/internal/cordz_statistics.h"
-#include "absl/strings/internal/cordz_update_tracker.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cordz_functions.h"
+#include "tink/absl/strings/internal/cordz_handle.h"
+#include "tink/absl/strings/internal/cordz_statistics.h"
+#include "tink/absl/strings/internal/cordz_update_tracker.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

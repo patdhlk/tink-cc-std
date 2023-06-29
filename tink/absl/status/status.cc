@@ -11,23 +11,23 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 
 #include <errno.h>
 
 #include <cassert>
 #include <utility>
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/strerror.h"
-#include "absl/base/macros.h"
-#include "absl/debugging/stacktrace.h"
-#include "absl/debugging/symbolize.h"
-#include "absl/status/status_payload_printer.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/str_split.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/strerror.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/debugging/stacktrace.h"
+#include "tink/absl/debugging/symbolize.h"
+#include "tink/absl/status/status_payload_printer.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/str_split.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

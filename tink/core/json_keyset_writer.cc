@@ -23,8 +23,8 @@
 #include <string>
 #include <utility>
 
-#include "absl/status/status.h"
-#include "absl/strings/escaping.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/escaping.h"
 #include "include/rapidjson/document.h"
 #include "include/rapidjson/prettywriter.h"
 #include "tink/util/enums.h"

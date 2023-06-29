@@ -34,28 +34,28 @@
 // correctly when absl::GetStackTrace() is called with max_depth == 0.
 // Some code may do that.
 
-#include "absl/debugging/stacktrace.h"
+#include "tink/absl/debugging/stacktrace.h"
 
 #include <atomic>
 
-#include "absl/base/attributes.h"
-#include "absl/base/port.h"
-#include "absl/debugging/internal/stacktrace_config.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/debugging/internal/stacktrace_config.h"
 
 #if defined(ABSL_STACKTRACE_INL_HEADER)
 #include ABSL_STACKTRACE_INL_HEADER
 #else
 # error Cannot calculate stack trace: will need to write for your environment
 
-# include "absl/debugging/internal/stacktrace_aarch64-inl.inc"
-# include "absl/debugging/internal/stacktrace_arm-inl.inc"
-# include "absl/debugging/internal/stacktrace_emscripten-inl.inc"
-# include "absl/debugging/internal/stacktrace_generic-inl.inc"
-# include "absl/debugging/internal/stacktrace_powerpc-inl.inc"
-# include "absl/debugging/internal/stacktrace_riscv-inl.inc"
-# include "absl/debugging/internal/stacktrace_unimplemented-inl.inc"
-# include "absl/debugging/internal/stacktrace_win32-inl.inc"
-# include "absl/debugging/internal/stacktrace_x86-inl.inc"
+# include "tink/absl/debugging/internal/stacktrace_aarch64-inl.inc"
+# include "tink/absl/debugging/internal/stacktrace_arm-inl.inc"
+# include "tink/absl/debugging/internal/stacktrace_emscripten-inl.inc"
+# include "tink/absl/debugging/internal/stacktrace_generic-inl.inc"
+# include "tink/absl/debugging/internal/stacktrace_powerpc-inl.inc"
+# include "tink/absl/debugging/internal/stacktrace_riscv-inl.inc"
+# include "tink/absl/debugging/internal/stacktrace_unimplemented-inl.inc"
+# include "tink/absl/debugging/internal/stacktrace_win32-inl.inc"
+# include "tink/absl/debugging/internal/stacktrace_x86-inl.inc"
 #endif
 
 namespace absl {

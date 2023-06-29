@@ -21,7 +21,7 @@
 #include <utility>
 #include <vector>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/crypto_format.h"
 #include "tink/subtle/subtle_util.h"
 

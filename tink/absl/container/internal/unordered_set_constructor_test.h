@@ -21,9 +21,9 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/internal/hash_generator_testing.h"
-#include "absl/container/internal/hash_policy_testing.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/container/internal/hash_generator_testing.h"
+#include "tink/absl/container/internal/hash_policy_testing.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

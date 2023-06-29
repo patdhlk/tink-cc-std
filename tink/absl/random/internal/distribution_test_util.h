@@ -19,8 +19,8 @@
 #include <iostream>
 #include <vector>
 
-#include "absl/strings/string_view.h"
-#include "absl/types/span.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/span.h"
 
 // NOTE: The functions in this file are test only, and are should not be used in
 // non-test code.

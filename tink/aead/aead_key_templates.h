@@ -17,7 +17,7 @@
 #ifndef TINK_AEAD_AEAD_KEY_TEMPLATES_H_
 #define TINK_AEAD_AEAD_KEY_TEMPLATES_H_
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "proto/tink.pb.h"
 
 namespace crypto {

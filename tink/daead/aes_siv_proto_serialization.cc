@@ -18,8 +18,8 @@
 
 #include <string>
 
-#include "absl/status/status.h"
-#include "absl/types/optional.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/types/optional.h"
 #include "tink/daead/aes_siv_key.h"
 #include "tink/daead/aes_siv_parameters.h"
 #include "tink/internal/key_parser.h"

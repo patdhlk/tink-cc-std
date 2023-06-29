@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/cordz_sample_token.h"
+#include "tink/absl/strings/internal/cordz_sample_token.h"
 
-#include "absl/base/config.h"
-#include "absl/strings/internal/cordz_handle.h"
-#include "absl/strings/internal/cordz_info.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/internal/cordz_handle.h"
+#include "tink/absl/strings/internal/cordz_info.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

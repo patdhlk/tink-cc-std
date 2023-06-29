@@ -31,12 +31,12 @@
 #include <memory>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/base/macros.h"
-#include "absl/numeric/bits.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_flat.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/numeric/bits.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_flat.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

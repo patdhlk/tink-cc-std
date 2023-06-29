@@ -20,9 +20,9 @@
 #ifndef ABSL_LOG_INTERNAL_STRIP_H_
 #define ABSL_LOG_INTERNAL_STRIP_H_
 
-#include "absl/base/log_severity.h"
-#include "absl/log/internal/log_message.h"
-#include "absl/log/internal/nullstream.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/internal/log_message.h"
+#include "tink/absl/log/internal/nullstream.h"
 
 // `ABSL_LOGGING_INTERNAL_LOG_*` evaluates to a temporary `LogMessage` object or
 // to a related object with a compatible API but different behavior.  This set

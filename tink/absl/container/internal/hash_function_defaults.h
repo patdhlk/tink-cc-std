@@ -51,10 +51,10 @@
 #include <string>
 #include <type_traits>
 
-#include "absl/base/config.h"
-#include "absl/hash/hash.h"
-#include "absl/strings/cord.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/hash/hash.h"
+#include "tink/absl/strings/cord.h"
+#include "tink/absl/strings/string_view.h"
 
 #ifdef ABSL_HAVE_STD_STRING_VIEW
 #include <string_view>

@@ -24,7 +24,7 @@
 #include "google/protobuf/util/message_differencer.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/match.h"
+#include "tink/absl/strings/match.h"
 #include "tink/cleartext_keyset_handle.h"
 #include "tink/json_keyset_reader.h"
 #include "tink/json_keyset_writer.h"

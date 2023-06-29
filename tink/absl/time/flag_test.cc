@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/flag.h"
+#include "tink/absl/flags/flag.h"
 
 #include <string>
 
 #include "gtest/gtest.h"
-#include "absl/flags/reflection.h"
-#include "absl/time/civil_time.h"
-#include "absl/time/time.h"
+#include "tink/absl/flags/reflection.h"
+#include "tink/absl/time/civil_time.h"
+#include "tink/absl/time/time.h"
 
 ABSL_FLAG(absl::CivilSecond, test_flag_civil_second,
           absl::CivilSecond(2015, 1, 2, 3, 4, 5), "");

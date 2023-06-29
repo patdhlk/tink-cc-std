@@ -12,17 +12,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/flat_hash_map.h"
+#include "tink/absl/container/flat_hash_map.h"
 
 #include <memory>
 
-#include "absl/container/internal/hash_generator_testing.h"
-#include "absl/container/internal/unordered_map_constructor_test.h"
-#include "absl/container/internal/unordered_map_lookup_test.h"
-#include "absl/container/internal/unordered_map_members_test.h"
-#include "absl/container/internal/unordered_map_modifiers_test.h"
-#include "absl/log/check.h"
-#include "absl/types/any.h"
+#include "tink/absl/container/internal/hash_generator_testing.h"
+#include "tink/absl/container/internal/unordered_map_constructor_test.h"
+#include "tink/absl/container/internal/unordered_map_lookup_test.h"
+#include "tink/absl/container/internal/unordered_map_members_test.h"
+#include "tink/absl/container/internal/unordered_map_modifiers_test.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/types/any.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -20,8 +20,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/string_view.h"
 #include "openssl/evp.h"
 #include "tink/subtle/common_enums.h"
 #include "tink/util/status.h"

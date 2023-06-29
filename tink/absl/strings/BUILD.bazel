@@ -14,7 +14,7 @@
 # limitations under the License.
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -74,16 +74,16 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":internal",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:endian",
-        "//absl/base:raw_logging_internal",
-        "//absl/base:throw_delegate",
-        "//absl/memory",
-        "//absl/meta:type_traits",
-        "//absl/numeric:bits",
-        "//absl/numeric:int128",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:endian",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/base:throw_delegate",
+        "//tink/absl/memory",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/numeric:bits",
+        "//tink/absl/numeric:int128",
     ],
 )
 
@@ -104,11 +104,11 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:endian",
-        "//absl/base:raw_logging_internal",
-        "//absl/meta:type_traits",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:endian",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/meta:type_traits",
     ],
 )
 
@@ -136,8 +136,8 @@ cc_test(
     deps = [
         ":cord",
         ":strings",
-        "//absl/base:core_headers",
-        "//absl/container:fixed_array",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/container:fixed_array",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -153,7 +153,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:raw_logging_internal",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -166,7 +166,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -191,7 +191,7 @@ cc_test(
     ],
     copts = ABSL_TEST_COPTS,
     deps = [
-        "//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -207,7 +207,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -223,7 +223,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -238,7 +238,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":internal",
-        "//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -251,7 +251,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/meta:type_traits",
+        "//tink/absl/meta:type_traits",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -264,8 +264,8 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -278,9 +278,9 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -315,20 +315,20 @@ cc_library(
     ],
     deps = [
         ":strings",
-        "//absl/base:base_internal",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:endian",
-        "//absl/base:raw_logging_internal",
-        "//absl/base:throw_delegate",
-        "//absl/container:compressed_tuple",
-        "//absl/container:container_memory",
-        "//absl/container:inlined_vector",
-        "//absl/container:layout",
-        "//absl/crc:crc_cord_state",
-        "//absl/functional:function_ref",
-        "//absl/meta:type_traits",
-        "//absl/types:span",
+        "//tink/absl/base:base_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:endian",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/base:throw_delegate",
+        "//tink/absl/container:compressed_tuple",
+        "//tink/absl/container:container_memory",
+        "//tink/absl/container:inlined_vector",
+        "//tink/absl/container:layout",
+        "//tink/absl/crc:crc_cord_state",
+        "//tink/absl/functional:function_ref",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/types:span",
     ],
 )
 
@@ -342,7 +342,7 @@ cc_test(
         ":cord_internal",
         ":cord_rep_test_util",
         ":strings",
-        "//absl/base:config",
+        "//tink/absl/base:config",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -358,9 +358,9 @@ cc_test(
         ":cord_internal",
         ":cord_rep_test_util",
         ":strings",
-        "//absl/base:config",
-        "//absl/base:raw_logging_internal",
-        "//absl/cleanup",
+        "//tink/absl/base:config",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/cleanup",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -375,8 +375,8 @@ cc_test(
         ":cord_internal",
         ":cord_rep_test_util",
         ":strings",
-        "//absl/base:config",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:raw_logging_internal",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -392,8 +392,8 @@ cc_test(
         ":cord_internal",
         ":cord_rep_test_util",
         ":strings",
-        "//absl/base:config",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:raw_logging_internal",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -407,8 +407,8 @@ cc_test(
     deps = [
         ":cord_internal",
         ":cord_rep_test_util",
-        "//absl/base:config",
-        "//absl/crc:crc_cord_state",
+        "//tink/absl/base:config",
+        "//tink/absl/crc:crc_cord_state",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -419,9 +419,9 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl:__subpackages__",
+        "//tink/absl:__subpackages__",
     ],
-    deps = ["//absl/base:config"],
+    deps = ["//tink/absl/base:config"],
 )
 
 cc_test(
@@ -429,9 +429,9 @@ cc_test(
     srcs = ["internal/cordz_update_tracker_test.cc"],
     deps = [
         ":cordz_update_tracker",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/synchronization",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/synchronization",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -459,19 +459,19 @@ cc_library(
         ":cordz_update_tracker",
         ":internal",
         ":strings",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:endian",
-        "//absl/base:raw_logging_internal",
-        "//absl/container:fixed_array",
-        "//absl/container:inlined_vector",
-        "//absl/crc:crc_cord_state",
-        "//absl/functional:function_ref",
-        "//absl/meta:type_traits",
-        "//absl/numeric:bits",
-        "//absl/types:optional",
-        "//absl/types:span",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:endian",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/container:fixed_array",
+        "//tink/absl/container:inlined_vector",
+        "//tink/absl/crc:crc_cord_state",
+        "//tink/absl/functional:function_ref",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/numeric:bits",
+        "//tink/absl/types:optional",
+        "//tink/absl/types:span",
     ],
 )
 
@@ -482,13 +482,13 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl:__subpackages__",
+        "//tink/absl:__subpackages__",
     ],
     deps = [
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:raw_logging_internal",
-        "//absl/synchronization",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/synchronization",
     ],
 )
 
@@ -499,7 +499,7 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl:__subpackages__",
+        "//tink/absl:__subpackages__",
     ],
     deps = [
         ":cord_internal",
@@ -507,15 +507,15 @@ cc_library(
         ":cordz_handle",
         ":cordz_statistics",
         ":cordz_update_tracker",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/container:inlined_vector",
-        "//absl/debugging:stacktrace",
-        "//absl/synchronization",
-        "//absl/time",
-        "//absl/types:span",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/container:inlined_vector",
+        "//tink/absl/debugging:stacktrace",
+        "//tink/absl/synchronization",
+        "//tink/absl/time",
+        "//tink/absl/types:span",
     ],
 )
 
@@ -525,14 +525,14 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl:__subpackages__",
+        "//tink/absl:__subpackages__",
     ],
     deps = [
         ":cord_internal",
         ":cordz_info",
         ":cordz_update_tracker",
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -546,7 +546,7 @@ cc_test(
         ":cordz_test_helpers",
         ":cordz_update_scope",
         ":cordz_update_tracker",
-        "//absl/base:config",
+        "//tink/absl/base:config",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -558,12 +558,12 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl:__subpackages__",
+        "//tink/absl:__subpackages__",
     ],
     deps = [
         ":cordz_handle",
         ":cordz_info",
-        "//absl/base:config",
+        "//tink/absl/base:config",
     ],
 )
 
@@ -574,13 +574,13 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl:__subpackages__",
+        "//tink/absl:__subpackages__",
     ],
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/profiling:exponential_biased",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/profiling:exponential_biased",
     ],
 )
 
@@ -590,11 +590,11 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl:__subpackages__",
+        "//tink/absl:__subpackages__",
     ],
     deps = [
         ":cordz_update_tracker",
-        "//absl/base:config",
+        "//tink/absl/base:config",
     ],
 )
 
@@ -606,7 +606,7 @@ cc_test(
     deps = [
         ":cordz_functions",
         ":cordz_test_helpers",
-        "//absl/base:config",
+        "//tink/absl/base:config",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -618,13 +618,13 @@ cc_test(
     ],
     deps = [
         ":cordz_handle",
-        "//absl/base:config",
-        "//absl/memory",
-        "//absl/random",
-        "//absl/random:distributions",
-        "//absl/synchronization",
-        "//absl/synchronization:thread_pool",
-        "//absl/time",
+        "//tink/absl/base:config",
+        "//tink/absl/memory",
+        "//tink/absl/random",
+        "//tink/absl/random:distributions",
+        "//tink/absl/synchronization",
+        "//tink/absl/synchronization:thread_pool",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -642,10 +642,10 @@ cc_test(
         ":cordz_test_helpers",
         ":cordz_update_tracker",
         ":strings",
-        "//absl/base:config",
-        "//absl/debugging:stacktrace",
-        "//absl/debugging:symbolize",
-        "//absl/types:span",
+        "//tink/absl/base:config",
+        "//tink/absl/debugging:stacktrace",
+        "//tink/absl/debugging:symbolize",
+        "//tink/absl/types:span",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -663,10 +663,10 @@ cc_test(
         ":cordz_statistics",
         ":cordz_update_scope",
         ":cordz_update_tracker",
-        "//absl/base:config",
-        "//absl/crc:crc_cord_state",
-        "//absl/synchronization",
-        "//absl/synchronization:thread_pool",
+        "//tink/absl/base:config",
+        "//tink/absl/crc:crc_cord_state",
+        "//tink/absl/synchronization",
+        "//tink/absl/synchronization:thread_pool",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -682,12 +682,12 @@ cc_test(
         ":cordz_info",
         ":cordz_sample_token",
         ":cordz_test_helpers",
-        "//absl/base:config",
-        "//absl/memory",
-        "//absl/random",
-        "//absl/synchronization",
-        "//absl/synchronization:thread_pool",
-        "//absl/time",
+        "//tink/absl/base:config",
+        "//tink/absl/memory",
+        "//tink/absl/random",
+        "//tink/absl/synchronization",
+        "//tink/absl/synchronization:thread_pool",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -704,7 +704,7 @@ cc_library(
         ":cord",
         ":cord_internal",
         ":strings",
-        "//absl/base:config",
+        "//tink/absl/base:config",
     ],
 )
 
@@ -717,8 +717,8 @@ cc_library(
     deps = [
         ":cord_internal",
         ":strings",
-        "//absl/base:config",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -736,8 +736,8 @@ cc_library(
         ":cordz_statistics",
         ":cordz_update_tracker",
         ":strings",
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
         "@com_google_googletest//:gtest",
     ],
 )
@@ -752,8 +752,8 @@ cc_test(
         ":cord",
         ":cord_internal",
         ":cord_rep_test_util",
-        "//absl/base:config",
-        "//absl/types:span",
+        "//tink/absl/base:config",
+        "//tink/absl/types:span",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -771,14 +771,14 @@ cc_test(
         ":cordz_test_helpers",
         ":str_format",
         ":strings",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:endian",
-        "//absl/container:fixed_array",
-        "//absl/hash",
-        "//absl/log",
-        "//absl/log:check",
-        "//absl/random",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:endian",
+        "//tink/absl/container:fixed_array",
+        "//tink/absl/hash",
+        "//tink/absl/log",
+        "//tink/absl/log:check",
+        "//tink/absl/random",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -808,9 +808,9 @@ cc_test(
         ":cordz_test_helpers",
         ":cordz_update_tracker",
         ":strings",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -824,10 +824,10 @@ cc_test(
     deps = [
         ":cord_internal",
         ":strings",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/debugging:leak_check",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/debugging:leak_check",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -841,8 +841,8 @@ cc_test(
     deps = [
         ":cord_internal",
         ":strings",
-        "//absl/base:core_headers",
-        "//absl/debugging:leak_check",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/debugging:leak_check",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -855,7 +855,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -868,7 +868,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:raw_logging_internal",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -892,11 +892,11 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
-        "//absl/container:btree",
-        "//absl/container:flat_hash_map",
-        "//absl/container:node_hash_map",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
+        "//tink/absl/container:btree",
+        "//tink/absl/container:flat_hash_map",
+        "//tink/absl/container:node_hash_map",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -909,7 +909,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:raw_logging_internal",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -948,8 +948,8 @@ cc_test(
     copts = ABSL_TEST_COPTS,
     visibility = ["//visibility:private"],
     deps = [
-        "//absl/base:core_headers",
-        "//absl/meta:type_traits",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/meta:type_traits",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -962,8 +962,8 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:core_headers",
-        "//absl/memory",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/memory",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -1018,10 +1018,10 @@ cc_test(
         ":internal",
         ":pow10_helper",
         ":strings",
-        "//absl/base:config",
-        "//absl/log",
-        "//absl/random",
-        "//absl/random:distributions",
+        "//tink/absl/base:config",
+        "//tink/absl/log",
+        "//tink/absl/random",
+        "//tink/absl/random:distributions",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -1034,9 +1034,9 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:raw_logging_internal",
-        "//absl/random",
-        "//absl/random:distributions",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/random",
+        "//tink/absl/random:distributions",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -1095,8 +1095,8 @@ cc_test(
     copts = ABSL_TEST_COPTS,
     deps = [
         ":strings",
-        "//absl/base:config",
-        "//absl/log:check",
+        "//tink/absl/base:config",
+        "//tink/absl/log:check",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -1111,7 +1111,7 @@ cc_test(
     copts = ABSL_TEST_COPTS,
     deps = [
         ":strings",
-        "//absl/base:config",
+        "//tink/absl/base:config",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -1167,17 +1167,17 @@ cc_library(
     visibility = ["//visibility:private"],
     deps = [
         ":strings",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/container:inlined_vector",
-        "//absl/functional:function_ref",
-        "//absl/meta:type_traits",
-        "//absl/numeric:bits",
-        "//absl/numeric:int128",
-        "//absl/numeric:representation",
-        "//absl/types:optional",
-        "//absl/types:span",
-        "//absl/utility",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/container:inlined_vector",
+        "//tink/absl/functional:function_ref",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/numeric:bits",
+        "//tink/absl/numeric:int128",
+        "//tink/absl/numeric:representation",
+        "//tink/absl/types:optional",
+        "//tink/absl/types:span",
+        "//tink/absl/utility",
     ],
 )
 
@@ -1252,10 +1252,10 @@ cc_test(
     deps = [
         ":str_format_internal",
         ":strings",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/log",
-        "//absl/types:optional",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/log",
+        "//tink/absl/types:optional",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -1279,7 +1279,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":str_format_internal",
-        "//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -1291,7 +1291,7 @@ cc_library(
     hdrs = ["internal/pow10_helper.h"],
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = ["//visibility:private"],
-    deps = ["//absl/base:config"],
+    deps = ["//tink/absl/base:config"],
 )
 
 cc_test(
@@ -1316,8 +1316,8 @@ cc_binary(
     deps = [
         ":str_format",
         ":strings",
-        "//absl/base",
-        "//absl/types:optional",
+        "//tink/absl/base",
+        "//tink/absl/types:optional",
     ],
 )
 

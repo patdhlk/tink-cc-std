@@ -20,7 +20,7 @@
 #include <memory>
 #include <vector>
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 
 extern "C" {
 #include "third_party/pqclean/crypto_sign/sphincs-haraka-128f-robust/api.h"

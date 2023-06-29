@@ -19,10 +19,10 @@
 #include <memory>
 #include <string>
 
-#include "absl/base/attributes.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/str_format.h"
-#include "absl/types/optional.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/types/optional.h"
 #include "tink/mac/hmac_parameters.h"
 #include "tink/partial_key_access_token.h"
 #include "tink/restricted_data.h"

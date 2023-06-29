@@ -199,8 +199,8 @@
 #ifndef ABSL_FLAGS_MARSHALLING_H_
 #define ABSL_FLAGS_MARSHALLING_H_
 
-#include "absl/base/config.h"
-#include "absl/numeric/int128.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/numeric/int128.h"
 
 #if defined(ABSL_HAVE_STD_OPTIONAL) && !defined(ABSL_USES_STD_OPTIONAL)
 #include <optional>
@@ -208,8 +208,8 @@
 #include <string>
 #include <vector>
 
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

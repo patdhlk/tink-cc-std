@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/inlined_vector.h"
+#include "tink/absl/container/inlined_vector.h"
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #if defined(ABSL_HAVE_EXCEPTIONS)
 
@@ -25,7 +25,7 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/base/internal/exception_safety_testing.h"
+#include "tink/absl/base/internal/exception_safety_testing.h"
 
 namespace {
 

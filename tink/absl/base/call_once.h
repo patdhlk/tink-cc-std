@@ -31,14 +31,14 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/internal/invoke.h"
-#include "absl/base/internal/low_level_scheduling.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/scheduling_mode.h"
-#include "absl/base/internal/spinlock_wait.h"
-#include "absl/base/macros.h"
-#include "absl/base/optimization.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/internal/invoke.h"
+#include "tink/absl/base/internal/low_level_scheduling.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/scheduling_mode.h"
+#include "tink/absl/base/internal/spinlock_wait.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/base/port.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

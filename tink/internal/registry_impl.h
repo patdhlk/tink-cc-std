@@ -22,12 +22,12 @@
 #include <string>
 #include <utility>
 
-#include "absl/base/thread_annotations.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/synchronization/mutex.h"
 #include "tink/core/key_type_manager.h"
 #include "tink/core/private_key_type_manager.h"
 #include "tink/input_stream.h"

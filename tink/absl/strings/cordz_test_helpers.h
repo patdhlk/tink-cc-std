@@ -19,15 +19,15 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/base/macros.h"
-#include "absl/strings/cord.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cordz_info.h"
-#include "absl/strings/internal/cordz_sample_token.h"
-#include "absl/strings/internal/cordz_statistics.h"
-#include "absl/strings/internal/cordz_update_tracker.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/strings/cord.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cordz_info.h"
+#include "tink/absl/strings/internal/cordz_sample_token.h"
+#include "tink/absl/strings/internal/cordz_statistics.h"
+#include "tink/absl/strings/internal/cordz_update_tracker.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

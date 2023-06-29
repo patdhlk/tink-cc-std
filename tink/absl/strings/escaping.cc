@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/escaping.h"
+#include "tink/absl/strings/escaping.h"
 
 #include <algorithm>
 #include <cassert>
@@ -22,16 +22,16 @@
 #include <limits>
 #include <string>
 
-#include "absl/base/internal/endian.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/unaligned_access.h"
-#include "absl/strings/internal/char_map.h"
-#include "absl/strings/internal/escaping.h"
-#include "absl/strings/internal/resize_uninitialized.h"
-#include "absl/strings/internal/utf8.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_join.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/unaligned_access.h"
+#include "tink/absl/strings/internal/char_map.h"
+#include "tink/absl/strings/internal/escaping.h"
+#include "tink/absl/strings/internal/resize_uninitialized.h"
+#include "tink/absl/strings/internal/utf8.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_join.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

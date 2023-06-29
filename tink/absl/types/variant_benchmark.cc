@@ -17,7 +17,7 @@
 // in building other tests. All other public variant methods should have
 // explicit tests.
 
-#include "absl/types/variant.h"
+#include "tink/absl/types/variant.h"
 
 #include <cstddef>
 #include <cstdlib>
@@ -25,7 +25,7 @@
 #include <tuple>
 
 #include "benchmark/benchmark.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

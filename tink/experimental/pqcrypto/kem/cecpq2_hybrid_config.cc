@@ -16,7 +16,7 @@
 
 #include "tink/experimental/pqcrypto/kem/cecpq2_hybrid_config.h"
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/aead/aead_config.h"
 #include "tink/config/tink_fips.h"
 #include "tink/experimental/pqcrypto/kem/cecpq2_aead_hkdf_private_key_manager.h"

@@ -18,9 +18,9 @@
 #include <string>
 #include <utility>
 
-#include "absl/base/attributes.h"
-#include "absl/container/inlined_vector.h"
-#include "absl/strings/cord.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/container/inlined_vector.h"
+#include "tink/absl/strings/cord.h"
 
 #ifndef SWIG
 // Disabled for SWIG as it doesn't parse attributes correctly.

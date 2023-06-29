@@ -15,10 +15,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/log.h"
-#include "absl/log/scoped_mock_log.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/log/scoped_mock_log.h"
 
 namespace {
 using ::testing::_;

@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/str_format/parser.h"
+#include "tink/absl/strings/internal/str_format/parser.h"
 
 #include <string.h>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -55,11 +55,11 @@
 #include <string>
 #include <utility>
 
-#include "absl/functional/function_ref.h"
-#include "absl/status/internal/status_internal.h"
-#include "absl/strings/cord.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/functional/function_ref.h"
+#include "tink/absl/status/internal/status_internal.h"
+#include "tink/absl/strings/cord.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -18,7 +18,7 @@
 
 #include <set>
 
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/util/status.h"
 #include "tink/util/statusor.h"
 

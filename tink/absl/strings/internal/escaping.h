@@ -17,7 +17,7 @@
 
 #include <cassert>
 
-#include "absl/strings/internal/resize_uninitialized.h"
+#include "tink/absl/strings/internal/resize_uninitialized.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

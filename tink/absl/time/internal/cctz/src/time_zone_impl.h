@@ -18,9 +18,9 @@
 #include <memory>
 #include <string>
 
-#include "absl/base/config.h"
-#include "absl/time/internal/cctz/include/cctz/civil_time.h"
-#include "absl/time/internal/cctz/include/cctz/time_zone.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/time/internal/cctz/include/cctz/civil_time.h"
+#include "tink/absl/time/internal/cctz/include/cctz/time_zone.h"
 #include "time_zone_if.h"
 #include "time_zone_info.h"
 

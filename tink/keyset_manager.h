@@ -18,8 +18,8 @@
 
 #include <memory>
 
-#include "absl/base/thread_annotations.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/synchronization/mutex.h"
 #include "tink/util/status.h"
 #include "tink/util/statusor.h"
 #include "proto/tink.pb.h"

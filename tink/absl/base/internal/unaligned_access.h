@@ -21,8 +21,8 @@
 
 #include <cstdint>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
 
 // unaligned APIs
 

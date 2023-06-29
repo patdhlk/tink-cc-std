@@ -17,7 +17,7 @@
 #ifndef TINK_UTIL_STATUSOR_H_
 #define TINK_UTIL_STATUSOR_H_
 
-#include "absl/status/statusor.h"
+#include "tink/absl/status/statusor.h"
 #include "tink/util/status.h"
 
 #define TINK_USE_ABSL_STATUSOR

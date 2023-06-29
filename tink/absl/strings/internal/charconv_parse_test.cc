@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/charconv_parse.h"
+#include "tink/absl/strings/internal/charconv_parse.h"
 
 #include <string>
 #include <utility>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/log/check.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/strings/str_cat.h"
 
 using absl::chars_format;
 using absl::strings_internal::FloatType;

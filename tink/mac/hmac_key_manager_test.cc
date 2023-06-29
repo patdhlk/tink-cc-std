@@ -22,7 +22,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/chunked_mac.h"
 #include "tink/core/key_manager_impl.h"
 #include "tink/mac.h"

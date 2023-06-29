@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/seed_material.h"
+#include "tink/absl/random/internal/seed_material.h"
 
 #include <bitset>
 #include <cstdlib>

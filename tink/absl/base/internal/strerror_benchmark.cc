@@ -16,7 +16,7 @@
 #include <cstdio>
 #include <string>
 
-#include "absl/base/internal/strerror.h"
+#include "tink/absl/base/internal/strerror.h"
 #include "benchmark/benchmark.h"
 
 namespace {

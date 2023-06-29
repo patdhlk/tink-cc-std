@@ -17,7 +17,7 @@
 #ifndef TINK_JWT_INTERNAL_JWT_PUBLIC_KEY_VERIFY_INTERNAL_H_
 #define TINK_JWT_INTERNAL_JWT_PUBLIC_KEY_VERIFY_INTERNAL_H_
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/util/status.h"
 #include "tink/util/statusor.h"
 #include "tink/jwt/verified_jwt.h"

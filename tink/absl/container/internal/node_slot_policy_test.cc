@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/internal/node_slot_policy.h"
+#include "tink/absl/container/internal/node_slot_policy.h"
 
 #include <memory>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/internal/hash_policy_traits.h"
+#include "tink/absl/container/internal/hash_policy_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

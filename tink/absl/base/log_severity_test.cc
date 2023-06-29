@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/log_severity.h"
+#include "tink/absl/base/log_severity.h"
 
 #include <cstdint>
 #include <ios>
@@ -24,9 +24,9 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/flags/internal/flag.h"
-#include "absl/flags/marshalling.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/flags/internal/flag.h"
+#include "tink/absl/flags/marshalling.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace {
 using ::testing::Eq;

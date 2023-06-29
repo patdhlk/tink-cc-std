@@ -25,8 +25,8 @@
 #include <intrin.h>
 #endif
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
 
 #if defined(__GNUC__) && !defined(__clang__)
 // GCC

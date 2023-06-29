@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-#include "absl/log/internal/test_helpers.h"
+#include "tink/absl/log/internal/test_helpers.h"
 
 #ifdef __Fuchsia__
 #include <zircon/syscalls.h>
 #endif
 
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/globals.h"
-#include "absl/log/initialize.h"
-#include "absl/log/internal/globals.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/globals.h"
+#include "tink/absl/log/initialize.h"
+#include "tink/absl/log/internal/globals.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

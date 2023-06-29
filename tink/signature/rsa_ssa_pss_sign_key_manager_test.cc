@@ -20,7 +20,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/flat_hash_set.h"
+#include "tink/absl/container/flat_hash_set.h"
 #include "openssl/rsa.h"
 #include "tink/internal/bn_util.h"
 #include "tink/internal/rsa_util.h"

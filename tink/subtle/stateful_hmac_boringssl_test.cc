@@ -22,8 +22,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "tink/subtle/common_enums.h"
 #include "tink/subtle/wycheproof_util.h"
 #include "tink/util/secret_data.h"

@@ -19,7 +19,7 @@
 
 #include <memory>
 
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 #include "tink/hybrid_decrypt.h"
 #include "tink/key_manager.h"
 #include "tink/keyset_handle.h"

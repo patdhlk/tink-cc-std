@@ -16,9 +16,9 @@
 #include <vector>
 
 #include "benchmark/benchmark.h"
-#include "absl/base/optimization.h"
-#include "absl/numeric/bits.h"
-#include "absl/random/random.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/numeric/bits.h"
+#include "tink/absl/random/random.h"
 
 namespace absl {
 namespace {

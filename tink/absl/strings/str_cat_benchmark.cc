@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 
 #include <cstdint>
 #include <string>
 
 #include "benchmark/benchmark.h"
-#include "absl/strings/substitute.h"
+#include "tink/absl/strings/substitute.h"
 
 namespace {
 

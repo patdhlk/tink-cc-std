@@ -20,8 +20,8 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "tink/aead.h"
 #include "tink/aead/internal/zero_copy_aead.h"
 #include "tink/subtle/subtle_util.h"

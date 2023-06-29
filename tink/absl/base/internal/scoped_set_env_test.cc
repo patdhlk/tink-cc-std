@@ -17,7 +17,7 @@
 #endif
 
 #include "gtest/gtest.h"
-#include "absl/base/internal/scoped_set_env.h"
+#include "tink/absl/base/internal/scoped_set_env.h"
 
 namespace {
 

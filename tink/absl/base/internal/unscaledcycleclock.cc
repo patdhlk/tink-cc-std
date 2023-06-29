@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/unscaledcycleclock.h"
+#include "tink/absl/base/internal/unscaledcycleclock.h"
 
 #if ABSL_USE_UNSCALED_CYCLECLOCK
 
@@ -30,11 +30,11 @@
 #include <sys/sysctl.h>
 // clang-format on
 
-#include "absl/base/call_once.h"
+#include "tink/absl/base/call_once.h"
 #endif
 #endif
 
-#include "absl/base/internal/sysinfo.h"
+#include "tink/absl/base/internal/sysinfo.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

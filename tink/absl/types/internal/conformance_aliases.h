@@ -22,8 +22,8 @@
 #ifndef ABSL_TYPES_INTERNAL_CONFORMANCE_ALIASES_H_
 #define ABSL_TYPES_INTERNAL_CONFORMANCE_ALIASES_H_
 
-#include "absl/types/internal/conformance_archetype.h"
-#include "absl/types/internal/conformance_profile.h"
+#include "tink/absl/types/internal/conformance_archetype.h"
+#include "tink/absl/types/internal/conformance_profile.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

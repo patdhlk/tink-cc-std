@@ -24,8 +24,8 @@
 #include <atomic>
 #include <cstring>
 
-#include "absl/debugging/stacktrace.h"
-#include "absl/base/attributes.h"
+#include "tink/absl/debugging/stacktrace.h"
+#include "tink/absl/base/attributes.h"
 
 // Sometimes, we can try to get a stack trace from within a stack
 // trace, because we don't block signals inside this code (which would be too

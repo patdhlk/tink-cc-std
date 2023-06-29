@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/randen_engine.h"
+#include "tink/absl/random/internal/randen_engine.h"
 
 #include <algorithm>
 #include <bitset>
@@ -21,10 +21,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/log/log.h"
-#include "absl/random/internal/explicit_seed_seq.h"
-#include "absl/strings/str_cat.h"
-#include "absl/time/clock.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/random/internal/explicit_seed_seq.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/time/clock.h"
 
 #define UPDATE_GOLDEN 0
 

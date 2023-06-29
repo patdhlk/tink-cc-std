@@ -19,11 +19,11 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/globals.h"
-#include "absl/log/internal/test_helpers.h"
-#include "absl/log/log.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/globals.h"
+#include "tink/absl/log/internal/test_helpers.h"
+#include "tink/absl/log/log.h"
 
 namespace {
 using ::testing::AllOf;

@@ -16,9 +16,9 @@
 
 #include <string>
 
-#include "absl/strings/cord.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/strings/cord.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

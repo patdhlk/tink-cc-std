@@ -25,9 +25,9 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "//tink/util:validation",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -59,8 +59,8 @@ cc_library(
     deps = [
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_protobuf//:protobuf",
     ],
 )
@@ -88,8 +88,8 @@ cc_library(
         "//proto:tink_cc_proto",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_protobuf//:protobuf",
     ],
 )
@@ -122,8 +122,8 @@ cc_library(
         "//tink/jwt:verified_jwt",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -146,8 +146,8 @@ cc_test(
         "//tink/util:secret_data",
         "//tink/util:test_matchers",
         "//tink/util:test_util",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -178,9 +178,9 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "//tink/util:validation",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -199,9 +199,9 @@ cc_test(
         "//tink/util:statusor",
         "//tink/util:test_matchers",
         "//tink/util:test_util",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
-        "@com_google_absl//absl/time",
+        "//tink/absl/status",
+        "//tink/absl/strings",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -219,7 +219,7 @@ cc_library(
         "//tink/jwt:jwt_mac",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
     ],
 )
 
@@ -239,7 +239,7 @@ cc_test(
         "//tink/util:status",
         "//tink/util:test_matchers",
         "//tink/util:test_util",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -265,8 +265,8 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "//tink/util:validation",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/strings",
     ],
 )
 
@@ -286,7 +286,7 @@ cc_test(
         "//tink/util:statusor",
         "//tink/util:test_matchers",
         "//tink/util:test_util",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -311,9 +311,9 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "//tink/util:validation",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -334,7 +334,7 @@ cc_test(
         "//tink/util:statusor",
         "//tink/util:test_matchers",
         "//tink/util:test_util",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -364,9 +364,9 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "//tink/util:validation",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -387,7 +387,7 @@ cc_test(
         "//tink/util:test_matchers",
         "//tink/util:test_util",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/container:flat_hash_set",
+        "//tink/absl/container:flat_hash_set",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -414,9 +414,9 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "//tink/util:validation",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -440,8 +440,8 @@ cc_test(
         "//tink/util:test_matchers",
         "//tink/util:test_util",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -471,9 +471,9 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "//tink/util:validation",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -492,7 +492,7 @@ cc_test(
         "//tink/util:statusor",
         "//tink/util:test_matchers",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/container:flat_hash_set",
+        "//tink/absl/container:flat_hash_set",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -520,9 +520,9 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "//tink/util:validation",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -543,8 +543,8 @@ cc_test(
         "//tink/util:statusor",
         "//tink/util:test_matchers",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -561,8 +561,8 @@ cc_library(
         "//tink/jwt:raw_jwt",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -581,8 +581,8 @@ cc_library(
         "//tink/jwt:verified_jwt",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -603,7 +603,7 @@ cc_test(
         "//tink/subtle:ecdsa_sign_boringssl",
         "//tink/subtle:ecdsa_verify_boringssl",
         "//tink/util:test_matchers",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -623,7 +623,7 @@ cc_library(
         "//proto:jwt_ecdsa_cc_proto",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/memory",
+        "//tink/absl/memory",
     ],
 )
 
@@ -640,8 +640,8 @@ cc_library(
         "//proto:jwt_ecdsa_cc_proto",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
+        "//tink/absl/memory",
+        "//tink/absl/status",
     ],
 )
 
@@ -656,7 +656,7 @@ cc_test(
         "//tink/util:status",
         "//tink/util:statusor",
         "//tink/util:test_matchers",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -674,7 +674,7 @@ cc_library(
         "//tink/jwt:jwt_public_key_sign",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
     ],
 )
 
@@ -691,7 +691,7 @@ cc_library(
         "//tink/jwt:jwt_public_key_verify",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
     ],
 )
 
@@ -713,7 +713,7 @@ cc_test(
         "//tink/util:status",
         "//tink/util:test_matchers",
         "//tink/util:test_util",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -733,7 +733,7 @@ cc_library(
         "//proto:jwt_rsa_ssa_pkcs1_cc_proto",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/memory",
+        "//tink/absl/memory",
     ],
 )
 
@@ -750,8 +750,8 @@ cc_library(
         "//proto:jwt_rsa_ssa_pkcs1_cc_proto",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
+        "//tink/absl/memory",
+        "//tink/absl/status",
     ],
 )
 
@@ -769,7 +769,7 @@ cc_test(
         "//tink/util:statusor",
         "//tink/util:test_matchers",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -789,7 +789,7 @@ cc_library(
         "//proto:jwt_rsa_ssa_pss_cc_proto",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/memory",
+        "//tink/absl/memory",
     ],
 )
 
@@ -806,8 +806,8 @@ cc_library(
         "//proto:jwt_rsa_ssa_pss_cc_proto",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
+        "//tink/absl/memory",
+        "//tink/absl/status",
     ],
 )
 
@@ -825,7 +825,7 @@ cc_test(
         "//tink/util:statusor",
         "//tink/util:test_matchers",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -838,7 +838,7 @@ cc_library(
         "//tink/jwt:raw_jwt",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
     ],
 )
 
@@ -852,7 +852,7 @@ cc_library(
         "//tink/jwt:verified_jwt",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
     ],
 )
 
@@ -865,6 +865,6 @@ cc_library(
         "//tink/jwt:verified_jwt",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
     ],
 )

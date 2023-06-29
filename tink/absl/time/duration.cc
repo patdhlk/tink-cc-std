@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // The implementation of the absl::Duration class, which is declared in
-// //absl/time.h.  This class behaves like a numeric type; it has no public
+// //tink/absl/time.h.  This class behaves like a numeric type; it has no public
 // methods and is used only through the operators defined here.
 //
 // Implementation notes:
@@ -66,12 +66,12 @@
 #include <limits>
 #include <string>
 
-#include "absl/base/casts.h"
-#include "absl/base/macros.h"
-#include "absl/numeric/int128.h"
-#include "absl/strings/string_view.h"
-#include "absl/strings/strip.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/strings/strip.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

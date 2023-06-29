@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/internal/hashtablez_sampler.h"
+#include "tink/absl/container/internal/hashtablez_sampler.h"
 
 #include <atomic>
 #include <limits>
@@ -20,15 +20,15 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/profiling/internal/sample_recorder.h"
-#include "absl/synchronization/blocking_counter.h"
-#include "absl/synchronization/internal/thread_pool.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/synchronization/notification.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/profiling/internal/sample_recorder.h"
+#include "tink/absl/synchronization/blocking_counter.h"
+#include "tink/absl/synchronization/internal/thread_pool.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/synchronization/notification.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/time.h"
 
 #ifdef ABSL_INTERNAL_HAVE_SSE2
 constexpr int kProbeLength = 16;

@@ -25,8 +25,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/config/tink_config.h"
 #include "tink/insecure_secret_key_access.h"
 #include "tink/internal/legacy_proto_key.h"

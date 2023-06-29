@@ -22,8 +22,8 @@
 #include <string>
 #include <vector>
 
-#include "absl/memory/memory.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/core/key_type_manager.h"
 #include "tink/internal/fips_utils.h"
 #include "tink/key_manager.h"

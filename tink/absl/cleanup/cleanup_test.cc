@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/cleanup/cleanup.h"
+#include "tink/absl/cleanup/cleanup.h"
 
 #include <functional>
 #include <type_traits>
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/utility/utility.h"
 
 namespace {
 

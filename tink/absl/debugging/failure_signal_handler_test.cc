@@ -14,7 +14,7 @@
 // limitations under the License.
 //
 
-#include "absl/debugging/failure_signal_handler.h"
+#include "tink/absl/debugging/failure_signal_handler.h"
 
 #include <csignal>
 #include <cstdio>
@@ -24,12 +24,12 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/debugging/stacktrace.h"
-#include "absl/debugging/symbolize.h"
-#include "absl/log/check.h"
-#include "absl/strings/match.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/debugging/stacktrace.h"
+#include "tink/absl/debugging/symbolize.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace {
 

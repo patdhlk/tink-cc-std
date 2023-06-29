@@ -16,8 +16,8 @@
 
 #include "tink/util/enums.h"
 
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/util/status.h"
 #include "proto/common.pb.h"
 #include "proto/ecdsa.pb.h"

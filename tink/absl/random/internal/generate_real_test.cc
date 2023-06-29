@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/generate_real.h"
+#include "tink/absl/random/internal/generate_real.h"
 
 #include <cfloat>
 #include <cstddef>
@@ -20,8 +20,8 @@
 #include <string>
 
 #include "gtest/gtest.h"
-#include "absl/flags/flag.h"
-#include "absl/numeric/bits.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/numeric/bits.h"
 
 ABSL_FLAG(int64_t, absl_random_test_trials, 50000,
           "Number of trials for the probability tests.");

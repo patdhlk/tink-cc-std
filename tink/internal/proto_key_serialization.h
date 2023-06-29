@@ -20,8 +20,8 @@
 #include <string>
 #include <utility>
 
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 #include "tink/internal/serialization.h"
 #include "tink/restricted_data.h"
 #include "tink/util/statusor.h"

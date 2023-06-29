@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 
 #ifndef ABSL_USES_STD_STRING_VIEW
 
@@ -21,7 +21,7 @@
 #include <cstring>
 #include <ostream>
 
-#include "absl/strings/internal/memutil.h"
+#include "tink/absl/strings/internal/memutil.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

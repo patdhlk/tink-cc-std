@@ -23,10 +23,10 @@
 #include <typeindex>
 #include <typeinfo>
 
-#include "absl/container/flat_hash_map.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_format.h"
-#include "absl/types/optional.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/types/optional.h"
 #include "tink/internal/key_parser.h"
 #include "tink/internal/key_serializer.h"
 #include "tink/internal/parameters_parser.h"

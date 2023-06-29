@@ -21,7 +21,7 @@
 #include <unordered_map>
 #include <utility>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 #include "time_zone_fixed.h"
 
 namespace absl {

@@ -15,12 +15,12 @@
 #ifndef ABSL_STRINGS_INTERNAL_CORDZ_UPDATE_SCOPE_H_
 #define ABSL_STRINGS_INTERNAL_CORDZ_UPDATE_SCOPE_H_
 
-#include "absl/base/config.h"
-#include "absl/base/optimization.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cordz_info.h"
-#include "absl/strings/internal/cordz_update_tracker.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cordz_info.h"
+#include "tink/absl/strings/internal/cordz_update_tracker.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

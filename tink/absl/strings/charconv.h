@@ -17,7 +17,7 @@
 
 #include <system_error>  // NOLINT(build/c++11)
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

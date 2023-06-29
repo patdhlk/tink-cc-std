@@ -18,7 +18,7 @@
 
 #include <string>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/util/errors.h"
 #include "tink/util/statusor.h"
 #include "proto/tink.pb.h"

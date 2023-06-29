@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/internal/hashtablez_sampler.h"
+#include "tink/absl/container/internal/hashtablez_sampler.h"
 
 #include <algorithm>
 #include <atomic>
@@ -21,16 +21,16 @@
 #include <functional>
 #include <limits>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/debugging/stacktrace.h"
-#include "absl/memory/memory.h"
-#include "absl/profiling/internal/exponential_biased.h"
-#include "absl/profiling/internal/sample_recorder.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/time/clock.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/debugging/stacktrace.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/profiling/internal/exponential_biased.h"
+#include "tink/absl/profiling/internal/sample_recorder.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

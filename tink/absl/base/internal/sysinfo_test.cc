@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/sysinfo.h"
+#include "tink/absl/base/internal/sysinfo.h"
 
 #ifndef _WIN32
 #include <sys/types.h>
@@ -24,8 +24,8 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/synchronization/barrier.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/synchronization/barrier.h"
+#include "tink/absl/synchronization/mutex.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

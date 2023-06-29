@@ -23,9 +23,9 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/attributes.h"
-#include "absl/base/macros.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/strings/string_view.h"
 #include "openssl/bn.h"
 #include "openssl/evp.h"
 #include "tink/aead/internal/aead_util.h"

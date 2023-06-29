@@ -17,7 +17,7 @@
 
 #include <cstdint>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // -------------------------------------------------------------------------
 // Many x86 and ARM machines have CRC acceleration hardware.

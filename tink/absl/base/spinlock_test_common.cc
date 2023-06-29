@@ -24,15 +24,15 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/low_level_scheduling.h"
-#include "absl/base/internal/scheduling_mode.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/base/internal/sysinfo.h"
-#include "absl/base/macros.h"
-#include "absl/synchronization/blocking_counter.h"
-#include "absl/synchronization/notification.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/low_level_scheduling.h"
+#include "tink/absl/base/internal/scheduling_mode.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/base/internal/sysinfo.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/synchronization/blocking_counter.h"
+#include "tink/absl/synchronization/notification.h"
 
 constexpr uint32_t kNumThreads = 10;
 constexpr int32_t kIters = 1000;

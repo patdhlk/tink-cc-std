@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/str_replace.h"
+#include "tink/absl/strings/str_replace.h"
 
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

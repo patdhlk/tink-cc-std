@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/cordz_sample_token.h"
+#include "tink/absl/strings/internal/cordz_sample_token.h"
 
 #include <memory>
 #include <type_traits>
@@ -20,16 +20,16 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
-#include "absl/random/random.h"
-#include "absl/strings/cordz_test_helpers.h"
-#include "absl/strings/internal/cord_rep_flat.h"
-#include "absl/strings/internal/cordz_handle.h"
-#include "absl/strings/internal/cordz_info.h"
-#include "absl/synchronization/internal/thread_pool.h"
-#include "absl/synchronization/notification.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/cordz_test_helpers.h"
+#include "tink/absl/strings/internal/cord_rep_flat.h"
+#include "tink/absl/strings/internal/cordz_handle.h"
+#include "tink/absl/strings/internal/cordz_info.h"
+#include "tink/absl/synchronization/internal/thread_pool.h"
+#include "tink/absl/synchronization/notification.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

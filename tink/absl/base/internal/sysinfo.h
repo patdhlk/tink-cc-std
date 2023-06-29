@@ -30,8 +30,8 @@
 
 #include <cstdint>
 
-#include "absl/base/config.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/port.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

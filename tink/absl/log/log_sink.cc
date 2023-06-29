@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/log_sink.h"
+#include "tink/absl/log/log_sink.h"
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

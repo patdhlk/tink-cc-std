@@ -20,7 +20,7 @@
 #include <memory>
 #include <string>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/util/status.h"
 #include "tink/util/statusor.h"
 

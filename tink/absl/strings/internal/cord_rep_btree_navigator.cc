@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/cord_rep_btree_navigator.h"
+#include "tink/absl/strings/internal/cord_rep_btree_navigator.h"
 
 #include <cassert>
 
-#include "absl/strings/internal/cord_data_edge.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_btree.h"
+#include "tink/absl/strings/internal/cord_data_edge.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_btree.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

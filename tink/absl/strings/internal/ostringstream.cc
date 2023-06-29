@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/ostringstream.h"
+#include "tink/absl/strings/internal/ostringstream.h"
 
 #include <cassert>
 #include <cstddef>

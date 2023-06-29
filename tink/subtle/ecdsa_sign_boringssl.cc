@@ -21,7 +21,7 @@
 #include <utility>
 #include <vector>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "openssl/evp.h"
 #include "tink/internal/md_util.h"
 #include "tink/internal/util.h"

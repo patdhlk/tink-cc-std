@@ -18,13 +18,13 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/attributes.h"
-#include "absl/container/flat_hash_set.h"
-#include "absl/hash/hash.h"
-#include "absl/random/random.h"
-#include "absl/strings/cord.h"
-#include "absl/strings/cord_test_helpers.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/container/flat_hash_set.h"
+#include "tink/absl/hash/hash.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/cord.h"
+#include "tink/absl/strings/cord_test_helpers.h"
+#include "tink/absl/strings/string_view.h"
 #include "benchmark/benchmark.h"
 
 namespace {

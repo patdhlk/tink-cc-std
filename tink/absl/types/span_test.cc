@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/types/span.h"
+#include "tink/absl/types/span.h"
 
 #include <array>
 #include <initializer_list>
@@ -24,14 +24,14 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/exception_testing.h"
-#include "absl/base/options.h"
-#include "absl/container/fixed_array.h"
-#include "absl/container/inlined_vector.h"
-#include "absl/hash/hash_testing.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/exception_testing.h"
+#include "tink/absl/base/options.h"
+#include "tink/absl/container/fixed_array.h"
+#include "tink/absl/container/inlined_vector.h"
+#include "tink/absl/hash/hash_testing.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace {
 

@@ -20,14 +20,14 @@
 // with modifications by m3b.  See also
 //    https://setisvn.ssl.berkeley.edu/svn/lib/fftw-3.0.1/kernel/cycle.h
 
-#include "absl/base/internal/cycleclock.h"
+#include "tink/absl/base/internal/cycleclock.h"
 
 #include <atomic>
 #include <chrono>  // NOLINT(build/c++11)
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/unscaledcycleclock.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/unscaledcycleclock.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

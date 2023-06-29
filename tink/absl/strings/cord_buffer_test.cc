@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/cord_buffer.h"
+#include "tink/absl/strings/cord_buffer.h"
 
 
 #include <algorithm>
@@ -23,10 +23,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/strings/internal/cord_rep_flat.h"
-#include "absl/strings/internal/cord_rep_test_util.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/internal/cord_rep_flat.h"
+#include "tink/absl/strings/internal/cord_rep_test_util.h"
+#include "tink/absl/types/span.h"
 
 using testing::Eq;
 using testing::Ge;

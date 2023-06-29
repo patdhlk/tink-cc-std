@@ -12,17 +12,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/distribution_test_util.h"
+#include "tink/absl/random/internal/distribution_test_util.h"
 
 #include <cassert>
 #include <cmath>
 #include <string>
 #include <vector>
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/macros.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_format.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_format.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

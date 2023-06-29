@@ -22,8 +22,8 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "include/rapidjson/document.h"
 #include "tink/internal/fips_utils.h"
 #include "tink/public_key_sign.h"

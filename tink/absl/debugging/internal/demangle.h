@@ -53,7 +53,7 @@
 #ifndef ABSL_DEBUGGING_INTERNAL_DEMANGLE_H_
 #define ABSL_DEBUGGING_INTERNAL_DEMANGLE_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

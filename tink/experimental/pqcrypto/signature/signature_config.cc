@@ -16,7 +16,7 @@
 
 #include "tink/experimental/pqcrypto/signature/signature_config.h"
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/config/config_util.h"
 #include "tink/config/tink_fips.h"
 #include "tink/experimental/pqcrypto/signature/dilithium_sign_key_manager.h"

@@ -19,7 +19,7 @@
 
 #include <cstdint>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/util/statusor.h"
 
 namespace crypto {

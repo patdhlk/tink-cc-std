@@ -23,9 +23,9 @@
 #include <string>
 #include <utility>
 
-#include "absl/status/status.h"
-#include "absl/status/statusor.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/status/statusor.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/aead.h"
 #include "tink/mac.h"
 #include "tink/mac/hmac_key_manager.h"

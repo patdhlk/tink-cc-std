@@ -18,8 +18,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/types/optional.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/types/optional.h"
 #include "tink/insecure_secret_key_access.h"
 #include "tink/restricted_data.h"
 #include "tink/util/statusor.h"

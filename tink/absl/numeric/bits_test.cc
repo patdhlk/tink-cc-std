@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/numeric/bits.h"
+#include "tink/absl/numeric/bits.h"
 
 #include <limits>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/random/random.h"
+#include "tink/absl/random/random.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

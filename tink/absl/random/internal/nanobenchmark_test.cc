@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/nanobenchmark.h"
+#include "tink/absl/random/internal/nanobenchmark.h"
 
-#include "absl/log/check.h"
-#include "absl/log/log.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_format.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/str_format.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/internal/usage.h"
+#include "tink/absl/flags/internal/usage.h"
 
 #include <stdint.h>
 
@@ -22,14 +22,14 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/flags/flag.h"
-#include "absl/flags/internal/parse.h"
-#include "absl/flags/internal/program_name.h"
-#include "absl/flags/reflection.h"
-#include "absl/flags/usage.h"
-#include "absl/flags/usage_config.h"
-#include "absl/strings/match.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/flags/internal/parse.h"
+#include "tink/absl/flags/internal/program_name.h"
+#include "tink/absl/flags/reflection.h"
+#include "tink/absl/flags/usage.h"
+#include "tink/absl/flags/usage_config.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/string_view.h"
 
 ABSL_FLAG(int, usage_reporting_test_flag_01, 101,
           "usage_reporting_test_flag_01 help message");

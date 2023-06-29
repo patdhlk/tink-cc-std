@@ -13,9 +13,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/log.h"
+#include "tink/absl/log/log.h"
 
 #define ABSL_TEST_LOG LOG
 
 #include "gtest/gtest.h"
-#include "absl/log/log_basic_test_impl.inc"
+#include "tink/absl/log/log_basic_test_impl.inc"

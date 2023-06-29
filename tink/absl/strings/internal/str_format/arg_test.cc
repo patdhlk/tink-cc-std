@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/str_format/arg.h"
+#include "tink/absl/strings/internal/str_format/arg.h"
 
 #include <ostream>
 #include <string>
 #include "gtest/gtest.h"
-#include "absl/strings/str_format.h"
+#include "tink/absl/strings/str_format.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -23,8 +23,8 @@
 #include <typeindex>
 #include <utility>
 
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/internal/parser_index.h"
 #include "tink/internal/serialization.h"
 #include "tink/parameters.h"

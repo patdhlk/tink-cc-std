@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/str_format/float_conversion.h"
+#include "tink/absl/strings/internal/str_format/float_conversion.h"
 
 #include <string.h>
 
@@ -22,17 +22,17 @@
 #include <limits>
 #include <string>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/optimization.h"
-#include "absl/functional/function_ref.h"
-#include "absl/meta/type_traits.h"
-#include "absl/numeric/bits.h"
-#include "absl/numeric/int128.h"
-#include "absl/numeric/internal/representation.h"
-#include "absl/strings/numbers.h"
-#include "absl/types/optional.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/functional/function_ref.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/numeric/bits.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/numeric/internal/representation.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/types/optional.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

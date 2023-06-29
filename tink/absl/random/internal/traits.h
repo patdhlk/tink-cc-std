@@ -19,9 +19,9 @@
 #include <limits>
 #include <type_traits>
 
-#include "absl/base/config.h"
-#include "absl/numeric/bits.h"
-#include "absl/numeric/int128.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/numeric/bits.h"
+#include "tink/absl/numeric/int128.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -18,7 +18,7 @@
 #ifndef ABSL_DEBUGGING_INTERNAL_STACK_CONSUMPTION_H_
 #define ABSL_DEBUGGING_INTERNAL_STACK_CONSUMPTION_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // The code in this module is not portable.
 // Use this feature test macro to detect its availability.

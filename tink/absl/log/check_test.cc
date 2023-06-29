@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/check.h"
+#include "tink/absl/log/check.h"
 
 #define ABSL_TEST_CHECK CHECK
 #define ABSL_TEST_CHECK_OK CHECK_OK
@@ -55,4 +55,4 @@
 #define ABSL_TEST_QCHECK_STRCASENE QCHECK_STRCASENE
 
 #include "gtest/gtest.h"
-#include "absl/log/check_test_impl.inc"
+#include "tink/absl/log/check_test_impl.inc"

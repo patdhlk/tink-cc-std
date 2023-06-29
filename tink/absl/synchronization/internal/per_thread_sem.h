@@ -27,9 +27,9 @@
 
 #include <atomic>
 
-#include "absl/base/internal/thread_identity.h"
-#include "absl/synchronization/internal/create_thread_identity.h"
-#include "absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/base/internal/thread_identity.h"
+#include "tink/absl/synchronization/internal/create_thread_identity.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

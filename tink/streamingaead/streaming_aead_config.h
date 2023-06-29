@@ -17,7 +17,7 @@
 #ifndef TINK_STREAMINGAEAD_STREAMING_AEAD_CONFIG_H_
 #define TINK_STREAMINGAEAD_STREAMING_AEAD_CONFIG_H_
 
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 #include "tink/util/status.h"
 #include "proto/config.pb.h"
 

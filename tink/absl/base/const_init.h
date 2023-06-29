@@ -22,7 +22,7 @@
 #ifndef ABSL_BASE_CONST_INIT_H_
 #define ABSL_BASE_CONST_INIT_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // In general, objects with static storage duration (such as global variables)
 // can trigger tricky object lifetime situations.  Attempting to access them

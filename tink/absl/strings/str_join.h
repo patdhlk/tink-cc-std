@@ -55,9 +55,9 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/macros.h"
-#include "absl/strings/internal/str_join_internal.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/strings/internal/str_join_internal.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/internal/flag.h"
+#include "tink/absl/flags/internal/flag.h"
 
 #include <assert.h>
 #include <stddef.h>
@@ -27,18 +27,18 @@
 #include <string>
 #include <typeinfo>
 
-#include "absl/base/call_once.h"
-#include "absl/base/casts.h"
-#include "absl/base/config.h"
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/optimization.h"
-#include "absl/flags/config.h"
-#include "absl/flags/internal/commandlineflag.h"
-#include "absl/flags/usage_config.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/flags/config.h"
+#include "tink/absl/flags/internal/commandlineflag.h"
+#include "tink/absl/flags/usage_config.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/synchronization/mutex.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

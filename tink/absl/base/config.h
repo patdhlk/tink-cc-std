@@ -33,7 +33,7 @@
 // selectively include the `mmap.h` header and bracket code using that feature
 // in the macro:
 //
-//   #include "absl/base/config.h"
+//   #include "tink/absl/base/config.h"
 //
 //   #ifdef ABSL_HAVE_MMAP
 //   #include "sys/mman.h"
@@ -82,8 +82,8 @@
 #include <TargetConditionals.h>
 #endif
 
-#include "absl/base/options.h"
-#include "absl/base/policy_checks.h"
+#include "tink/absl/base/options.h"
+#include "tink/absl/base/policy_checks.h"
 
 // Abseil long-term support (LTS) releases will define
 // `ABSL_LTS_RELEASE_VERSION` to the integer representing the date string of the
@@ -794,7 +794,7 @@ static_assert(ABSL_INTERNAL_INLINE_NAMESPACE_STR[0] != 'h' ||
 // The macro ABSL_HAVE_LEAK_SANITIZER can be used to detect at compile-time
 // whether the LeakSanitizer is potentially available. However, just because the
 // LeakSanitizer is available does not mean it is active. Use the
-// always-available run-time interface in //absl/debugging/leak_check.h for
+// always-available run-time interface in //tink/absl/debugging/leak_check.h for
 // interacting with LeakSanitizer.
 #ifdef ABSL_HAVE_LEAK_SANITIZER
 #error "ABSL_HAVE_LEAK_SANITIZER cannot be directly set."

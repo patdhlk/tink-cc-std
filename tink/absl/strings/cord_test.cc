@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/cord.h"
+#include "tink/absl/strings/cord.h"
 
 #include <algorithm>
 #include <climits>
@@ -28,20 +28,20 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/endian.h"
-#include "absl/base/macros.h"
-#include "absl/container/fixed_array.h"
-#include "absl/hash/hash.h"
-#include "absl/log/check.h"
-#include "absl/log/log.h"
-#include "absl/random/random.h"
-#include "absl/strings/cord_test_helpers.h"
-#include "absl/strings/cordz_test_helpers.h"
-#include "absl/strings/match.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/container/fixed_array.h"
+#include "tink/absl/hash/hash.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/cord_test_helpers.h"
+#include "tink/absl/strings/cordz_test_helpers.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/string_view.h"
 
 // convenience local constants
 static constexpr auto FLAT = absl::cord_internal::FLAT;

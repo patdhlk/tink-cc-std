@@ -21,8 +21,8 @@
 #ifndef ABSL_LOG_LOG_SINK_H_
 #define ABSL_LOG_LOG_SINK_H_
 
-#include "absl/base/config.h"
-#include "absl/log/log_entry.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/log/log_entry.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

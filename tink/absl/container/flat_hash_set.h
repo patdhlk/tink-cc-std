@@ -32,12 +32,12 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/algorithm/container.h"
-#include "absl/base/macros.h"
-#include "absl/container/internal/container_memory.h"
-#include "absl/container/internal/hash_function_defaults.h"  // IWYU pragma: export
-#include "absl/container/internal/raw_hash_set.h"  // IWYU pragma: export
-#include "absl/memory/memory.h"
+#include "tink/absl/algorithm/container.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/container/internal/container_memory.h"
+#include "tink/absl/container/internal/hash_function_defaults.h"  // IWYU pragma: export
+#include "tink/absl/container/internal/raw_hash_set.h"  // IWYU pragma: export
+#include "tink/absl/memory/memory.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

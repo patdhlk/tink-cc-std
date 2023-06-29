@@ -21,9 +21,9 @@
 #include <string>
 #include <utility>
 
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/span.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/span.h"
 #include "openssl/bn.h"
 #include "tink/internal/ssl_unique_ptr.h"
 #include "tink/subtle/subtle_util.h"

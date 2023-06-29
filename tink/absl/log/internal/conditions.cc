@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/internal/conditions.h"
+#include "tink/absl/log/internal/conditions.h"
 
 #include <atomic>
 #include <cstdint>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/cycleclock.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/cycleclock.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

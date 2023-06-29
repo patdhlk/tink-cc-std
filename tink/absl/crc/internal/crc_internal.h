@@ -19,8 +19,8 @@
 #include <memory>
 #include <vector>
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/crc/internal/crc.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/crc/internal/crc.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

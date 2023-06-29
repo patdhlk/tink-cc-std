@@ -20,9 +20,9 @@
 #include <string>
 #include <utility>
 
-#include "absl/algorithm/container.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/algorithm/container.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "openssl/base.h"
 #include "openssl/err.h"
 #include "openssl/hpke.h"

@@ -21,8 +21,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_split.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_split.h"
 #include "tink/internal/ec_util.h"
 #include "tink/jwt/internal/json_util.h"
 #include "tink/jwt/internal/jwt_format.h"

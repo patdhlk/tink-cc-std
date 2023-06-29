@@ -43,11 +43,11 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/macros.h"
-#include "absl/strings/internal/str_split_internal.h"
-#include "absl/strings/string_view.h"
-#include "absl/strings/strip.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/strings/internal/str_split_internal.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/strings/strip.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

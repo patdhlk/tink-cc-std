@@ -15,7 +15,7 @@
 #
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -44,15 +44,15 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/numeric:int128",
-        "//absl/strings",
-        "//absl/time/internal/cctz:civil_time",
-        "//absl/time/internal/cctz:time_zone",
-        "//absl/types:optional",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/numeric:int128",
+        "//tink/absl/strings",
+        "//tink/absl/time/internal/cctz:civil_time",
+        "//tink/absl/time/internal/cctz:time_zone",
+        "//tink/absl/types:optional",
     ],
 )
 
@@ -66,8 +66,8 @@ cc_library(
     visibility = ["//visibility:private"],
     deps = [
         ":time",
-        "//absl/base:config",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -82,17 +82,17 @@ cc_test(
         "time_zone_test.cc",
     ],
     copts = ABSL_TEST_COPTS,
-    data = ["//absl/time/internal/cctz:zoneinfo"],
+    data = ["//tink/absl/time/internal/cctz:zoneinfo"],
     env = {"TZDIR": "absl/time/internal/cctz/testdata/zoneinfo"},
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":test_util",
         ":time",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/numeric:int128",
-        "//absl/strings:str_format",
-        "//absl/time/internal/cctz:time_zone",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/numeric:int128",
+        "//tink/absl/strings:str_format",
+        "//tink/absl/time/internal/cctz:time_zone",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -115,8 +115,8 @@ cc_test(
     ],
     deps = [
         ":time",
-        "//absl/flags:flag",
-        "//absl/flags:reflection",
+        "//tink/absl/flags:flag",
+        "//tink/absl/flags:reflection",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -131,7 +131,7 @@ cc_test(
         "time_benchmark.cc",
     ],
     copts = ABSL_TEST_COPTS,
-    data = ["//absl/time/internal/cctz:zoneinfo"],
+    data = ["//tink/absl/time/internal/cctz:zoneinfo"],
     env = {"TZDIR": "absl/time/internal/cctz/testdata/zoneinfo"},
     linkopts = ABSL_DEFAULT_LINKOPTS,
     tags = [
@@ -140,10 +140,10 @@ cc_test(
     deps = [
         ":test_util",
         ":time",
-        "//absl/base",
-        "//absl/base:core_headers",
-        "//absl/flags:flag",
-        "//absl/hash",
+        "//tink/absl/base",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/flags:flag",
+        "//tink/absl/hash",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )

@@ -21,8 +21,8 @@
 #include <vector>
 
 #include "benchmark/benchmark.h"
-#include "absl/time/internal/cctz/include/cctz/civil_time.h"
-#include "absl/time/internal/cctz/include/cctz/time_zone.h"
+#include "tink/absl/time/internal/cctz/include/cctz/civil_time.h"
+#include "tink/absl/time/internal/cctz/include/cctz/time_zone.h"
 #include "time_zone_impl.h"
 
 namespace {

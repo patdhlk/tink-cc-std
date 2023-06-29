@@ -22,12 +22,12 @@
 #include <utility>
 #include <vector>
 
-#include "absl/container/flat_hash_map.h"
-#include "absl/log/check.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 #include "tink/aead.h"
 #include "tink/insecure_secret_key_access.h"
 #include "tink/internal/key_gen_configuration_impl.h"

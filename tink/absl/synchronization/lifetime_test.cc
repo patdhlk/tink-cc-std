@@ -16,12 +16,12 @@
 #include <thread>  // NOLINT(build/c++11), Abseil test
 #include <type_traits>
 
-#include "absl/base/attributes.h"
-#include "absl/base/const_init.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/log/check.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/synchronization/notification.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/const_init.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/synchronization/notification.h"
 
 namespace {
 

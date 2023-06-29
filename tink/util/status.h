@@ -20,7 +20,7 @@
 #ifndef TINK_UTIL_STATUS_H_
 #define TINK_UTIL_STATUS_H_
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 
 #define TINK_USE_ABSL_STATUS
 

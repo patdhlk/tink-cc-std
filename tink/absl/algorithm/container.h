@@ -50,9 +50,9 @@
 #include <utility>
 #include <vector>
 
-#include "absl/algorithm/algorithm.h"
-#include "absl/base/macros.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/algorithm/algorithm.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

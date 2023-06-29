@@ -14,12 +14,12 @@
 
 // Unit test for memutil.cc
 
-#include "absl/strings/internal/memutil.h"
+#include "tink/absl/strings/internal/memutil.h"
 
 #include <cstdlib>
 
 #include "gtest/gtest.h"
-#include "absl/strings/ascii.h"
+#include "tink/absl/strings/ascii.h"
 
 namespace {
 

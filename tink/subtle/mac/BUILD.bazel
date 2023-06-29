@@ -9,6 +9,6 @@ cc_library(
     deps = [
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
     ],
 )

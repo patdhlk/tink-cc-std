@@ -21,7 +21,7 @@
 #include <sstream>
 #include <string>
 
-#include "absl/strings/escaping.h"
+#include "tink/absl/strings/escaping.h"
 #include "tink/binary_keyset_writer.h"
 #include "tink/jwt/internal/json_util.h"
 #include "tink/jwt/internal/jwt_format.h"

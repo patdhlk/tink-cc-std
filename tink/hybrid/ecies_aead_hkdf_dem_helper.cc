@@ -22,10 +22,10 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/status/statusor.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/status/statusor.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead.h"
 #include "tink/aead/aes_ctr_hmac_aead_key_manager.h"
 #include "tink/deterministic_aead.h"

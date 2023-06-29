@@ -7,7 +7,7 @@ cc_library(
     srcs = ["util.cc"],
     hdrs = ["util.h"],
     deps = [
-        "@com_google_absl//absl/memory",
+        "//tink/absl/memory",
         "@tink_cc//tink:cleartext_keyset_handle",
         "@tink_cc//tink:json_keyset_reader",
         "@tink_cc//tink:json_keyset_writer",

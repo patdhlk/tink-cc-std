@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/internal/raw_hash_set.h"
+#include "tink/absl/container/internal/raw_hash_set.h"
 
 #include <atomic>
 #include <cstddef>
 #include <cstring>
 
-#include "absl/base/config.h"
-#include "absl/base/dynamic_annotations.h"
-#include "absl/hash/hash.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/hash/hash.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

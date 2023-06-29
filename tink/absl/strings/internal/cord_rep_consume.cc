@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/cord_rep_consume.h"
+#include "tink/absl/strings/internal/cord_rep_consume.h"
 
 #include <array>
 #include <utility>
 
-#include "absl/container/inlined_vector.h"
-#include "absl/functional/function_ref.h"
-#include "absl/strings/internal/cord_internal.h"
+#include "tink/absl/container/inlined_vector.h"
+#include "tink/absl/functional/function_ref.h"
+#include "tink/absl/strings/internal/cord_internal.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

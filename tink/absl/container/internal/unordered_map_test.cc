@@ -15,10 +15,10 @@
 #include <memory>
 #include <unordered_map>
 
-#include "absl/container/internal/unordered_map_constructor_test.h"
-#include "absl/container/internal/unordered_map_lookup_test.h"
-#include "absl/container/internal/unordered_map_members_test.h"
-#include "absl/container/internal/unordered_map_modifiers_test.h"
+#include "tink/absl/container/internal/unordered_map_constructor_test.h"
+#include "tink/absl/container/internal/unordered_map_lookup_test.h"
+#include "tink/absl/container/internal/unordered_map_members_test.h"
+#include "tink/absl/container/internal/unordered_map_modifiers_test.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

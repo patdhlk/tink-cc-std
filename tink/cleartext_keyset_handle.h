@@ -22,7 +22,7 @@
 #include <sstream>
 #include <string>
 
-#include "absl/container/flat_hash_map.h"
+#include "tink/absl/container/flat_hash_map.h"
 #include "tink/keyset_handle.h"
 #include "tink/keyset_reader.h"
 #include "tink/util/statusor.h"

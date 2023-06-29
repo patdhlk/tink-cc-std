@@ -12,17 +12,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/randen_slow.h"
+#include "tink/absl/random/internal/randen_slow.h"
 
 #include <cstddef>
 #include <cstdint>
 #include <cstring>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/endian.h"
-#include "absl/numeric/int128.h"
-#include "absl/random/internal/platform.h"
-#include "absl/random/internal/randen_traits.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/random/internal/platform.h"
+#include "tink/absl/random/internal/randen_traits.h"
 
 #if ABSL_HAVE_ATTRIBUTE(always_inline) || \
     (defined(__GNUC__) && !defined(__clang__))

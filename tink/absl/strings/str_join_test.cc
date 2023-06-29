@@ -14,7 +14,7 @@
 
 // Unit tests for all join.h functions
 
-#include "absl/strings/str_join.h"
+#include "tink/absl/strings/str_join.h"
 
 #include <cstddef>
 #include <cstdint>
@@ -30,11 +30,11 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/macros.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_split.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_split.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace {
 

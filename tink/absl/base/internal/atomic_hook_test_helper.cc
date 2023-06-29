@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/atomic_hook_test_helper.h"
+#include "tink/absl/base/internal/atomic_hook_test_helper.h"
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/atomic_hook.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/atomic_hook.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -21,7 +21,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/cleartext_keyset_handle.h"
 #include "tink/configuration.h"
 #include "tink/internal/keyset_wrapper_store.h"

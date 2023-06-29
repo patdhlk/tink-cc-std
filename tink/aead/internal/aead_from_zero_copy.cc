@@ -17,7 +17,7 @@
 
 #include <string>
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/aead/internal/zero_copy_aead.h"
 #include "tink/subtle/subtle_util.h"
 #include "tink/util/statusor.h"

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/hash/internal/hash.h"
+#include "tink/absl/hash/internal/hash.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

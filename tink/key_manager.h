@@ -20,8 +20,8 @@
 #include <memory>
 #include <string>
 
-#include "absl/memory/memory.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/util/errors.h"
 #include "tink/util/protobuf_helper.h"
 #include "tink/util/status.h"

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/iostream_state_saver.h"
+#include "tink/absl/random/internal/iostream_state_saver.h"
 
 #include <errno.h>
 #include <stdio.h>

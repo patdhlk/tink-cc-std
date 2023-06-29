@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/damerau_levenshtein_distance.h"
+#include "tink/absl/strings/internal/damerau_levenshtein_distance.h"
 
 #include <algorithm>
 #include <array>
 #include <numeric>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 namespace absl {
 ABSL_NAMESPACE_BEGIN
 namespace strings_internal {

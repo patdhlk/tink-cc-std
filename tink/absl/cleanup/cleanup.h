@@ -70,9 +70,9 @@
 
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/base/macros.h"
-#include "absl/cleanup/internal/cleanup.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/cleanup/internal/cleanup.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

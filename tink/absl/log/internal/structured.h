@@ -21,9 +21,9 @@
 
 #include <ostream>
 
-#include "absl/base/config.h"
-#include "absl/log/internal/log_message.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/log/internal/log_message.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

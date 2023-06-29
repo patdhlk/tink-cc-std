@@ -18,9 +18,9 @@
 #ifndef ABSL_BASE_INTERNAL_LOW_LEVEL_SCHEDULING_H_
 #define ABSL_BASE_INTERNAL_LOW_LEVEL_SCHEDULING_H_
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/scheduling_mode.h"
-#include "absl/base/macros.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/scheduling_mode.h"
+#include "tink/absl/base/macros.h"
 
 // The following two declarations exist so SchedulingGuard may friend them with
 // the appropriate language linkage.  These callbacks allow libc internals, such

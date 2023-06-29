@@ -19,8 +19,8 @@
 #include <memory>
 #include <string>
 
-#include "absl/memory/memory.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/core/private_key_type_manager.h"
 #include "tink/public_key_sign.h"
 #include "tink/public_key_verify.h"

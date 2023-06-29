@@ -22,7 +22,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/aead/aes_gcm_key_manager.h"
 #include "tink/daead/aes_siv_key_manager.h"
 #include "tink/util/secret_data.h"

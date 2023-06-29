@@ -19,7 +19,7 @@
 
 #include <memory>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/hybrid_decrypt.h"
 #include "tink/primitive_set.h"
 #include "tink/primitive_wrapper.h"

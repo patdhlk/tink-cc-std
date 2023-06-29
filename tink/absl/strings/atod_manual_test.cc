@@ -41,11 +41,11 @@
 #include <cstdio>
 #include <string>
 
-#include "absl/base/casts.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 
 static constexpr uint8_t kUnhex[256] = {
     0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0,  //

@@ -14,7 +14,7 @@
 # limitations under the License.
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -31,11 +31,11 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":bad_any_cast",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:fast_type_id",
-        "//absl/meta:type_traits",
-        "//absl/utility",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:fast_type_id",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/utility",
     ],
 )
 
@@ -46,7 +46,7 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":bad_any_cast_impl",
-        "//absl/base:config",
+        "//tink/absl/base:config",
     ],
 )
 
@@ -60,8 +60,8 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = ["//visibility:private"],
     deps = [
-        "//absl/base:config",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -75,10 +75,10 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":any",
-        "//absl/base:config",
-        "//absl/base:exception_testing",
-        "//absl/container:test_instance_tracker",
-        "//absl/log",
+        "//tink/absl/base:config",
+        "//tink/absl/base:exception_testing",
+        "//tink/absl/container:test_instance_tracker",
+        "//tink/absl/log",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -90,8 +90,8 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":any",
-        "//absl/base:config",
-        "//absl/base:exception_safety_testing",
+        "//tink/absl/base:config",
+        "//tink/absl/base:exception_safety_testing",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -107,10 +107,10 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/algorithm",
-        "//absl/base:core_headers",
-        "//absl/base:throw_delegate",
-        "//absl/meta:type_traits",
+        "//tink/absl/algorithm",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:throw_delegate",
+        "//tink/absl/meta:type_traits",
     ],
 )
 
@@ -122,13 +122,13 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":span",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:exception_testing",
-        "//absl/container:fixed_array",
-        "//absl/container:inlined_vector",
-        "//absl/hash:hash_testing",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:exception_testing",
+        "//tink/absl/container:fixed_array",
+        "//tink/absl/container:inlined_vector",
+        "//tink/absl/hash:hash_testing",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -141,12 +141,12 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":bad_optional_access",
-        "//absl/base:base_internal",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/memory",
-        "//absl/meta:type_traits",
-        "//absl/utility",
+        "//tink/absl/base:base_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/memory",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/utility",
     ],
 )
 
@@ -157,8 +157,8 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -169,8 +169,8 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -184,10 +184,10 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":optional",
-        "//absl/base:config",
-        "//absl/log",
-        "//absl/meta:type_traits",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/log",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -201,8 +201,8 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":optional",
-        "//absl/base:config",
-        "//absl/base:exception_safety_testing",
+        "//tink/absl/base:config",
+        "//tink/absl/base:exception_safety_testing",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -222,10 +222,10 @@ cc_library(
     copts = ABSL_TEST_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/algorithm:container",
-        "//absl/meta:type_traits",
-        "//absl/strings",
-        "//absl/utility",
+        "//tink/absl/algorithm:container",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/strings",
+        "//tink/absl/utility",
         "@com_google_googletest//:gtest",
     ],
 )
@@ -240,7 +240,7 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":conformance_testing",
-        "//absl/meta:type_traits",
+        "//tink/absl/meta:type_traits",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -253,11 +253,11 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":bad_variant_access",
-        "//absl/base:base_internal",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/meta:type_traits",
-        "//absl/utility",
+        "//tink/absl/base:base_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/utility",
     ],
 )
 
@@ -269,11 +269,11 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":variant",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/memory",
-        "//absl/meta:type_traits",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/memory",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -288,7 +288,7 @@ cc_test(
     tags = ["benchmark"],
     deps = [
         ":variant",
-        "//absl/utility",
+        "//tink/absl/utility",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -303,9 +303,9 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":variant",
-        "//absl/base:config",
-        "//absl/base:exception_safety_testing",
-        "//absl/memory",
+        "//tink/absl/base:config",
+        "//tink/absl/base:exception_safety_testing",
+        "//tink/absl/memory",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -316,8 +316,8 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:core_headers",
-        "//absl/meta:type_traits",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/meta:type_traits",
     ],
 )
 
@@ -330,7 +330,7 @@ cc_test(
     copts = ABSL_TEST_COPTS,
     deps = [
         ":compare",
-        "//absl/base",
+        "//tink/absl/base",
         "@com_google_googletest//:gtest_main",
     ],
 )

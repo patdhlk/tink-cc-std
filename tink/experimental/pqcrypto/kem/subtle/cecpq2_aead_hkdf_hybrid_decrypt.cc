@@ -20,8 +20,8 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "openssl/hrss.h"
 #include "openssl/nid.h"
 #include "tink/experimental/pqcrypto/kem/cecpq2_aead_hkdf_dem_helper.h"

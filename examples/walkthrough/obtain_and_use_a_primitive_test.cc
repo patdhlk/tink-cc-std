@@ -22,7 +22,7 @@
 #include <utility>
 
 #include "gmock/gmock.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead/aead_config.h"
 #include "walkthrough/load_cleartext_keyset.h"
 #include "tink/util/statusor.h"

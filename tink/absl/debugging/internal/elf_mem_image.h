@@ -23,7 +23,7 @@
 // used.
 #include <climits>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // Maybe one day we can rewrite this file not to require the elf
 // symbol extensions in glibc, but for right now we need them.

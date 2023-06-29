@@ -10,7 +10,7 @@ cc_library(
     deps = [
         "//tink:key_gen_configuration",
         "//tink/internal:key_gen_configuration_impl",
-        "@com_google_absl//absl/log:check",
+        "//tink/absl/log:check",
     ],
 )
 
@@ -23,7 +23,7 @@ cc_test(
         "//proto:aes_gcm_cc_proto",
         "//proto:tink_cc_proto",
         "//tink/util:test_matchers",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
         "@com_google_googletest//:gtest_main",
     ],
 )

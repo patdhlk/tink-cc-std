@@ -16,8 +16,8 @@
 
 #include "tink/hybrid/internal/hpke_util_boringssl.h"
 
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "openssl/base.h"
 #include "openssl/hpke.h"
 #include "tink/hybrid/internal/hpke_util.h"

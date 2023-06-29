@@ -16,7 +16,7 @@
 
 #include "tink/mac/mac_config.h"
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/config/config_util.h"
 #include "tink/config/tink_fips.h"
 #include "tink/mac/aes_cmac_key_manager.h"

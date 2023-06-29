@@ -19,8 +19,8 @@
 #include <vector>
 
 #include "benchmark/benchmark.h"
-#include "absl/base/config.h"
-#include "absl/numeric/int128.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/numeric/int128.h"
 
 namespace {
 

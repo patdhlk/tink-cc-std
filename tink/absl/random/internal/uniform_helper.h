@@ -19,9 +19,9 @@
 #include <limits>
 #include <type_traits>
 
-#include "absl/base/config.h"
-#include "absl/meta/type_traits.h"
-#include "absl/random/internal/traits.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/random/internal/traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

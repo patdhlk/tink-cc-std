@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/pcg_engine.h"
+#include "tink/absl/random/internal/pcg_engine.h"
 
 #include <algorithm>
 #include <bitset>
@@ -21,8 +21,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/random/internal/explicit_seed_seq.h"
-#include "absl/time/clock.h"
+#include "tink/absl/random/internal/explicit_seed_seq.h"
+#include "tink/absl/time/clock.h"
 
 #define UPDATE_GOLDEN 0
 

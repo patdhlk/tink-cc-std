@@ -24,7 +24,7 @@
 
 #include <string>
 
-#include "absl/flags/declare.h"
+#include "tink/absl/flags/declare.h"
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 // These flags should not be used in C++ code to access logging library

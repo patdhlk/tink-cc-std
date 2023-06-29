@@ -16,12 +16,12 @@
 #include <mutex>  // NOLINT(build/c++11)
 #include <vector>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/cycleclock.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/synchronization/blocking_counter.h"
-#include "absl/synchronization/internal/thread_pool.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/cycleclock.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/synchronization/blocking_counter.h"
+#include "tink/absl/synchronization/internal/thread_pool.h"
+#include "tink/absl/synchronization/mutex.h"
 #include "benchmark/benchmark.h"
 
 namespace {

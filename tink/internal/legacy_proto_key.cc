@@ -18,8 +18,8 @@
 
 #include <string>
 
-#include "absl/status/status.h"
-#include "absl/types/optional.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/types/optional.h"
 #include "tink/internal/proto_key_serialization.h"
 #include "tink/key.h"
 #include "tink/parameters.h"

@@ -23,8 +23,8 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/strings/escaping.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/escaping.h"
 #include "tink/config/tink_fips.h"
 #include "tink/internal/ec_util.h"
 #include "tink/subtle/common_enums.h"

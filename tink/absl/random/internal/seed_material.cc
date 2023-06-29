@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/seed_material.h"
+#include "tink/absl/random/internal/seed_material.h"
 
 #include <fcntl.h>
 
@@ -28,12 +28,12 @@
 #include <cstdlib>
 #include <cstring>
 
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/string_view.h"
-#include "absl/strings/strip.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/strings/strip.h"
 
 #if defined(__native_client__)
 

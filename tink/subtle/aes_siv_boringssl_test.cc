@@ -22,7 +22,7 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/config/tink_fips.h"
 #include "tink/subtle/wycheproof_util.h"
 #include "tink/util/secret_data.h"

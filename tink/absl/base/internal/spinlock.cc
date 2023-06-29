@@ -12,19 +12,19 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/spinlock.h"
+#include "tink/absl/base/internal/spinlock.h"
 
 #include <algorithm>
 #include <atomic>
 #include <limits>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/atomic_hook.h"
-#include "absl/base/internal/cycleclock.h"
-#include "absl/base/internal/spinlock_wait.h"
-#include "absl/base/internal/sysinfo.h" /* For NumCPUs() */
-#include "absl/base/call_once.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/atomic_hook.h"
+#include "tink/absl/base/internal/cycleclock.h"
+#include "tink/absl/base/internal/spinlock_wait.h"
+#include "tink/absl/base/internal/sysinfo.h" /* For NumCPUs() */
+#include "tink/absl/base/call_once.h"
 
 // Description of lock-word:
 //  31..00: [............................3][2][1][0]

@@ -21,10 +21,10 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/internal/invoke.h"
-#include "absl/container/internal/compressed_tuple.h"
-#include "absl/meta/type_traits.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/internal/invoke.h"
+#include "tink/absl/container/internal/compressed_tuple.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

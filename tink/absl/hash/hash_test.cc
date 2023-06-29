@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/hash/hash.h"
+#include "tink/absl/hash/hash.h"
 
 #include <algorithm>
 #include <array>
@@ -41,18 +41,18 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/btree_map.h"
-#include "absl/container/btree_set.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/container/flat_hash_set.h"
-#include "absl/container/node_hash_map.h"
-#include "absl/container/node_hash_set.h"
-#include "absl/hash/hash_testing.h"
-#include "absl/hash/internal/hash_test.h"
-#include "absl/hash/internal/spy_hash_state.h"
-#include "absl/meta/type_traits.h"
-#include "absl/numeric/int128.h"
-#include "absl/strings/cord_test_helpers.h"
+#include "tink/absl/container/btree_map.h"
+#include "tink/absl/container/btree_set.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/container/flat_hash_set.h"
+#include "tink/absl/container/node_hash_map.h"
+#include "tink/absl/container/node_hash_set.h"
+#include "tink/absl/hash/hash_testing.h"
+#include "tink/absl/hash/internal/hash_test.h"
+#include "tink/absl/hash/internal/spy_hash_state.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/strings/cord_test_helpers.h"
 
 #ifdef ABSL_HAVE_STD_STRING_VIEW
 #include <string_view>

@@ -18,8 +18,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/strings/escaping.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/escaping.h"
 #include "openssl/bn.h"
 #include "openssl/rsa.h"
 #include "tink/internal/fips_utils.h"

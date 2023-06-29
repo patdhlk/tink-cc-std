@@ -15,9 +15,9 @@
 #include <cstddef>
 
 #include "gtest/gtest.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/substitute.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/substitute.h"
 
 namespace {
 

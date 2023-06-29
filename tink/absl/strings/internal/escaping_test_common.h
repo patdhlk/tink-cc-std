@@ -19,7 +19,7 @@
 #define ABSL_STRINGS_INTERNAL_ESCAPING_TEST_COMMON_H_
 
 #include <array>
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

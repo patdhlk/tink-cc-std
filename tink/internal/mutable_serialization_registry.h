@@ -19,9 +19,9 @@
 
 #include <memory>
 
-#include "absl/base/thread_annotations.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/types/optional.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/types/optional.h"
 #include "tink/internal/key_parser.h"
 #include "tink/internal/key_serializer.h"
 #include "tink/internal/parameters_parser.h"

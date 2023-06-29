@@ -18,7 +18,7 @@
 #ifndef ABSL_BASE_INTERNAL_DIRECT_MMAP_H_
 #define ABSL_BASE_INTERNAL_DIRECT_MMAP_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #ifdef ABSL_HAVE_MMAP
 

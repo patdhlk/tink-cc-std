@@ -22,12 +22,12 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/log/check.h"
-#include "absl/status/status.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_split.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_split.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/subtle/random.h"
 #include "tink/util/status.h"
 #include "tink/util/test_util.h"

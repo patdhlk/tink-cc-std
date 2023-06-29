@@ -13,16 +13,16 @@
 // limitations under the License.
 
 // This file is a no-op if the required LowLevelAlloc support is missing.
-#include "absl/base/internal/low_level_alloc.h"
+#include "tink/absl/base/internal/low_level_alloc.h"
 #ifndef ABSL_LOW_LEVEL_ALLOC_MISSING
 
-#include "absl/synchronization/internal/per_thread_sem.h"
+#include "tink/absl/synchronization/internal/per_thread_sem.h"
 
 #include <atomic>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/thread_identity.h"
-#include "absl/synchronization/internal/waiter.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/thread_identity.h"
+#include "tink/absl/synchronization/internal/waiter.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

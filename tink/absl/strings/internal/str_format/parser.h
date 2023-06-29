@@ -28,9 +28,9 @@
 #include <string>
 #include <vector>
 
-#include "absl/strings/internal/str_format/checker.h"
-#include "absl/strings/internal/str_format/constexpr_parser.h"
-#include "absl/strings/internal/str_format/extension.h"
+#include "tink/absl/strings/internal/str_format/checker.h"
+#include "tink/absl/strings/internal/str_format/constexpr_parser.h"
+#include "tink/absl/strings/internal/str_format/extension.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

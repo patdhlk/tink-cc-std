@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/escaping.h"
+#include "tink/absl/strings/escaping.h"
 
 #include <array>
 #include <cstdio>
@@ -22,10 +22,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/fixed_array.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/container/fixed_array.h"
+#include "tink/absl/strings/str_cat.h"
 
-#include "absl/strings/internal/escaping_test_common.h"
+#include "tink/absl/strings/internal/escaping_test_common.h"
 
 namespace {
 

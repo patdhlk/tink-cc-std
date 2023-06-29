@@ -20,9 +20,9 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_format.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_format.h"
 #include "tink/experimental/pqcrypto/signature/subtle/falcon_subtle_utils.h"
 #include "tink/util/secret_data.h"
 #include "tink/util/statusor.h"

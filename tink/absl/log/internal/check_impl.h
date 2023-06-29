@@ -15,11 +15,11 @@
 #ifndef ABSL_LOG_INTERNAL_CHECK_IMPL_H_
 #define ABSL_LOG_INTERNAL_CHECK_IMPL_H_
 
-#include "absl/base/optimization.h"
-#include "absl/log/internal/check_op.h"
-#include "absl/log/internal/conditions.h"
-#include "absl/log/internal/log_message.h"
-#include "absl/log/internal/strip.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/log/internal/check_op.h"
+#include "tink/absl/log/internal/conditions.h"
+#include "tink/absl/log/internal/log_message.h"
+#include "tink/absl/log/internal/strip.h"
 
 // CHECK
 #define ABSL_LOG_INTERNAL_CHECK_IMPL(condition, condition_text)       \

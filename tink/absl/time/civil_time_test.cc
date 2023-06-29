@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/time/civil_time.h"
+#include "tink/absl/time/civil_time.h"
 
 #include <limits>
 #include <sstream>
 #include <type_traits>
 
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 #include "gtest/gtest.h"
 
 namespace {

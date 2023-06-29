@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/barrier.h"
+#include "tink/absl/synchronization/barrier.h"
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/synchronization/mutex.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

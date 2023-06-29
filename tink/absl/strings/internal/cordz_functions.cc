@@ -12,17 +12,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/cordz_functions.h"
+#include "tink/absl/strings/internal/cordz_functions.h"
 
 #include <atomic>
 #include <cmath>
 #include <limits>
 #include <random>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/profiling/internal/exponential_biased.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/profiling/internal/exponential_biased.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

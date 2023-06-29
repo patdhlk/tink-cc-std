@@ -19,10 +19,10 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/internal/invoke.h"
-#include "absl/base/macros.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/internal/invoke.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

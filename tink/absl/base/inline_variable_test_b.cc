@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/inline_variable_testing.h"
+#include "tink/absl/base/internal/inline_variable_testing.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

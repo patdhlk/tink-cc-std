@@ -18,7 +18,7 @@
 
 #include <string>
 
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace crypto {
 namespace tink {

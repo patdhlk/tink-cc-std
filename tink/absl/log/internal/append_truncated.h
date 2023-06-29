@@ -18,9 +18,9 @@
 #include <cstddef>
 #include <cstring>
 
-#include "absl/base/config.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

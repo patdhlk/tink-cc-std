@@ -21,7 +21,7 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/internal/fips_utils.h"
 #include "tink/subtle/random.h"
 #include "tink/util/secret_data.h"

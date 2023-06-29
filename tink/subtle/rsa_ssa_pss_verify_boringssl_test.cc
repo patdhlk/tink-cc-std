@@ -22,11 +22,11 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_split.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_split.h"
+#include "tink/absl/strings/string_view.h"
 #include "openssl/bn.h"
 #include "include/rapidjson/document.h"
 #include "tink/internal/err_util.h"

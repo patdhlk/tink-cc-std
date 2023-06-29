@@ -19,14 +19,14 @@
 #include <cstdint>
 #include <iosfwd>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/optimization.h"
-#include "absl/strings/internal/cord_data_edge.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_flat.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/strings/internal/cord_data_edge.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_flat.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

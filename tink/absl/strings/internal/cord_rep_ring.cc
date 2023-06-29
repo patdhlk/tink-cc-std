@@ -11,7 +11,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-#include "absl/strings/internal/cord_rep_ring.h"
+#include "tink/absl/strings/internal/cord_rep_ring.h"
 
 #include <cassert>
 #include <cstddef>
@@ -21,13 +21,13 @@
 #include <memory>
 #include <string>
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/throw_delegate.h"
-#include "absl/base/macros.h"
-#include "absl/container/inlined_vector.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_consume.h"
-#include "absl/strings/internal/cord_rep_flat.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/throw_delegate.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/container/inlined_vector.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_consume.h"
+#include "tink/absl/strings/internal/cord_rep_flat.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

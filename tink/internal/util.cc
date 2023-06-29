@@ -18,9 +18,9 @@
 #include <iterator>
 #include <functional>
 
-#include "absl/strings/ascii.h"
-#include "absl/log/log.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace crypto {
 namespace tink {

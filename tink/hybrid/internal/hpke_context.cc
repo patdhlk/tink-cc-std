@@ -20,8 +20,8 @@
 #include <string>
 #include <utility>
 
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/hybrid/internal/hpke_context_boringssl.h"
 #include "tink/util/secret_data.h"
 #include "tink/util/status.h"

@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/profiling/internal/periodic_sampler.h"
+#include "tink/absl/profiling/internal/periodic_sampler.h"
 
 #include <atomic>
 
-#include "absl/profiling/internal/exponential_biased.h"
+#include "tink/absl/profiling/internal/exponential_biased.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

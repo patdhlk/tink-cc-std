@@ -21,7 +21,7 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/crypto_format.h"
 #include "tink/internal/registry_impl.h"
 #include "tink/mac.h"

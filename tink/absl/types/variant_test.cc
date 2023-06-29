@@ -17,7 +17,7 @@
 // in building other tests. All other public variant methods should have
 // explicit tests.
 
-#include "absl/types/variant.h"
+#include "tink/absl/types/variant.h"
 
 // This test is a no-op when absl::variant is an alias for std::variant.
 #if !defined(ABSL_USES_STD_VARIANT)
@@ -36,11 +36,11 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/base/port.h"
-#include "absl/memory/memory.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/string_view.h"
 
 #ifdef ABSL_HAVE_EXCEPTIONS
 

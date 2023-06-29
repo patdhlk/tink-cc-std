@@ -22,7 +22,7 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/subtle/aes_ctr_boringssl.h"
 #include "tink/subtle/common_enums.h"
 #include "tink/subtle/hmac_boringssl.h"

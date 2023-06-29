@@ -27,22 +27,22 @@
 #include <type_traits>
 #include <typeinfo>
 
-#include "absl/base/attributes.h"
-#include "absl/base/call_once.h"
-#include "absl/base/casts.h"
-#include "absl/base/config.h"
-#include "absl/base/optimization.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/flags/commandlineflag.h"
-#include "absl/flags/config.h"
-#include "absl/flags/internal/commandlineflag.h"
-#include "absl/flags/internal/registry.h"
-#include "absl/flags/internal/sequence_lock.h"
-#include "absl/flags/marshalling.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/string_view.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/flags/commandlineflag.h"
+#include "tink/absl/flags/config.h"
+#include "tink/absl/flags/internal/commandlineflag.h"
+#include "tink/absl/flags/internal/registry.h"
+#include "tink/absl/flags/internal/sequence_lock.h"
+#include "tink/absl/flags/marshalling.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

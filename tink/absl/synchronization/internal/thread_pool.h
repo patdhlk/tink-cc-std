@@ -23,9 +23,9 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/thread_annotations.h"
-#include "absl/functional/any_invocable.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/functional/any_invocable.h"
+#include "tink/absl/synchronization/mutex.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

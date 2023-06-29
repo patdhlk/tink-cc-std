@@ -39,13 +39,13 @@
 #include <string>
 #include <type_traits>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/endian.h"
-#include "absl/base/macros.h"
-#include "absl/base/port.h"
-#include "absl/numeric/bits.h"
-#include "absl/numeric/int128.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/numeric/bits.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

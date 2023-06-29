@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/types/any.h"
+#include "tink/absl/types/any.h"
 
 // This test is a no-op when absl::any is an alias for std::any.
 #if !defined(ABSL_USES_STD_ANY)
@@ -23,10 +23,10 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/exception_testing.h"
-#include "absl/container/internal/test_instance_tracker.h"
-#include "absl/log/log.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/exception_testing.h"
+#include "tink/absl/container/internal/test_instance_tracker.h"
+#include "tink/absl/log/log.h"
 
 namespace {
 using absl::test_internal::CopyableOnlyInstance;

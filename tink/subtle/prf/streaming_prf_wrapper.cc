@@ -19,8 +19,8 @@
 #include <memory>
 #include <utility>
 
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/subtle/prf/streaming_prf.h"
 
 namespace crypto {

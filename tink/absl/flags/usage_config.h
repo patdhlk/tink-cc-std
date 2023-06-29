@@ -27,8 +27,8 @@
 #include <functional>
 #include <string>
 
-#include "absl/base/config.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/string_view.h"
 
 // -----------------------------------------------------------------------------
 // Built-in Usage Flags

@@ -23,11 +23,11 @@
 #include <typeindex>
 #include <utility>
 
-#include "absl/functional/function_ref.h"
-#include "absl/log/log.h"
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/functional/function_ref.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 #include "tink/internal/parser_index.h"
 #include "tink/internal/serialization.h"
 #include "tink/key.h"

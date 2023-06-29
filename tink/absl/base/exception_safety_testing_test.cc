@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/exception_safety_testing.h"
+#include "tink/absl/base/internal/exception_safety_testing.h"
 
 #ifdef ABSL_HAVE_EXCEPTIONS
 
@@ -25,7 +25,7 @@
 
 #include "gtest/gtest-spi.h"
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 
 namespace testing {
 

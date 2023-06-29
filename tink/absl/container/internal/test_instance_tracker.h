@@ -18,7 +18,7 @@
 #include <cstdlib>
 #include <ostream>
 
-#include "absl/types/compare.h"
+#include "tink/absl/types/compare.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

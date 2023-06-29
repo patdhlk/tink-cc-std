@@ -28,19 +28,19 @@
 // (2) When a new edge (x->y) is inserted, do nothing if rank[x] < rank[y].
 // (3) Otherwise: adjust ranks in the neighborhood of x and y.
 
-#include "absl/base/attributes.h"
+#include "tink/absl/base/attributes.h"
 // This file is a no-op if the required LowLevelAlloc support is missing.
-#include "absl/base/internal/low_level_alloc.h"
+#include "tink/absl/base/internal/low_level_alloc.h"
 #ifndef ABSL_LOW_LEVEL_ALLOC_MISSING
 
-#include "absl/synchronization/internal/graphcycles.h"
+#include "tink/absl/synchronization/internal/graphcycles.h"
 
 #include <algorithm>
 #include <array>
 #include <limits>
-#include "absl/base/internal/hide_ptr.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/spinlock.h"
+#include "tink/absl/base/internal/hide_ptr.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/spinlock.h"
 
 // Do not use STL.   This module does not use standard memory allocation.
 

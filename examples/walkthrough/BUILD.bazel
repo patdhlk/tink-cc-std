@@ -11,7 +11,7 @@ cc_library(
     hdrs = ["test_util.h"],
     deps = [
         ":load_cleartext_keyset",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@tink_cc//tink:tink_cc",
     ],
 )
@@ -32,7 +32,7 @@ cc_test(
     srcs = ["create_keyset_test.cc"],
     deps = [
         ":create_keyset",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
         "@tink_cc//tink:tink_cc",
         "@tink_cc//tink/util:test_matchers",
@@ -44,7 +44,7 @@ cc_library(
     srcs = ["load_cleartext_keyset.cc"],
     hdrs = ["load_cleartext_keyset.h"],
     deps = [
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@tink_cc//tink:tink_cc",
         "@tink_cc//tink:cleartext_keyset_handle",
     ],
@@ -55,8 +55,8 @@ cc_test(
     srcs = ["load_cleartext_keyset_test.cc"],
     deps = [
         ":load_cleartext_keyset",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
         "@tink_cc//tink:tink_cc",
         "@tink_cc//tink/util:test_matchers",
@@ -68,7 +68,7 @@ cc_library(
     srcs = ["load_encrypted_keyset.cc"],
     hdrs = ["load_encrypted_keyset.h"],
     deps = [
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@tink_cc//tink:tink_cc",
     ],
 )
@@ -80,9 +80,9 @@ cc_test(
         ":load_cleartext_keyset",
         ":load_encrypted_keyset",
         ":test_util",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
         "@tink_cc//tink:tink_cc",
         "@tink_cc//tink/util:test_matchers",
@@ -94,8 +94,8 @@ cc_library(
     srcs = ["write_keyset.cc"],
     hdrs = ["write_keyset.h"],
     deps = [
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@tink_cc//tink:tink_cc",
     ],
 )
@@ -108,9 +108,9 @@ cc_test(
         ":load_encrypted_keyset",
         ":test_util",
         ":write_keyset",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
         "@tink_cc//tink:tink_cc",
         "@tink_cc//tink/util:test_matchers",
@@ -122,7 +122,7 @@ cc_library(
     srcs = ["obtain_and_use_a_primitive.cc"],
     hdrs = ["obtain_and_use_a_primitive.h"],
     deps = [
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@tink_cc//tink:tink_cc",
     ],
 )
@@ -133,7 +133,7 @@ cc_test(
     deps = [
         ":load_cleartext_keyset",
         ":obtain_and_use_a_primitive",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
         "@tink_cc//tink:tink_cc",
         "@tink_cc//tink/util:test_matchers",
@@ -145,7 +145,7 @@ cc_library(
     srcs = ["write_cleartext_keyset.cc"],
     hdrs = ["write_cleartext_keyset.h"],
     deps = [
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@tink_cc//tink:tink_cc",
         "@tink_cc//tink:cleartext_keyset_handle",
     ],
@@ -157,7 +157,7 @@ cc_test(
     deps = [
         ":load_cleartext_keyset",
         ":write_cleartext_keyset",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
         "@tink_cc//tink:tink_cc",
         "@tink_cc//tink/util:test_matchers",

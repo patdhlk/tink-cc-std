@@ -24,8 +24,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "tink/aead.h"
 #include "tink/aead/cord_aead.h"
 #include "tink/aead/internal/cord_aes_gcm_boringssl.h"

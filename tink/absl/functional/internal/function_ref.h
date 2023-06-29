@@ -19,9 +19,9 @@
 #include <functional>
 #include <type_traits>
 
-#include "absl/base/internal/invoke.h"
-#include "absl/functional/any_invocable.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/base/internal/invoke.h"
+#include "tink/absl/functional/any_invocable.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

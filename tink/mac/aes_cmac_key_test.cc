@@ -23,7 +23,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/types/optional.h"
+#include "tink/absl/types/optional.h"
 #include "tink/mac/aes_cmac_parameters.h"
 #include "tink/partial_key_access.h"
 #include "tink/restricted_data.h"

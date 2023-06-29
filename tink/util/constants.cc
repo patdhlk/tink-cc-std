@@ -15,7 +15,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 #include "tink/util/constants.h"
 
-#include "absl/base/attributes.h"
+#include "tink/absl/base/attributes.h"
 
 namespace crypto {
 namespace tink {

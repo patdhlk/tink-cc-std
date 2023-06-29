@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/types/bad_optional_access.h"
+#include "tink/absl/types/bad_optional_access.h"
 
 #ifndef ABSL_USES_STD_OPTIONAL
 
 #include <cstdlib>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

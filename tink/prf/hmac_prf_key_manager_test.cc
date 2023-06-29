@@ -20,7 +20,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/core/key_manager_impl.h"
 #include "tink/prf/prf_set.h"
 #include "tink/subtle/hmac_boringssl.h"

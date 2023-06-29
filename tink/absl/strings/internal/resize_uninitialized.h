@@ -22,8 +22,8 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/port.h"
-#include "absl/meta/type_traits.h"  //  for void_t
+#include "tink/absl/base/port.h"
+#include "tink/absl/meta/type_traits.h"  //  for void_t
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

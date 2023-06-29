@@ -20,10 +20,10 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/container/internal/hash_function_defaults.h"
-#include "absl/container/internal/raw_hash_set.h"
-#include "absl/strings/str_format.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/container/internal/hash_function_defaults.h"
+#include "tink/absl/container/internal/raw_hash_set.h"
+#include "tink/absl/strings/str_format.h"
 #include "benchmark/benchmark.h"
 
 namespace absl {

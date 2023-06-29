@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/crc/crc32c.h"
+#include "tink/absl/crc/crc32c.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -21,9 +21,9 @@
 #include <string>
 
 #include "gtest/gtest.h"
-#include "absl/crc/internal/crc32c.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/crc/internal/crc32c.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace {
 

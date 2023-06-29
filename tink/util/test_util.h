@@ -23,13 +23,13 @@
 #include <string>
 #include <utility>
 
-#include "absl/base/thread_annotations.h"
-#include "absl/status/status.h"
-#include "absl/strings/cord.h"
-#include "absl/strings/match.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/cord.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/synchronization/mutex.h"
 #include "tink/aead.h"
 #include "tink/aead/cord_aead.h"
 #include "tink/deterministic_aead.h"

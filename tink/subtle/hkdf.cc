@@ -19,10 +19,10 @@
 #include <cstdint>
 #include <string>
 
-#include "absl/algorithm/container.h"
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/span.h"
+#include "tink/absl/algorithm/container.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/span.h"
 #include "openssl/evp.h"
 // BoringSSL and OpenSSL have incompatible ways to compute HKDF: BoringSSL
 // provides a one-shot API HKDF, while OpenSSL doesn't make that API public, but

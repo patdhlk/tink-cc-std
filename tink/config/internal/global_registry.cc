@@ -16,7 +16,7 @@
 
 #include "tink/config/internal/global_registry.h"
 
-#include "absl/log/check.h"
+#include "tink/absl/log/check.h"
 #include "tink/internal/key_gen_configuration_impl.h"
 #include "tink/key_gen_configuration.h"
 

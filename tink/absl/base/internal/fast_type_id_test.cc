@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/fast_type_id.h"
+#include "tink/absl/base/internal/fast_type_id.h"
 
 #include <cstdint>
 #include <map>

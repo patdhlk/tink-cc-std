@@ -31,10 +31,10 @@
 #include <cassert>
 #include <cstddef>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/optimization.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/base/port.h"
 
 // ABSL_ARRAYSIZE()
 //

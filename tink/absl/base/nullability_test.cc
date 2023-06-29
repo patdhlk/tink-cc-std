@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/nullability.h"
+#include "tink/absl/base/nullability.h"
 
 #include <cassert>
 #include <memory>
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
+#include "tink/absl/base/attributes.h"
 
 namespace {
 using ::absl::NonNull;

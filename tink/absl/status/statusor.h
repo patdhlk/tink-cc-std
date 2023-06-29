@@ -43,13 +43,13 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/attributes.h"
-#include "absl/base/call_once.h"
-#include "absl/meta/type_traits.h"
-#include "absl/status/internal/statusor_internal.h"
-#include "absl/status/status.h"
-#include "absl/types/variant.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/status/internal/statusor_internal.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/types/variant.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

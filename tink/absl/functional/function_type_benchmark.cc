@@ -17,9 +17,9 @@
 #include <string>
 
 #include "benchmark/benchmark.h"
-#include "absl/base/attributes.h"
-#include "absl/functional/any_invocable.h"
-#include "absl/functional/function_ref.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/functional/any_invocable.h"
+#include "tink/absl/functional/function_ref.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -19,8 +19,8 @@
 #include <cstdint>
 #include <limits>
 
-#include "absl/base/const_init.h"
-#include "absl/strings/internal/str_format/extension.h"
+#include "tink/absl/base/const_init.h"
+#include "tink/absl/strings/internal/str_format/extension.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

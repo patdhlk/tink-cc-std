@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/charconv.h"
+#include "tink/absl/strings/charconv.h"
 
 #include <algorithm>
 #include <cassert>
@@ -20,12 +20,12 @@
 #include <cstring>
 #include <limits>
 
-#include "absl/base/casts.h"
-#include "absl/base/config.h"
-#include "absl/numeric/bits.h"
-#include "absl/numeric/int128.h"
-#include "absl/strings/internal/charconv_bigint.h"
-#include "absl/strings/internal/charconv_parse.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/numeric/bits.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/strings/internal/charconv_bigint.h"
+#include "tink/absl/strings/internal/charconv_parse.h"
 
 // The macro ABSL_BIT_PACK_FLOATS is defined on x86-64, where IEEE floating
 // point numbers have the same endianness in memory as a bitfield struct

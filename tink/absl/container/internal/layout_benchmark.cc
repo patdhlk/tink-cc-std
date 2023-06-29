@@ -15,8 +15,8 @@
 // Every benchmark should have the same performance as the corresponding
 // headroom benchmark.
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/container/internal/layout.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/container/internal/layout.h"
 #include "benchmark/benchmark.h"
 
 namespace absl {

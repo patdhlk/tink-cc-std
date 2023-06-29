@@ -17,7 +17,7 @@
 #ifndef TINK_INTERNAL_FIPS_UTILS_H_
 #define TINK_INTERNAL_FIPS_UTILS_H_
 
-#include "absl/base/attributes.h"
+#include "tink/absl/base/attributes.h"
 #include "tink/util/status.h"
 
 namespace crypto {

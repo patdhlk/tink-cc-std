@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-#include "absl/random/mocking_bit_gen.h"
+#include "tink/absl/random/mocking_bit_gen.h"
 
 #include <cmath>
 #include <numeric>
@@ -22,9 +22,9 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest-spi.h"
 #include "gtest/gtest.h"
-#include "absl/random/bit_gen_ref.h"
-#include "absl/random/mock_distributions.h"
-#include "absl/random/random.h"
+#include "tink/absl/random/bit_gen_ref.h"
+#include "tink/absl/random/mock_distributions.h"
+#include "tink/absl/random/random.h"
 
 namespace {
 

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/distribution_test_util.h"
+#include "tink/absl/random/internal/distribution_test_util.h"
 
 #include "gtest/gtest.h"
 

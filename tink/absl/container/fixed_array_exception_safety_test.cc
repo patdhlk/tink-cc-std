@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/config.h"
-#include "absl/container/fixed_array.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/container/fixed_array.h"
 
 #ifdef ABSL_HAVE_EXCEPTIONS
 
 #include <initializer_list>
 
 #include "gtest/gtest.h"
-#include "absl/base/internal/exception_safety_testing.h"
+#include "tink/absl/base/internal/exception_safety_testing.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

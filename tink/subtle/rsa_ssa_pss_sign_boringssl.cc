@@ -21,10 +21,10 @@
 #include <utility>
 #include <vector>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
-#include "absl/types/span.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/types/span.h"
 #include "openssl/evp.h"
 #include "openssl/rsa.h"
 #include "tink/internal/err_util.h"

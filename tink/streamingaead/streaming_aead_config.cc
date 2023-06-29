@@ -16,7 +16,7 @@
 
 #include "tink/streamingaead/streaming_aead_config.h"
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/config/config_util.h"
 #include "tink/config/tink_fips.h"
 #include "tink/registry.h"

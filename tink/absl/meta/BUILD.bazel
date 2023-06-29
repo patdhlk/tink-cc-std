@@ -15,7 +15,7 @@
 #
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -31,8 +31,8 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -43,9 +43,9 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":type_traits",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/time",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )

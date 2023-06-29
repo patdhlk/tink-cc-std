@@ -17,12 +17,12 @@
 // with different flags from other targets, using different levels of
 // optimization, potentially introducing ODR violations.
 
-#include "absl/random/internal/randen_detect.h"
+#include "tink/absl/random/internal/randen_detect.h"
 
 #include <cstdint>
 #include <cstring>
 
-#include "absl/random/internal/platform.h"
+#include "tink/absl/random/internal/platform.h"
 
 #if !defined(__UCLIBC__) && defined(__GLIBC__) && \
     (__GLIBC__ > 2 || (__GLIBC__ == 2 && __GLIBC_MINOR__ >= 16))

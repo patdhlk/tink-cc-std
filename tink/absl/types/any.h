@@ -53,9 +53,9 @@
 #ifndef ABSL_TYPES_ANY_H_
 #define ABSL_TYPES_ANY_H_
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/utility/utility.h"
 
 #ifdef ABSL_USES_STD_ANY
 
@@ -81,9 +81,9 @@ ABSL_NAMESPACE_END
 #include <typeinfo>
 #include <utility>
 
-#include "absl/base/internal/fast_type_id.h"
-#include "absl/meta/type_traits.h"
-#include "absl/types/bad_any_cast.h"
+#include "tink/absl/base/internal/fast_type_id.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/types/bad_any_cast.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -29,10 +29,10 @@
 #include <utility>
 #include <vector>
 
-#include "absl/container/internal/hash_policy_testing.h"
-#include "absl/memory/memory.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/container/internal/hash_policy_testing.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

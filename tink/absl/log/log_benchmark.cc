@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/attributes.h"
-#include "absl/base/log_severity.h"
-#include "absl/flags/flag.h"
-#include "absl/log/check.h"
-#include "absl/log/globals.h"
-#include "absl/log/log.h"
-#include "absl/log/log_entry.h"
-#include "absl/log/log_sink.h"
-#include "absl/log/log_sink_registry.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/log/globals.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/log/log_entry.h"
+#include "tink/absl/log/log_sink.h"
+#include "tink/absl/log/log_sink_registry.h"
 #include "benchmark/benchmark.h"
 
 namespace {

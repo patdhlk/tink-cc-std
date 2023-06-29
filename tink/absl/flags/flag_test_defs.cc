@@ -16,7 +16,7 @@
 // This file is used to test the mismatch of the flag type between definition
 // and declaration. These are definitions. flag_test.cc contains declarations.
 #include <string>
-#include "absl/flags/flag.h"
+#include "tink/absl/flags/flag.h"
 
 ABSL_FLAG(int, mistyped_int_flag, 0, "");
 ABSL_FLAG(std::string, mistyped_string_flag, "", "");

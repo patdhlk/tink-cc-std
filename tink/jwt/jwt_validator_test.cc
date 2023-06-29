@@ -19,7 +19,7 @@
 
 #include "tink/jwt/raw_jwt.h"
 #include "gtest/gtest.h"
-#include "absl/strings/escaping.h"
+#include "tink/absl/strings/escaping.h"
 #include "tink/util/test_matchers.h"
 #include "tink/util/test_util.h"
 

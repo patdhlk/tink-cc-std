@@ -23,7 +23,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/util/errors.h"
 #include "tink/util/protobuf_helper.h"
 #include "tink/util/status.h"

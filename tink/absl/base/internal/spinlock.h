@@ -32,14 +32,14 @@
 #include <atomic>
 #include <cstdint>
 
-#include "absl/base/attributes.h"
-#include "absl/base/const_init.h"
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/internal/low_level_scheduling.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/scheduling_mode.h"
-#include "absl/base/internal/tsan_mutex_interface.h"
-#include "absl/base/thread_annotations.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/const_init.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/internal/low_level_scheduling.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/scheduling_mode.h"
+#include "tink/absl/base/internal/tsan_mutex_interface.h"
+#include "tink/absl/base/thread_annotations.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

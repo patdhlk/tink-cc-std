@@ -18,7 +18,7 @@
 # `StatusBuilder` and macros.
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -42,18 +42,18 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:atomic_hook",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/base:strerror",
-        "//absl/container:inlined_vector",
-        "//absl/debugging:stacktrace",
-        "//absl/debugging:symbolize",
-        "//absl/functional:function_ref",
-        "//absl/strings",
-        "//absl/strings:cord",
-        "//absl/strings:str_format",
-        "//absl/types:optional",
+        "//tink/absl/base:atomic_hook",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/base:strerror",
+        "//tink/absl/container:inlined_vector",
+        "//tink/absl/debugging:stacktrace",
+        "//tink/absl/debugging:symbolize",
+        "//tink/absl/functional:function_ref",
+        "//tink/absl/strings",
+        "//tink/absl/strings:cord",
+        "//tink/absl/strings:str_format",
+        "//tink/absl/types:optional",
     ],
 )
 
@@ -64,7 +64,7 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":status",
-        "//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -82,13 +82,13 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":status",
-        "//absl/base",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/meta:type_traits",
-        "//absl/strings",
-        "//absl/types:variant",
-        "//absl/utility",
+        "//tink/absl/base",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/strings",
+        "//tink/absl/types:variant",
+        "//tink/absl/utility",
     ],
 )
 
@@ -99,11 +99,11 @@ cc_test(
     deps = [
         ":status",
         ":statusor",
-        "//absl/base",
-        "//absl/memory",
-        "//absl/strings",
-        "//absl/types:any",
-        "//absl/utility",
+        "//tink/absl/base",
+        "//tink/absl/memory",
+        "//tink/absl/strings",
+        "//tink/absl/types:any",
+        "//tink/absl/utility",
         "@com_google_googletest//:gtest_main",
     ],
 )

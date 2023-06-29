@@ -26,8 +26,8 @@
 #include <ostream>
 #include <string>
 
-#include "absl/base/port.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

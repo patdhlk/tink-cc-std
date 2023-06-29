@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/ascii.h"
+#include "tink/absl/strings/ascii.h"
 
 #include <algorithm>
 #include <cctype>
@@ -21,8 +21,8 @@
 #include <string>
 
 #include "gtest/gtest.h"
-#include "absl/base/macros.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/port.h"
 
 namespace {
 

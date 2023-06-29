@@ -19,7 +19,7 @@
 #include <memory>
 #include <string>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/hybrid/internal/hpke_context.h"
 #include "tink/hybrid/internal/hpke_util.h"
 #include "proto/hpke.pb.h"

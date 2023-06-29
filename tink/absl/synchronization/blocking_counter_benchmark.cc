@@ -14,8 +14,8 @@
 
 #include <limits>
 
-#include "absl/synchronization/blocking_counter.h"
-#include "absl/synchronization/internal/thread_pool.h"
+#include "tink/absl/synchronization/blocking_counter.h"
+#include "tink/absl/synchronization/internal/thread_pool.h"
 #include "benchmark/benchmark.h"
 
 namespace {

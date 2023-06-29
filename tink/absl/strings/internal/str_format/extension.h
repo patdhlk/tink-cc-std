@@ -23,11 +23,11 @@
 #include <cstring>
 #include <ostream>
 
-#include "absl/base/config.h"
-#include "absl/base/port.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/internal/str_format/output.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/internal/str_format/output.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

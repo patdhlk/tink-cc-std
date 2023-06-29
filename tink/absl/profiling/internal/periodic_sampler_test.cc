@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/profiling/internal/periodic_sampler.h"
+#include "tink/absl/profiling/internal/periodic_sampler.h"
 
 #include <thread>  // NOLINT(build/c++11)
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/macros.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/macros.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

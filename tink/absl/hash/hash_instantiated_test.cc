@@ -16,7 +16,7 @@
 // on INSTANTIATE_TYPED_TEST_SUITE_P, require a large amount of memory to
 // compile. Put new tests in hash_test.cc, not this file.
 
-#include "absl/hash/hash.h"
+#include "tink/absl/hash/hash.h"
 
 #include <stddef.h>
 
@@ -35,14 +35,14 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/container/btree_map.h"
-#include "absl/container/btree_set.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/container/flat_hash_set.h"
-#include "absl/container/node_hash_map.h"
-#include "absl/container/node_hash_set.h"
-#include "absl/hash/hash_testing.h"
-#include "absl/hash/internal/hash_test.h"
+#include "tink/absl/container/btree_map.h"
+#include "tink/absl/container/btree_set.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/container/flat_hash_set.h"
+#include "tink/absl/container/node_hash_map.h"
+#include "tink/absl/container/node_hash_set.h"
+#include "tink/absl/hash/hash_testing.h"
+#include "tink/absl/hash/internal/hash_test.h"
 
 namespace {
 

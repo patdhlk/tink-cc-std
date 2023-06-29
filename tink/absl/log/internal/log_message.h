@@ -33,16 +33,16 @@
 #include <streambuf>
 #include <string>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/errno_saver.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/internal/nullguard.h"
-#include "absl/log/log_entry.h"
-#include "absl/log/log_sink.h"
-#include "absl/strings/internal/has_absl_stringify.h"
-#include "absl/strings/string_view.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/errno_saver.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/internal/nullguard.h"
+#include "tink/absl/log/log_entry.h"
+#include "tink/absl/log/log_sink.h"
+#include "tink/absl/strings/internal/has_absl_stringify.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -16,7 +16,7 @@
 
 #include "tink/daead/deterministic_aead_config.h"
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/config/tink_fips.h"
 #include "tink/daead/aes_siv_key_manager.h"
 #include "tink/daead/aes_siv_proto_serialization.h"

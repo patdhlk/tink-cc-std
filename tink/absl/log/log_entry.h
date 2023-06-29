@@ -27,13 +27,13 @@
 #include <cstddef>
 #include <string>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/internal/config.h"
-#include "absl/strings/string_view.h"
-#include "absl/time/time.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/internal/config.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/time/time.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -15,7 +15,7 @@
 #
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -31,7 +31,7 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
+        "//tink/absl/base:config",
     ],
 )
 
@@ -43,7 +43,7 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":algorithm",
-        "//absl/base:config",
+        "//tink/absl/base:config",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -57,7 +57,7 @@ cc_binary(
     tags = ["benchmark"],
     deps = [
         ":algorithm",
-        "//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -71,8 +71,8 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":algorithm",
-        "//absl/base:core_headers",
-        "//absl/meta:type_traits",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/meta:type_traits",
     ],
 )
 
@@ -83,10 +83,10 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":container",
-        "//absl/base",
-        "//absl/base:core_headers",
-        "//absl/memory",
-        "//absl/types:span",
+        "//tink/absl/base",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/memory",
+        "//tink/absl/types:span",
         "@com_google_googletest//:gtest_main",
     ],
 )

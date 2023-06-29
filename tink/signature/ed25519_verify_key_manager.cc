@@ -18,8 +18,8 @@
 
 #include <memory>
 
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/public_key_verify.h"
 #include "tink/subtle/ed25519_verify_boringssl.h"
 #include "tink/util/errors.h"

@@ -20,8 +20,8 @@
 #include <unistd.h>
 #include <algorithm>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "tink/random_access_stream.h"
 #include "tink/util/buffer.h"
 #include "tink/util/errors.h"

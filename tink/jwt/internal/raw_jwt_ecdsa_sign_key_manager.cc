@@ -20,8 +20,8 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/internal/ec_util.h"
 #include "tink/jwt/internal/raw_jwt_ecdsa_verify_key_manager.h"
 #include "tink/public_key_sign.h"

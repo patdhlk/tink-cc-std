@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/meta/type_traits.h"
+#include "tink/absl/meta/type_traits.h"
 
 #include <cstdint>
 #include <string>
@@ -21,10 +21,10 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/time.h"
 
 namespace {
 

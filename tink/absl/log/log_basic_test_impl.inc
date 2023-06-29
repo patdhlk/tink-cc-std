@@ -31,14 +31,14 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/internal/sysinfo.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/globals.h"
-#include "absl/log/internal/test_actions.h"
-#include "absl/log/internal/test_helpers.h"
-#include "absl/log/internal/test_matchers.h"
-#include "absl/log/log_entry.h"
-#include "absl/log/scoped_mock_log.h"
+#include "tink/absl/base/internal/sysinfo.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/globals.h"
+#include "tink/absl/log/internal/test_actions.h"
+#include "tink/absl/log/internal/test_helpers.h"
+#include "tink/absl/log/internal/test_matchers.h"
+#include "tink/absl/log/log_entry.h"
+#include "tink/absl/log/scoped_mock_log.h"
 
 namespace absl_log_internal {
 #if GTEST_HAS_DEATH_TEST

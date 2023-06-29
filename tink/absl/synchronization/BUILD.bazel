@@ -15,7 +15,7 @@
 #
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -39,15 +39,15 @@ cc_library(
     }),
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl:__subpackages__",
+        "//tink/absl:__subpackages__",
     ],
     deps = [
-        "//absl/base",
-        "//absl/base:base_internal",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:malloc_internal",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base",
+        "//tink/absl/base:base_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:malloc_internal",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -58,14 +58,14 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl/synchronization:__pkg__",
+        "//tink/absl/synchronization:__pkg__",
     ],
     deps = [
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/time",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/time",
     ],
 )
 
@@ -77,9 +77,9 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":kernel_timeout_internal",
-        "//absl/base:config",
-        "//absl/random",
-        "//absl/time",
+        "//tink/absl/base:config",
+        "//tink/absl/random",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -118,25 +118,25 @@ cc_library(
     ],
     copts = ABSL_DEFAULT_COPTS,
     linkopts = select({
-        "//absl:msvc_compiler": [],
-        "//absl:clang-cl_compiler": [],
-        "//absl:wasm": [],
+        "//tink/absl:msvc_compiler": [],
+        "//tink/absl:clang-cl_compiler": [],
+        "//tink/absl:wasm": [],
         "//conditions:default": ["-pthread"],
     }) + ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":graphcycles_internal",
         ":kernel_timeout_internal",
-        "//absl/base",
-        "//absl/base:atomic_hook",
-        "//absl/base:base_internal",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
-        "//absl/base:malloc_internal",
-        "//absl/base:raw_logging_internal",
-        "//absl/debugging:stacktrace",
-        "//absl/debugging:symbolize",
-        "//absl/time",
+        "//tink/absl/base",
+        "//tink/absl/base:atomic_hook",
+        "//tink/absl/base:base_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
+        "//tink/absl/base:malloc_internal",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/debugging:stacktrace",
+        "//tink/absl/debugging:symbolize",
+        "//tink/absl/time",
     ] + select({
         "//conditions:default": [],
     }),
@@ -153,7 +153,7 @@ cc_test(
     ],
     deps = [
         ":synchronization",
-        "//absl/time",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -169,7 +169,7 @@ cc_test(
     ],
     deps = [
         ":synchronization",
-        "//absl/time",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -197,9 +197,9 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":graphcycles_internal",
-        "//absl/base:core_headers",
-        "//absl/log",
-        "//absl/log:check",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/log",
+        "//tink/absl/log:check",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -214,7 +214,7 @@ cc_test(
     ],
     deps = [
         ":graphcycles_internal",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:raw_logging_internal",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -225,12 +225,12 @@ cc_library(
     hdrs = ["internal/thread_pool.h"],
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl:__subpackages__",
+        "//tink/absl:__subpackages__",
     ],
     deps = [
         ":synchronization",
-        "//absl/base:core_headers",
-        "//absl/functional:any_invocable",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/functional:any_invocable",
     ],
 )
 
@@ -245,13 +245,13 @@ cc_test(
     deps = [
         ":synchronization",
         ":thread_pool",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/log",
-        "//absl/log:check",
-        "//absl/memory",
-        "//absl/time",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/log",
+        "//tink/absl/log:check",
+        "//tink/absl/memory",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -263,7 +263,7 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":synchronization",
-        "//absl/base:config",
+        "//tink/absl/base:config",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -275,13 +275,13 @@ cc_library(
     copts = ABSL_TEST_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl/synchronization:__pkg__",
+        "//tink/absl/synchronization:__pkg__",
     ],
     deps = [
         ":synchronization",
         ":thread_pool",
-        "//absl/base",
-        "//absl/base:config",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
         "@com_github_google_benchmark//:benchmark_main",
     ],
     alwayslink = 1,
@@ -308,7 +308,7 @@ cc_test(
     tags = ["no_test_lexan"],
     deps = [
         ":synchronization",
-        "//absl/time",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -321,10 +321,10 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":synchronization",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/strings",
-        "//absl/time",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/strings",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest",
     ],
     alwayslink = 1,
@@ -341,8 +341,8 @@ cc_test(
     deps = [
         ":per_thread_sem_test_common",
         ":synchronization",
-        "//absl/strings",
-        "//absl/time",
+        "//tink/absl/strings",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -357,9 +357,9 @@ cc_test(
         ":kernel_timeout_internal",
         ":synchronization",
         ":thread_pool",
-        "//absl/base:config",
-        "//absl/random",
-        "//absl/time",
+        "//tink/absl/base:config",
+        "//tink/absl/random",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -377,7 +377,7 @@ cc_test(
     ],
     deps = [
         ":synchronization",
-        "//absl/base:core_headers",
-        "//absl/log:check",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/log:check",
     ],
 )

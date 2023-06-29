@@ -33,7 +33,7 @@
 // --log_backtrace_at=<file:linenum>
 // Emit a backtrace (stack trace) when logging at file:linenum.
 //
-// To use these commandline flags, the //absl/log:flags library must be
+// To use these commandline flags, the //tink/absl/log:flags library must be
 // explicitly linked, and absl::ParseCommandLine() must be called before the
 // call to absl::InitializeLog().
 //

@@ -21,8 +21,8 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "openssl/curve25519.h"
 #include "openssl/hrss.h"
 #include "tink/aead/aes_gcm_key_manager.h"

@@ -17,15 +17,15 @@
 // with different flags from other targets, using different levels of
 // optimization, potentially introducing ODR violations.
 
-#include "absl/random/internal/randen_hwaes.h"
+#include "tink/absl/random/internal/randen_hwaes.h"
 
 #include <cstdint>
 #include <cstring>
 
-#include "absl/base/attributes.h"
-#include "absl/numeric/int128.h"
-#include "absl/random/internal/platform.h"
-#include "absl/random/internal/randen_traits.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/random/internal/platform.h"
+#include "tink/absl/random/internal/randen_traits.h"
 
 // ABSL_RANDEN_HWAES_IMPL indicates whether this file will contain
 // a hardware accelerated implementation of randen, or whether it

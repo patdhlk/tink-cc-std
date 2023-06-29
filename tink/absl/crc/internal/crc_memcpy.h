@@ -18,8 +18,8 @@
 #include <cstddef>
 #include <memory>
 
-#include "absl/base/config.h"
-#include "absl/crc/crc32c.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/crc/crc32c.h"
 
 // Defined if the class AcceleratedCrcMemcpyEngine exists.
 #if defined(__x86_64__) && defined(__SSE4_2__)

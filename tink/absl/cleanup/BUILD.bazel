@@ -13,7 +13,7 @@
 # limitations under the License.
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -29,9 +29,9 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:base_internal",
-        "//absl/base:core_headers",
-        "//absl/utility",
+        "//tink/absl/base:base_internal",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/utility",
     ],
 )
 
@@ -44,8 +44,8 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":cleanup_internal",
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -58,8 +58,8 @@ cc_test(
     copts = ABSL_TEST_COPTS,
     deps = [
         ":cleanup",
-        "//absl/base:config",
-        "//absl/utility",
+        "//tink/absl/base:config",
+        "//tink/absl/utility",
         "@com_google_googletest//:gtest_main",
     ],
 )

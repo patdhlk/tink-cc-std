@@ -19,10 +19,10 @@
 #include <vector>
 
 #include "benchmark/benchmark.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/random/distributions.h"
-#include "absl/random/random.h"
-#include "absl/strings/numbers.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/random/distributions.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/numbers.h"
 
 namespace {
 

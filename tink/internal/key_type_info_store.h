@@ -25,8 +25,8 @@
 #include <typeindex>
 #include <utility>
 
-#include "absl/container/flat_hash_map.h"
-#include "absl/strings/str_join.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/strings/str_join.h"
 #include "tink/core/key_manager_impl.h"
 #include "tink/core/key_type_manager.h"
 #include "tink/core/private_key_manager_impl.h"

@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/charconv_parse.h"
-#include "absl/strings/charconv.h"
+#include "tink/absl/strings/internal/charconv_parse.h"
+#include "tink/absl/strings/charconv.h"
 
 #include <cassert>
 #include <cstdint>
 #include <limits>
 
-#include "absl/strings/internal/memutil.h"
+#include "tink/absl/strings/internal/memutil.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

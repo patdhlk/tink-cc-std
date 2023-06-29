@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
 
 #include <ctime>
 #include <chrono>  // NOLINT(build/c++11)
 #include <limits>
 
-#include "absl/base/config.h"
-#include "absl/random/random.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/time.h"
 #include "gtest/gtest.h"
 
 // Test go/btm support by randomizing the value of clock_gettime() for

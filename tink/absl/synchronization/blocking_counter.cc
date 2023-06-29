@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/blocking_counter.h"
+#include "tink/absl/synchronization/blocking_counter.h"
 
 #include <atomic>
 
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

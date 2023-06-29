@@ -19,9 +19,9 @@
 #include <string>
 #include <vector>
 
-#include "absl/container/flat_hash_map.h"
-#include "absl/status/status.h"
-#include "absl/strings/strip.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/strip.h"
 #include "tink/internal/key_status_util.h"
 #include "tink/key_status.h"
 #include "tink/monitoring/monitoring.h"

@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/log_streamer.h"
+#include "tink/absl/log/log_streamer.h"
 
 #include <ios>
 #include <iostream>
@@ -21,15 +21,15 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/internal/sysinfo.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/internal/test_actions.h"
-#include "absl/log/internal/test_helpers.h"
-#include "absl/log/internal/test_matchers.h"
-#include "absl/log/log.h"
-#include "absl/log/scoped_mock_log.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/sysinfo.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/internal/test_actions.h"
+#include "tink/absl/log/internal/test_helpers.h"
+#include "tink/absl/log/internal/test_matchers.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/log/scoped_mock_log.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace {
 using ::absl::log_internal::DeathTestExpectedLogging;

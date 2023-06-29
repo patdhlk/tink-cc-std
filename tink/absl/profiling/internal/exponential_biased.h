@@ -17,8 +17,8 @@
 
 #include <stdint.h>
 
-#include "absl/base/config.h"
-#include "absl/base/macros.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/macros.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

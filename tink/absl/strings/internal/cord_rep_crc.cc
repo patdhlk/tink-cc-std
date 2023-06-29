@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/cord_rep_crc.h"
+#include "tink/absl/strings/internal/cord_rep_crc.h"
 
 #include <cassert>
 #include <cstdint>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/strings/internal/cord_internal.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/internal/cord_internal.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

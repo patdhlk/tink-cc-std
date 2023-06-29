@@ -14,7 +14,7 @@
 
 // Tests for pointer utilities.
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 
 #include <sys/types.h>
 

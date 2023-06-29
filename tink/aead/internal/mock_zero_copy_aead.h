@@ -17,7 +17,7 @@
 #define TINK_AEAD_INTERNAL_MOCK_ZERO_COPY_AEAD_H_
 
 #include "gmock/gmock.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead/internal/zero_copy_aead.h"
 #include "tink/util/statusor.h"
 

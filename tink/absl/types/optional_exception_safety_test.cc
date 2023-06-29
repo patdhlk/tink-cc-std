@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/types/optional.h"
+#include "tink/absl/types/optional.h"
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // This test is a no-op when absl::optional is an alias for std::optional and
 // when exceptions are not enabled.
 #if !defined(ABSL_USES_STD_OPTIONAL) && defined(ABSL_HAVE_EXCEPTIONS)
 
 #include "gtest/gtest.h"
-#include "absl/base/internal/exception_safety_testing.h"
+#include "tink/absl/base/internal/exception_safety_testing.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/crc/crc32c.h"
+#include "tink/absl/crc/crc32c.h"
 
 #include <cstdint>
 
-#include "absl/crc/internal/crc.h"
-#include "absl/crc/internal/crc32c.h"
-#include "absl/crc/internal/crc_memcpy.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/crc/internal/crc.h"
+#include "tink/absl/crc/internal/crc32c.h"
+#include "tink/absl/crc/internal/crc_memcpy.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

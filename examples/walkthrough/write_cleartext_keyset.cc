@@ -21,7 +21,7 @@
 #include <ostream>
 #include <utility>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/cleartext_keyset_handle.h"
 #include "tink/json_keyset_writer.h"
 #include "tink/keyset_handle.h"

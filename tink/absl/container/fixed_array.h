@@ -40,15 +40,15 @@
 #include <new>
 #include <type_traits>
 
-#include "absl/algorithm/algorithm.h"
-#include "absl/base/config.h"
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/internal/throw_delegate.h"
-#include "absl/base/macros.h"
-#include "absl/base/optimization.h"
-#include "absl/base/port.h"
-#include "absl/container/internal/compressed_tuple.h"
-#include "absl/memory/memory.h"
+#include "tink/absl/algorithm/algorithm.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/internal/throw_delegate.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/container/internal/compressed_tuple.h"
+#include "tink/absl/memory/memory.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

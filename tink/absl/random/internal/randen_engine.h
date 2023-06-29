@@ -23,10 +23,10 @@
 #include <limits>
 #include <type_traits>
 
-#include "absl/base/internal/endian.h"
-#include "absl/meta/type_traits.h"
-#include "absl/random/internal/iostream_state_saver.h"
-#include "absl/random/internal/randen.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/random/internal/iostream_state_saver.h"
+#include "tink/absl/random/internal/randen.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

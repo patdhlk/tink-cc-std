@@ -19,7 +19,7 @@
 #include <memory>
 #include <string>
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/core/private_key_type_manager.h"
 #include "tink/jwt/internal/jwt_public_key_sign_internal.h"
 #include "tink/jwt/internal/raw_jwt_ecdsa_sign_key_manager.h"

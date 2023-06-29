@@ -52,9 +52,9 @@
 
 #include <atomic>
 
-#include "absl/base/attributes.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

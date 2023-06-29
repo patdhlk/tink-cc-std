@@ -20,7 +20,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/jwt/internal/jwt_format.h"
 #include "tink/jwt/internal/jwt_public_key_verify_internal.h"
 #include "tink/jwt/jwt_public_key_verify.h"

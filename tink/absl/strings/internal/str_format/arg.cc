@@ -16,7 +16,7 @@
 // POSIX spec:
 //   http://pubs.opengroup.org/onlinepubs/009695399/functions/fprintf.html
 //
-#include "absl/strings/internal/str_format/arg.h"
+#include "tink/absl/strings/internal/str_format/arg.h"
 
 #include <cassert>
 #include <cerrno>
@@ -24,9 +24,9 @@
 #include <string>
 #include <type_traits>
 
-#include "absl/base/port.h"
-#include "absl/strings/internal/str_format/float_conversion.h"
-#include "absl/strings/numbers.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/strings/internal/str_format/float_conversion.h"
+#include "tink/absl/strings/numbers.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

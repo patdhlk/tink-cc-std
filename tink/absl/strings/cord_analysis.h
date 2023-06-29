@@ -18,8 +18,8 @@
 #include <cstddef>
 #include <cstdint>
 
-#include "absl/base/config.h"
-#include "absl/strings/internal/cord_internal.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/internal/cord_internal.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

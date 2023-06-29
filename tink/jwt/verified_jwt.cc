@@ -19,9 +19,9 @@
 #include <string>
 #include <vector>
 
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/substitute.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/substitute.h"
 #include "tink/jwt/internal/json_util.h"
 
 namespace crypto {

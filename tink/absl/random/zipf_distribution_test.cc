@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/zipf_distribution.h"
+#include "tink/absl/random/zipf_distribution.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -25,14 +25,14 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/log/log.h"
-#include "absl/random/internal/chi_square.h"
-#include "absl/random/internal/pcg_engine.h"
-#include "absl/random/internal/sequence_urbg.h"
-#include "absl/random/random.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_replace.h"
-#include "absl/strings/strip.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/random/internal/chi_square.h"
+#include "tink/absl/random/internal/pcg_engine.h"
+#include "tink/absl/random/internal/sequence_urbg.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_replace.h"
+#include "tink/absl/strings/strip.h"
 
 namespace {
 

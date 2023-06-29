@@ -18,7 +18,7 @@
 #include <set>
 #include <string>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/subtle/common_enums.h"
 #include "tink/util/enums.h"
 #include "tink/util/input_stream_util.h"

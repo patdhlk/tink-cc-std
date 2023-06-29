@@ -14,15 +14,15 @@
 // limitations under the License.
 //
 
-#include "absl/strings/internal/str_format/extension.h"
+#include "tink/absl/strings/internal/str_format/extension.h"
 
 #include <random>
 #include <string>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace my_namespace {
 class UserDefinedType {

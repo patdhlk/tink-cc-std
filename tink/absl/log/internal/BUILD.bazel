@@ -15,14 +15,14 @@
 #
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
 )
 
 package(default_visibility = [
-    "//absl/log:__pkg__",
+    "//tink/absl/log:__pkg__",
 ])
 
 licenses(["notice"])
@@ -37,7 +37,7 @@ cc_library(
         ":conditions",
         ":log_message",
         ":strip",
-        "//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -48,15 +48,15 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl/log:__pkg__",
+        "//tink/absl/log:__pkg__",
     ],
     deps = [
         ":nullguard",
         ":nullstream",
         ":strip",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/strings",
     ],
 )
 
@@ -68,9 +68,9 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":voidify",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -80,11 +80,11 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl/log:__pkg__",
+        "//tink/absl/log:__pkg__",
     ],
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -94,7 +94,7 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/flags:flag",
+        "//tink/absl/flags:flag",
     ],
 )
 
@@ -108,13 +108,13 @@ cc_library(
         ":append_truncated",
         ":config",
         ":globals",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:log_severity",
-        "//absl/strings",
-        "//absl/strings:str_format",
-        "//absl/time",
-        "//absl/types:span",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:log_severity",
+        "//tink/absl/strings",
+        "//tink/absl/strings:str_format",
+        "//tink/absl/time",
+        "//tink/absl/types:span",
     ],
 )
 
@@ -125,15 +125,15 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl/log:__pkg__",
+        "//tink/absl/log:__pkg__",
     ],
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:log_severity",
-        "//absl/base:raw_logging_internal",
-        "//absl/strings",
-        "//absl/time",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:log_severity",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/strings",
+        "//tink/absl/time",
     ],
 )
 
@@ -156,7 +156,7 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl/log:__pkg__",
+        "//tink/absl/log:__pkg__",
     ],
     deps = [
         ":append_truncated",
@@ -165,23 +165,23 @@ cc_library(
         ":log_sink_set",
         ":nullguard",
         ":proto",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:errno_saver",
-        "//absl/base:log_severity",
-        "//absl/base:raw_logging_internal",
-        "//absl/base:strerror",
-        "//absl/container:inlined_vector",
-        "//absl/debugging:examine_stack",
-        "//absl/log:globals",
-        "//absl/log:log_entry",
-        "//absl/log:log_sink",
-        "//absl/log:log_sink_registry",
-        "//absl/memory",
-        "//absl/strings",
-        "//absl/time",
-        "//absl/types:span",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:errno_saver",
+        "//tink/absl/base:log_severity",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/base:strerror",
+        "//tink/absl/container:inlined_vector",
+        "//tink/absl/debugging:examine_stack",
+        "//tink/absl/log:globals",
+        "//tink/absl/log:log_entry",
+        "//tink/absl/log:log_sink",
+        "//tink/absl/log:log_sink_registry",
+        "//tink/absl/memory",
+        "//tink/absl/strings",
+        "//tink/absl/time",
+        "//tink/absl/types:span",
     ],
 )
 
@@ -191,9 +191,9 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/strings",
-        "//absl/types:span",
+        "//tink/absl/base:config",
+        "//tink/absl/strings",
+        "//tink/absl/types:span",
     ],
 )
 
@@ -209,18 +209,18 @@ cc_library(
     deps = [
         ":config",
         ":globals",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:log_severity",
-        "//absl/base:raw_logging_internal",
-        "//absl/cleanup",
-        "//absl/log:globals",
-        "//absl/log:log_entry",
-        "//absl/log:log_sink",
-        "//absl/strings",
-        "//absl/synchronization",
-        "//absl/types:span",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:log_severity",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/cleanup",
+        "//tink/absl/log:globals",
+        "//tink/absl/log:log_entry",
+        "//tink/absl/log:log_sink",
+        "//tink/absl/strings",
+        "//tink/absl/synchronization",
+        "//tink/absl/types:span",
     ],
 )
 
@@ -231,8 +231,8 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -242,10 +242,10 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:log_severity",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:log_severity",
+        "//tink/absl/strings",
     ],
 )
 
@@ -257,7 +257,7 @@ cc_library(
     deps = [
         ":log_message",
         ":nullstream",
-        "//absl/base:log_severity",
+        "//tink/absl/base:log_severity",
     ],
 )
 
@@ -268,8 +268,8 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":log_message",
-        "//absl/base:config",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/strings",
     ],
 )
 
@@ -281,14 +281,14 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:log_severity",
-        "//absl/log:log_entry",
-        "//absl/strings",
-        "//absl/time",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:log_severity",
+        "//tink/absl/log:log_entry",
+        "//tink/absl/strings",
+        "//tink/absl/time",
     ] + select({
-        "//absl:msvc_compiler": [],
+        "//tink/absl:msvc_compiler": [],
         "//conditions:default": [
         ],
     }),
@@ -303,10 +303,10 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":globals",
-        "//absl/base:config",
-        "//absl/base:log_severity",
-        "//absl/log:globals",
-        "//absl/log:initialize",
+        "//tink/absl/base:config",
+        "//tink/absl/base:log_severity",
+        "//tink/absl/log:globals",
+        "//tink/absl/log:initialize",
         "@com_google_googletest//:gtest",
     ],
 )
@@ -320,15 +320,15 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":test_helpers",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:log_severity",
-        "//absl/log:log_entry",
-        "//absl/strings",
-        "//absl/time",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:log_severity",
+        "//tink/absl/log:log_entry",
+        "//tink/absl/strings",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest",
     ] + select({
-        "//absl:msvc_compiler": [],
+        "//tink/absl:msvc_compiler": [],
         "//conditions:default": [
         ],
     }),
@@ -339,7 +339,7 @@ cc_library(
     hdrs = ["voidify.h"],
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
-    deps = ["//absl/base:config"],
+    deps = ["//tink/absl/base:config"],
 )
 
 cc_library(
@@ -349,11 +349,11 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/strings",
-        "//absl/types:span",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/strings",
+        "//tink/absl/types:span",
     ],
 )
 
@@ -374,10 +374,10 @@ cc_test(
     ],
     deps = [
         ":test_helpers",
-        "//absl/base:core_headers",
-        "//absl/base:log_severity",
-        "//absl/log",
-        "//absl/log:globals",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:log_severity",
+        "//tink/absl/log",
+        "//tink/absl/log:globals",
         "@com_google_googletest//:gtest_main",
     ],
 )

@@ -10,7 +10,7 @@ cc_library(
         "//tink:key_status",
         "//tink/internal:key_status_util",
         "//tink/util:statusor",
-        "@com_google_absl//absl/container:flat_hash_map",
+        "//tink/absl/container:flat_hash_map",
     ],
 )
 

@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/internal/log_sink_set.h"
+#include "tink/absl/log/internal/log_sink_set.h"
 
 #ifndef ABSL_HAVE_THREAD_LOCAL
 #include <pthread.h>
@@ -30,21 +30,21 @@
 #include <algorithm>
 #include <vector>
 
-#include "absl/base/attributes.h"
-#include "absl/base/call_once.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/log_severity.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/cleanup/cleanup.h"
-#include "absl/log/globals.h"
-#include "absl/log/internal/config.h"
-#include "absl/log/internal/globals.h"
-#include "absl/log/log_entry.h"
-#include "absl/log/log_sink.h"
-#include "absl/strings/string_view.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/cleanup/cleanup.h"
+#include "tink/absl/log/globals.h"
+#include "tink/absl/log/internal/config.h"
+#include "tink/absl/log/internal/globals.h"
+#include "tink/absl/log/log_entry.h"
+#include "tink/absl/log/log_sink.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

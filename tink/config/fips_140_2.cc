@@ -16,7 +16,7 @@
 
 #include "tink/config/fips_140_2.h"
 
-#include "absl/log/check.h"
+#include "tink/absl/log/check.h"
 #include "tink/aead/aead_wrapper.h"
 #include "tink/aead/aes_ctr_hmac_aead_key_manager.h"
 #include "tink/aead/aes_gcm_key_manager.h"

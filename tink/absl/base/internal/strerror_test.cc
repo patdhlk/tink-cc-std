@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/strerror.h"
+#include "tink/absl/base/internal/strerror.h"
 
 #include <atomic>
 #include <cerrno>
@@ -24,7 +24,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/match.h"
+#include "tink/absl/strings/match.h"
 
 namespace {
 using ::testing::AnyOf;

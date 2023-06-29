@@ -24,12 +24,12 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/log/log.h"
-#include "absl/strings/internal/str_format/bind.h"
-#include "absl/strings/match.h"
-#include "absl/types/optional.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/strings/internal/str_format/bind.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/types/optional.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

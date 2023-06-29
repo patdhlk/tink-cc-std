@@ -23,11 +23,11 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/thread_annotations.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/synchronization/mutex.h"
 #include "tink/random_access_stream.h"
 #include "tink/subtle/stream_segment_decrypter.h"
 #include "tink/util/buffer.h"

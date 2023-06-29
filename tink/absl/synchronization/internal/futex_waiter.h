@@ -19,10 +19,10 @@
 #include <atomic>
 #include <cstdint>
 
-#include "absl/base/config.h"
-#include "absl/synchronization/internal/kernel_timeout.h"
-#include "absl/synchronization/internal/futex.h"
-#include "absl/synchronization/internal/waiter_base.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/synchronization/internal/futex.h"
+#include "tink/absl/synchronization/internal/waiter_base.h"
 
 #ifdef ABSL_INTERNAL_HAVE_FUTEX
 

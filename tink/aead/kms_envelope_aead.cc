@@ -22,10 +22,10 @@
 #include <string>
 #include <utility>
 
-#include "absl/base/internal/endian.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead.h"
 #include "tink/registry.h"
 #include "tink/util/status.h"

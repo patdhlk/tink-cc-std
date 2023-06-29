@@ -23,8 +23,8 @@
 #include <ostream>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "tink/output_stream.h"
 #include "tink/util/errors.h"
 #include "tink/util/status.h"

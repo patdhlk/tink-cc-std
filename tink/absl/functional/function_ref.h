@@ -50,9 +50,9 @@
 #include <functional>
 #include <type_traits>
 
-#include "absl/base/attributes.h"
-#include "absl/functional/internal/function_ref.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/functional/internal/function_ref.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

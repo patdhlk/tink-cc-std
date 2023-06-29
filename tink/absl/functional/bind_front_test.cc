@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/functional/bind_front.h"
+#include "tink/absl/functional/bind_front.h"
 
 #include <stddef.h>
 
@@ -22,7 +22,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 
 namespace {
 

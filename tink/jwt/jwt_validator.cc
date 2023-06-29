@@ -20,7 +20,7 @@
 #include <string>
 #include <vector>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 
 namespace crypto {
 namespace tink {

@@ -18,7 +18,7 @@
 
 #include <iostream>
 
-#include "absl/log/check.h"
+#include "tink/absl/log/check.h"
 #include "openssl/crypto.h"
 #include "tink/subtle/random.h"
 #include "tink/util/secret_data.h"

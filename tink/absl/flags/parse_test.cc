@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/parse.h"
+#include "tink/absl/flags/parse.h"
 
 #include <stdlib.h>
 
@@ -24,16 +24,16 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/internal/scoped_set_env.h"
-#include "absl/flags/flag.h"
-#include "absl/flags/internal/parse.h"
-#include "absl/flags/internal/usage.h"
-#include "absl/flags/reflection.h"
-#include "absl/log/log.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
-#include "absl/strings/substitute.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/internal/scoped_set_env.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/flags/internal/parse.h"
+#include "tink/absl/flags/internal/usage.h"
+#include "tink/absl/flags/reflection.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/strings/substitute.h"
+#include "tink/absl/types/span.h"
 
 #ifdef _WIN32
 #include <windows.h>

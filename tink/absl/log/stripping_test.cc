@@ -48,15 +48,15 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/internal/strerror.h"
-#include "absl/base/log_severity.h"
-#include "absl/flags/internal/program_name.h"
-#include "absl/log/check.h"
-#include "absl/log/internal/test_helpers.h"
-#include "absl/log/log.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/internal/strerror.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/flags/internal/program_name.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/log/internal/test_helpers.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/string_view.h"
 
 // Set a flag that controls whether we actually execute fatal statements, but
 // prevent the compiler from optimizing it out.

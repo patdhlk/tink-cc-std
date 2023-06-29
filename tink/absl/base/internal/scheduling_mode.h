@@ -18,7 +18,7 @@
 #ifndef ABSL_BASE_INTERNAL_SCHEDULING_MODE_H_
 #define ABSL_BASE_INTERNAL_SCHEDULING_MODE_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -16,7 +16,7 @@
 
 #include "tink/jwt/jwt_mac_config.h"
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/config/config_util.h"
 #include "tink/config/tink_fips.h"
 #include "tink/jwt/internal/jwt_hmac_key_manager.h"

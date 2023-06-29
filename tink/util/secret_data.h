@@ -22,7 +22,7 @@
 #include <type_traits>
 #include <vector>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/util/secret_data_internal.h"
 
 namespace crypto {

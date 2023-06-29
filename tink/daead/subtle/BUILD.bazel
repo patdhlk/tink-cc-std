@@ -11,8 +11,8 @@ cc_library(
     deps = [
         "//tink:aead",
         "//tink:deterministic_aead",
-        "@com_google_absl//absl/functional:bind_front",
-        "@com_google_absl//absl/types:variant",
+        "//tink/absl/functional:bind_front",
+        "//tink/absl/types:variant",
     ],
 )
 

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/low_level_alloc.h"
+#include "tink/absl/base/internal/low_level_alloc.h"
 
 #include <stdint.h>
 #include <stdio.h>
@@ -25,7 +25,7 @@
 #include <emscripten.h>
 #endif
 
-#include "absl/container/node_hash_map.h"
+#include "tink/absl/container/node_hash_map.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

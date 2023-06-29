@@ -17,7 +17,7 @@
 #ifndef TINK_EXPERIMENTAL_PQCRYPTO_SIGNATURE_UTIL_ENUMS_H_
 #define TINK_EXPERIMENTAL_PQCRYPTO_SIGNATURE_UTIL_ENUMS_H_
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/experimental/pqcrypto/signature/subtle/dilithium_key.h"
 #include "tink/experimental/pqcrypto/signature/subtle/sphincs_subtle_utils.h"
 #include "tink/util/statusor.h"

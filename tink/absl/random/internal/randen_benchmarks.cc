@@ -12,19 +12,19 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-#include "absl/random/internal/randen.h"
+#include "tink/absl/random/internal/randen.h"
 
 #include <cstdint>
 #include <cstdio>
 #include <cstring>
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/random/internal/nanobenchmark.h"
-#include "absl/random/internal/platform.h"
-#include "absl/random/internal/randen_engine.h"
-#include "absl/random/internal/randen_hwaes.h"
-#include "absl/random/internal/randen_slow.h"
-#include "absl/strings/numbers.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/random/internal/nanobenchmark.h"
+#include "tink/absl/random/internal/platform.h"
+#include "tink/absl/random/internal/randen_engine.h"
+#include "tink/absl/random/internal/randen_hwaes.h"
+#include "tink/absl/random/internal/randen_slow.h"
+#include "tink/absl/strings/numbers.h"
 
 namespace {
 

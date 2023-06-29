@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/explicit_seed_seq.h"
+#include "tink/absl/random/internal/explicit_seed_seq.h"
 
 #include <iterator>
 #include <random>
@@ -20,7 +20,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/random/seed_sequences.h"
+#include "tink/absl/random/seed_sequences.h"
 
 namespace {
 

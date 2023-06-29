@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/internal/check_op.h"
+#include "tink/absl/log/internal/check_op.h"
 
 #include <string.h>
 
@@ -25,8 +25,8 @@
 #include <sstream>
 #include <string>
 
-#include "absl/base/config.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

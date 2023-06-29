@@ -38,9 +38,9 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/strings/internal/ostringstream.h"
-#include "absl/strings/internal/resize_uninitialized.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/internal/ostringstream.h"
+#include "tink/absl/strings/internal/resize_uninitialized.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

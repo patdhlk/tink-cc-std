@@ -15,7 +15,7 @@
 #
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -33,11 +33,11 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl/flags:__pkg__",
+        "//tink/absl/flags:__pkg__",
     ],
     deps = [
-        "//absl/base:config",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/strings",
     ],
 )
 
@@ -52,15 +52,15 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl/flags:__pkg__",
-        "//absl/log:__pkg__",
+        "//tink/absl/flags:__pkg__",
+        "//tink/absl/log:__pkg__",
     ],
     deps = [
         ":path_util",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/strings",
-        "//absl/synchronization",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/strings",
+        "//tink/absl/synchronization",
     ],
 )
 
@@ -78,10 +78,10 @@ cc_library(
     deps = [
         ":path_util",
         ":program_name",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/strings",
-        "//absl/synchronization",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/strings",
+        "//tink/absl/synchronization",
     ],
 )
 
@@ -96,13 +96,13 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:log_severity",
-        "//absl/numeric:int128",
-        "//absl/strings",
-        "//absl/strings:str_format",
-        "//absl/types:optional",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:log_severity",
+        "//tink/absl/numeric:int128",
+        "//tink/absl/strings",
+        "//tink/absl/strings:str_format",
+        "//tink/absl/types:optional",
     ],
 )
 
@@ -120,8 +120,8 @@ cc_library(
         "//visibility:private",
     ],
     deps = [
-        "//absl/base:config",
-        "//absl/base:fast_type_id",
+        "//tink/absl/base:config",
+        "//tink/absl/base:fast_type_id",
     ],
 )
 
@@ -137,10 +137,10 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":commandlineflag_internal",
-        "//absl/base:config",
-        "//absl/base:fast_type_id",
-        "//absl/strings",
-        "//absl/types:optional",
+        "//tink/absl/base:config",
+        "//tink/absl/base:fast_type_id",
+        "//tink/absl/strings",
+        "//tink/absl/types:optional",
     ],
 )
 
@@ -155,13 +155,13 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl/flags:__pkg__",
+        "//tink/absl/flags:__pkg__",
     ],
     deps = [
         ":commandlineflag",
         ":commandlineflag_internal",
-        "//absl/base:config",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/strings",
     ],
 )
 
@@ -181,11 +181,11 @@ cc_library(
         ":commandlineflag_internal",
         ":config",
         ":private_handle_accessor",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/container:flat_hash_map",
-        "//absl/strings",
-        "//absl/synchronization",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/container:flat_hash_map",
+        "//tink/absl/strings",
+        "//tink/absl/synchronization",
     ],
 )
 
@@ -200,22 +200,22 @@ cc_library(
     ],
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
-    visibility = ["//absl/base:__subpackages__"],
+    visibility = ["//tink/absl/base:__subpackages__"],
     deps = [
         ":commandlineflag",
         ":commandlineflag_internal",
         ":config",
         ":marshalling",
         ":reflection",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
-        "//absl/memory",
-        "//absl/meta:type_traits",
-        "//absl/strings",
-        "//absl/synchronization",
-        "//absl/utility",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
+        "//tink/absl/memory",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/strings",
+        "//tink/absl/synchronization",
+        "//tink/absl/utility",
     ],
 )
 
@@ -235,10 +235,10 @@ cc_library(
         ":config",
         ":flag_internal",
         ":reflection",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/strings",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/strings",
     ],
 )
 
@@ -253,7 +253,7 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl/flags:__pkg__",
+        "//tink/absl/flags:__pkg__",
     ],
     deps = [
         ":commandlineflag",
@@ -264,10 +264,10 @@ cc_library(
         ":private_handle_accessor",
         ":program_name",
         ":reflection",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/container:flat_hash_map",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/container:flat_hash_map",
+        "//tink/absl/strings",
     ],
 )
 
@@ -283,11 +283,11 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":usage_internal",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/strings",
-        "//absl/synchronization",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/strings",
+        "//tink/absl/synchronization",
     ],
 )
 
@@ -311,11 +311,11 @@ cc_library(
         ":reflection",
         ":usage",
         ":usage_internal",
-        "//absl/algorithm:container",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/strings",
-        "//absl/synchronization",
+        "//tink/absl/algorithm:container",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/strings",
+        "//tink/absl/synchronization",
     ],
 )
 
@@ -344,8 +344,8 @@ cc_test(
         ":flag",
         ":private_handle_accessor",
         ":reflection",
-        "//absl/memory",
-        "//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -386,11 +386,11 @@ cc_test(
         ":flag_internal",
         ":marshalling",
         ":reflection",
-        "//absl/base:core_headers",
-        "//absl/base:malloc_internal",
-        "//absl/numeric:int128",
-        "//absl/strings",
-        "//absl/time",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:malloc_internal",
+        "//tink/absl/numeric:int128",
+        "//tink/absl/strings",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -413,9 +413,9 @@ cc_binary(
         ":marshalling",
         ":parse",
         ":reflection",
-        "//absl/strings",
-        "//absl/time",
-        "//absl/types:optional",
+        "//tink/absl/strings",
+        "//tink/absl/time",
+        "//tink/absl/types:optional",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -454,10 +454,10 @@ cc_test(
         ":parse",
         ":reflection",
         ":usage_internal",
-        "//absl/base:scoped_set_env",
-        "//absl/log",
-        "//absl/strings",
-        "//absl/types:span",
+        "//tink/absl/base:scoped_set_env",
+        "//tink/absl/log",
+        "//tink/absl/strings",
+        "//tink/absl/types:span",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -487,7 +487,7 @@ cc_test(
     tags = ["no_test_wasm"],
     deps = [
         ":program_name",
-        "//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -513,8 +513,8 @@ cc_test(
         ":marshalling",
         ":reflection",
         ":usage_internal",
-        "//absl/memory",
-        "//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -532,9 +532,9 @@ cc_test(
     tags = ["no_test_wasm"],
     deps = [
         ":flag_internal",
-        "//absl/base",
-        "//absl/container:fixed_array",
-        "//absl/time",
+        "//tink/absl/base",
+        "//tink/absl/container:fixed_array",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -551,7 +551,7 @@ cc_test(
         ":config",
         ":path_util",
         ":program_name",
-        "//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -580,7 +580,7 @@ cc_test(
         ":reflection",
         ":usage",
         ":usage_internal",
-        "//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest",
     ],
 )

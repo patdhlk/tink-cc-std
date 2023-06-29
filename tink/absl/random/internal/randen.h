@@ -17,10 +17,10 @@
 
 #include <cstddef>
 
-#include "absl/random/internal/platform.h"
-#include "absl/random/internal/randen_hwaes.h"
-#include "absl/random/internal/randen_slow.h"
-#include "absl/random/internal/randen_traits.h"
+#include "tink/absl/random/internal/platform.h"
+#include "tink/absl/random/internal/randen_hwaes.h"
+#include "tink/absl/random/internal/randen_slow.h"
+#include "tink/absl/random/internal/randen_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

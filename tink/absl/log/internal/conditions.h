@@ -33,9 +33,9 @@
 #include <atomic>
 #include <cstdint>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/log/internal/voidify.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/log/internal/voidify.h"
 
 // `ABSL_LOG_INTERNAL_CONDITION` prefixes another macro that expands to a
 // temporary `LogMessage` instantiation followed by zero or more streamed

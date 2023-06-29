@@ -16,7 +16,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/str_format.h"
+#include "tink/absl/strings/str_format.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

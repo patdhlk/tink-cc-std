@@ -45,14 +45,14 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/algorithm/algorithm.h"
-#include "absl/base/internal/throw_delegate.h"
-#include "absl/base/macros.h"
-#include "absl/base/optimization.h"
-#include "absl/base/port.h"
-#include "absl/container/internal/inlined_vector.h"
-#include "absl/memory/memory.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/algorithm/algorithm.h"
+#include "tink/absl/base/internal/throw_delegate.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/container/internal/inlined_vector.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -22,7 +22,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/random_access_stream.h"
 #include "tink/util/buffer.h"
 #include "tink/util/status.h"

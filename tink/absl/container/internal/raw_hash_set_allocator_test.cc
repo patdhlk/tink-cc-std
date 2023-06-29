@@ -16,8 +16,8 @@
 #include <scoped_allocator>
 
 #include "gtest/gtest.h"
-#include "absl/container/internal/raw_hash_set.h"
-#include "absl/container/internal/tracked.h"
+#include "tink/absl/container/internal/raw_hash_set.h"
+#include "tink/absl/container/internal/tracked.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

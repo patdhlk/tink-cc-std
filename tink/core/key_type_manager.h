@@ -21,8 +21,8 @@
 #include <tuple>
 #include <typeinfo>
 
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/core/template_util.h"
 #include "tink/input_stream.h"
 #include "tink/internal/fips_utils.h"

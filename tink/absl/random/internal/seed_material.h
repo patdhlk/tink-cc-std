@@ -21,10 +21,10 @@
 #include <string>
 #include <vector>
 
-#include "absl/base/attributes.h"
-#include "absl/random/internal/fast_uniform_bits.h"
-#include "absl/types/optional.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/random/internal/fast_uniform_bits.h"
+#include "tink/absl/types/optional.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

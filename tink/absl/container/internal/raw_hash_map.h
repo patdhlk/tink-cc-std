@@ -19,9 +19,9 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/internal/throw_delegate.h"
-#include "absl/container/internal/container_memory.h"
-#include "absl/container/internal/raw_hash_set.h"  // IWYU pragma: export
+#include "tink/absl/base/internal/throw_delegate.h"
+#include "tink/absl/container/internal/container_memory.h"
+#include "tink/absl/container/internal/raw_hash_set.h"  // IWYU pragma: export
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

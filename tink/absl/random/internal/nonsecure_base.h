@@ -22,13 +22,13 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/macros.h"
-#include "absl/container/inlined_vector.h"
-#include "absl/meta/type_traits.h"
-#include "absl/random/internal/pool_urbg.h"
-#include "absl/random/internal/salted_seed_seq.h"
-#include "absl/random/internal/seed_material.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/container/inlined_vector.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/random/internal/pool_urbg.h"
+#include "tink/absl/random/internal/salted_seed_seq.h"
+#include "tink/absl/random/internal/seed_material.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

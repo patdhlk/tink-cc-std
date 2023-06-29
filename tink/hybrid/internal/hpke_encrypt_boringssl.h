@@ -21,7 +21,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/base/attributes.h"
+#include "tink/absl/base/attributes.h"
 #include "openssl/hpke.h"
 #include "tink/util/statusor.h"
 #include "proto/hpke.pb.h"

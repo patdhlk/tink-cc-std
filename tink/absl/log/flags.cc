@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/internal/flags.h"
+#include "tink/absl/log/internal/flags.h"
 
 #include <stddef.h>
 
@@ -21,15 +21,15 @@
 #include <cstdlib>
 #include <string>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/log_severity.h"
-#include "absl/flags/flag.h"
-#include "absl/flags/marshalling.h"
-#include "absl/log/globals.h"
-#include "absl/log/internal/config.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/flags/marshalling.h"
+#include "tink/absl/log/globals.h"
+#include "tink/absl/log/internal/config.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

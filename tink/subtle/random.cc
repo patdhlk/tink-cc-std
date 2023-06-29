@@ -19,9 +19,9 @@
 #include <cstdint>
 #include <string>
 
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
-#include "absl/types/span.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/types/span.h"
 #include "openssl/rand.h"
 #include "tink/subtle/subtle_util.h"
 #include "tink/util/status.h"

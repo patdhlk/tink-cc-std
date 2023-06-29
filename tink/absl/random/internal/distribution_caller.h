@@ -20,9 +20,9 @@
 #include <utility>
 #include <type_traits>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/fast_type_id.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/fast_type_id.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

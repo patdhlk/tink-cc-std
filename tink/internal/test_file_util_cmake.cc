@@ -18,8 +18,8 @@
 
 #include <string>
 
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace crypto {
 namespace tink {

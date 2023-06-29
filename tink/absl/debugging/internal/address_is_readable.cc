@@ -15,7 +15,7 @@
 // base::AddressIsReadable() probes an address to see whether it is readable,
 // without faulting.
 
-#include "absl/debugging/internal/address_is_readable.h"
+#include "tink/absl/debugging/internal/address_is_readable.h"
 
 #if !defined(__linux__) || defined(__ANDROID__)
 
@@ -36,8 +36,8 @@ ABSL_NAMESPACE_END
 #include <syscall.h>
 #include <unistd.h>
 
-#include "absl/base/internal/errno_saver.h"
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/errno_saver.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

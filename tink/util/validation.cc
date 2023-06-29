@@ -16,7 +16,7 @@
 
 #include "tink/util/validation.h"
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/util/errors.h"
 #include "tink/util/status.h"
 #include "proto/tink.pb.h"

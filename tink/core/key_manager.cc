@@ -17,7 +17,7 @@
 
 #include <memory>
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 
 namespace crypto {
 namespace tink {

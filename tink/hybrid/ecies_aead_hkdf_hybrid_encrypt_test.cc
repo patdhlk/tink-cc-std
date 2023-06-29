@@ -21,7 +21,7 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/aead/aes_gcm_key_manager.h"
 #include "tink/hybrid_encrypt.h"
 #include "tink/internal/ec_util.h"

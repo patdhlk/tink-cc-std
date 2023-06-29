@@ -35,9 +35,9 @@
 #include <string>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/base/macros.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/port.h"
 
 #if defined(_MSC_VER)
 // In very old versions of MSVC and when the /Zc:wchar_t flag is off, wchar_t is
@@ -1149,9 +1149,9 @@ constexpr int64_t BitCastToSigned(uint64_t v) {
 }  // namespace int128_internal
 
 #if defined(ABSL_HAVE_INTRINSIC_INT128)
-#include "absl/numeric/int128_have_intrinsic.inc"  // IWYU pragma: export
+#include "tink/absl/numeric/int128_have_intrinsic.inc"  // IWYU pragma: export
 #else  // ABSL_HAVE_INTRINSIC_INT128
-#include "absl/numeric/int128_no_intrinsic.inc"  // IWYU pragma: export
+#include "tink/absl/numeric/int128_no_intrinsic.inc"  // IWYU pragma: export
 #endif  // ABSL_HAVE_INTRINSIC_INT128
 
 ABSL_NAMESPACE_END

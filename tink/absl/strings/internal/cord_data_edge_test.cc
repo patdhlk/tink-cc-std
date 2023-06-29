@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/cord_data_edge.h"
+#include "tink/absl/strings/internal/cord_data_edge.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_test_util.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_test_util.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

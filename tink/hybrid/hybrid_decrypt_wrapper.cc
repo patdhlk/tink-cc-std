@@ -20,7 +20,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/crypto_format.h"
 #include "tink/hybrid_decrypt.h"
 #include "tink/internal/monitoring_util.h"

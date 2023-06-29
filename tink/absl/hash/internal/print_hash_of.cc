@@ -14,7 +14,7 @@
 
 #include <cstdlib>
 
-#include "absl/hash/hash.h"
+#include "tink/absl/hash/hash.h"
 
 // Prints the hash of argv[1].
 int main(int argc, char** argv) {

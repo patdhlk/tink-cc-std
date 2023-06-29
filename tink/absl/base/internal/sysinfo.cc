@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/sysinfo.h"
+#include "tink/absl/base/internal/sysinfo.h"
 
-#include "absl/base/attributes.h"
+#include "tink/absl/base/attributes.h"
 
 #ifdef _WIN32
 #include <windows.h>
@@ -51,12 +51,12 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/call_once.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/base/internal/unscaledcycleclock.h"
-#include "absl/base/thread_annotations.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/base/internal/unscaledcycleclock.h"
+#include "tink/absl/base/thread_annotations.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

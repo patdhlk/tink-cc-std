@@ -19,9 +19,9 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/subtle/mac/stateful_mac.h"
 #include "tink/util/input_stream_util.h"
 #include "tink/util/status.h"

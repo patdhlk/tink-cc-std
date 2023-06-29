@@ -28,15 +28,15 @@
 #endif
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/log/check.h"
-#include "absl/log/internal/test_matchers.h"
-#include "absl/log/log.h"
-#include "absl/log/scoped_mock_log.h"
-#include "absl/strings/match.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/log/internal/test_matchers.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/log/scoped_mock_log.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 
 namespace {
 using ::absl::log_internal::AsString;

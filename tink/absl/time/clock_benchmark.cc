@@ -11,7 +11,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/time/clock.h"
+#include "tink/absl/time/clock.h"
 
 #if !defined(_WIN32)
 #include <sys/time.h>
@@ -20,7 +20,7 @@
 #endif  // _WIN32
 #include <cstdio>
 
-#include "absl/base/internal/cycleclock.h"
+#include "tink/absl/base/internal/cycleclock.h"
 #include "benchmark/benchmark.h"
 
 namespace {

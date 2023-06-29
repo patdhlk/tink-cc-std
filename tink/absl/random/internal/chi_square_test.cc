@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/chi_square.h"
+#include "tink/absl/random/internal/chi_square.h"
 
 #include <algorithm>
 #include <cstddef>
@@ -22,7 +22,7 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 
 using absl::random_internal::ChiSquare;
 using absl::random_internal::ChiSquarePValue;

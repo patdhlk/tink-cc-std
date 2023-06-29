@@ -35,8 +35,8 @@
 #ifndef ABSL_TYPES_OPTIONAL_H_
 #define ABSL_TYPES_OPTIONAL_H_
 
-#include "absl/base/config.h"   // TODO(calabrese) IWYU removal?
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"   // TODO(calabrese) IWYU removal?
+#include "tink/absl/utility/utility.h"
 
 #ifdef ABSL_USES_STD_OPTIONAL
 
@@ -60,11 +60,11 @@ ABSL_NAMESPACE_END
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/inline_variable.h"
-#include "absl/meta/type_traits.h"
-#include "absl/types/bad_optional_access.h"
-#include "absl/types/internal/optional.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/inline_variable.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/types/bad_optional_access.h"
+#include "tink/absl/types/internal/optional.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

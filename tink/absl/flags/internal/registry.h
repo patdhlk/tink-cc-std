@@ -18,10 +18,10 @@
 
 #include <functional>
 
-#include "absl/base/config.h"
-#include "absl/flags/commandlineflag.h"
-#include "absl/flags/internal/commandlineflag.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/flags/commandlineflag.h"
+#include "tink/absl/flags/internal/commandlineflag.h"
+#include "tink/absl/strings/string_view.h"
 
 // --------------------------------------------------------------------
 // Global flags registry API.

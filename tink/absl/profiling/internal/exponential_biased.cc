@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/profiling/internal/exponential_biased.h"
+#include "tink/absl/profiling/internal/exponential_biased.h"
 
 #include <stdint.h>
 
@@ -21,8 +21,8 @@
 #include <cmath>
 #include <limits>
 
-#include "absl/base/attributes.h"
-#include "absl/base/optimization.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/optimization.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

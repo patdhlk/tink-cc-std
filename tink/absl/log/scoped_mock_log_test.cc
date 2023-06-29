@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/scoped_mock_log.h"
+#include "tink/absl/log/scoped_mock_log.h"
 
 #include <memory>
 #include <thread>  // NOLINT(build/c++11)
@@ -21,17 +21,17 @@
 #include "gmock/gmock.h"
 #include "gtest/gtest-spi.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/globals.h"
-#include "absl/log/internal/test_helpers.h"
-#include "absl/log/internal/test_matchers.h"
-#include "absl/log/log.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/match.h"
-#include "absl/strings/string_view.h"
-#include "absl/synchronization/barrier.h"
-#include "absl/synchronization/notification.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/globals.h"
+#include "tink/absl/log/internal/test_helpers.h"
+#include "tink/absl/log/internal/test_matchers.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/synchronization/barrier.h"
+#include "tink/absl/synchronization/notification.h"
 
 namespace {
 

@@ -37,7 +37,7 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/utility/utility.h"
+#include "tink/absl/utility/utility.h"
 
 #if defined(_MSC_VER) && !defined(__NVCC__)
 // We need to mark these classes with this declspec to ensure that

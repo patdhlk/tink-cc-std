@@ -20,7 +20,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/functional/bind_front.h"
+#include "tink/absl/functional/bind_front.h"
 
 namespace crypto {
 namespace tink {

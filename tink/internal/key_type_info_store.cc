@@ -20,7 +20,7 @@
 #include <typeindex>
 #include <utility>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/util/status.h"
 #include "tink/util/statusor.h"
 

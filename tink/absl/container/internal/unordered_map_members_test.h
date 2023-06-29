@@ -18,7 +18,7 @@
 #include <type_traits>
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

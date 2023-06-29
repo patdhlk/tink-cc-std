@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/numeric/int128.h"
+#include "tink/absl/numeric/int128.h"
 
 #include <algorithm>
 #include <limits>
@@ -22,9 +22,9 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/internal/cycleclock.h"
-#include "absl/hash/hash_testing.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/base/internal/cycleclock.h"
+#include "tink/absl/hash/hash_testing.h"
+#include "tink/absl/meta/type_traits.h"
 
 #if defined(_MSC_VER) && _MSC_VER == 1900
 // Disable "unary minus operator applied to unsigned type" warnings in Microsoft

@@ -17,7 +17,7 @@
 
 #include <cstdint>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // This class implements CRCs (aka Rabin Fingerprints).
 // Treats the input as a polynomial with coefficients in Z(2),

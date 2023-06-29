@@ -23,7 +23,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/internal/registry_impl.h"
 #include "tink/mac/mac_wrapper.h"
 #include "tink/primitive_set.h"

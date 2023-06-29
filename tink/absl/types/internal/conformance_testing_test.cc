@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/types/internal/conformance_testing.h"
+#include "tink/absl/types/internal/conformance_testing.h"
 
 #include <new>
 #include <type_traits>
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/meta/type_traits.h"
-#include "absl/types/internal/conformance_aliases.h"
-#include "absl/types/internal/conformance_profile.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/types/internal/conformance_aliases.h"
+#include "tink/absl/types/internal/conformance_profile.h"
 
 namespace {
 

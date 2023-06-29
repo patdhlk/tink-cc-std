@@ -19,7 +19,7 @@
 
 #include <cstdint>
 
-#include "absl/debugging/stacktrace.h"
+#include "tink/absl/debugging/stacktrace.h"
 
 // WARNING:
 // This only works if all your code is in either ARM or THUMB mode.  With

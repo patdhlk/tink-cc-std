@@ -18,8 +18,8 @@
 #include <cassert>
 #include <iostream>
 
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_btree.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_btree.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

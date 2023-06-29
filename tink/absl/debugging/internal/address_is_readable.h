@@ -15,7 +15,7 @@
 #ifndef ABSL_DEBUGGING_INTERNAL_ADDRESS_IS_READABLE_H_
 #define ABSL_DEBUGGING_INTERNAL_ADDRESS_IS_READABLE_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

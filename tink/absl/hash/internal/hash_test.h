@@ -21,8 +21,8 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/hash/hash.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/hash/hash.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

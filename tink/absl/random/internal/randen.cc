@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/randen.h"
+#include "tink/absl/random/internal/randen.h"
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/random/internal/randen_detect.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/random/internal/randen_detect.h"
 
 // RANDen = RANDom generator or beetroots in Swiss High German.
 // 'Strong' (well-distributed, unpredictable, backtracking-resistant) random

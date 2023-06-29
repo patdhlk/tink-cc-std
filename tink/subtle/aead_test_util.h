@@ -16,7 +16,7 @@
 #ifndef TINK_SUBTLE_AEAD_TEST_UTIL_H_
 #define TINK_SUBTLE_AEAD_TEST_UTIL_H_
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead.h"
 #include "tink/aead/cord_aead.h"
 #include "tink/util/status.h"

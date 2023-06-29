@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/crc/internal/cpu_detect.h"
+#include "tink/absl/crc/internal/cpu_detect.h"
 
 #include <cstdint>
 #include <string>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #if defined(__aarch64__) && defined(__linux__)
 #include <asm/hwcap.h>

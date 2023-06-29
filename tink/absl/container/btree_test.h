@@ -22,11 +22,11 @@
 #include <utility>
 #include <vector>
 
-#include "absl/container/btree_map.h"
-#include "absl/container/btree_set.h"
-#include "absl/container/flat_hash_set.h"
-#include "absl/strings/cord.h"
-#include "absl/time/time.h"
+#include "tink/absl/container/btree_map.h"
+#include "tink/absl/container/btree_set.h"
+#include "tink/absl/container/flat_hash_set.h"
+#include "tink/absl/strings/cord.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -19,8 +19,8 @@
 
 #include <atomic>
 
-#include "absl/base/optimization.h"
-#include "absl/profiling/internal/exponential_biased.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/profiling/internal/exponential_biased.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

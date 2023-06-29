@@ -33,7 +33,7 @@
 #ifndef ABSL_LOG_ABSL_LOG_H_
 #define ABSL_LOG_ABSL_LOG_H_
 
-#include "absl/log/internal/log_impl.h"
+#include "tink/absl/log/internal/log_impl.h"
 
 #define ABSL_LOG(severity) ABSL_LOG_INTERNAL_LOG_IMPL(_##severity)
 #define ABSL_PLOG(severity) ABSL_LOG_INTERNAL_PLOG_IMPL(_##severity)

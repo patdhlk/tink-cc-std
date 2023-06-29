@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/bernoulli_distribution.h"
+#include "tink/absl/random/bernoulli_distribution.h"
 
 #include <cmath>
 #include <cstddef>
@@ -21,9 +21,9 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/random/internal/pcg_engine.h"
-#include "absl/random/internal/sequence_urbg.h"
-#include "absl/random/random.h"
+#include "tink/absl/random/internal/pcg_engine.h"
+#include "tink/absl/random/internal/sequence_urbg.h"
+#include "tink/absl/random/random.h"
 
 namespace {
 

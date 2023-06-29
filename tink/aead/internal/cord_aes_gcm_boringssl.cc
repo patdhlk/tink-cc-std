@@ -21,8 +21,8 @@
 #include <string>
 #include <utility>
 
-#include "absl/status/status.h"
-#include "absl/strings/cord.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/cord.h"
 #include "openssl/evp.h"
 #include "tink/aead/cord_aead.h"
 #include "tink/aead/internal/aead_util.h"

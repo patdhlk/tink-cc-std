@@ -21,8 +21,8 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/strings/escaping.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/escaping.h"
 #include "tink/config/tink_fips.h"
 #include "tink/subtle/common_enums.h"
 #include "tink/util/secret_data.h"

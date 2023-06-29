@@ -28,8 +28,8 @@
 #include <cstdint>
 #include <ostream>
 
-#include "absl/crc/internal/crc32c_inline.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/crc/internal/crc32c_inline.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -19,7 +19,7 @@
 #include <memory>
 #include <utility>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "openssl/base.h"
 #include "openssl/err.h"
 #include "openssl/hpke.h"

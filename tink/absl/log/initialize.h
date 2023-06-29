@@ -21,7 +21,7 @@
 #ifndef ABSL_LOG_INITIALIZE_H_
 #define ABSL_LOG_INITIALIZE_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

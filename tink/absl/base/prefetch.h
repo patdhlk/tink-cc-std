@@ -24,7 +24,7 @@
 #ifndef ABSL_BASE_PREFETCH_H_
 #define ABSL_BASE_PREFETCH_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #if defined(ABSL_INTERNAL_HAVE_SSE)
 #include <xmmintrin.h>

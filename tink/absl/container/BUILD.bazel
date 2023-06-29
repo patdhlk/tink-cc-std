@@ -15,7 +15,7 @@
 #
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -31,7 +31,7 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/utility",
+        "//tink/absl/utility",
     ],
 )
 
@@ -43,10 +43,10 @@ cc_test(
     deps = [
         ":compressed_tuple",
         ":test_instance_tracker",
-        "//absl/memory",
-        "//absl/types:any",
-        "//absl/types:optional",
-        "//absl/utility",
+        "//tink/absl/memory",
+        "//tink/absl/types:any",
+        "//tink/absl/types:optional",
+        "//tink/absl/utility",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -58,12 +58,12 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":compressed_tuple",
-        "//absl/algorithm",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
-        "//absl/base:throw_delegate",
-        "//absl/memory",
+        "//tink/absl/algorithm",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
+        "//tink/absl/base:throw_delegate",
+        "//tink/absl/memory",
     ],
 )
 
@@ -75,10 +75,10 @@ cc_test(
     deps = [
         ":counting_allocator",
         ":fixed_array",
-        "//absl/base:config",
-        "//absl/base:exception_testing",
-        "//absl/hash:hash_testing",
-        "//absl/memory",
+        "//tink/absl/base:config",
+        "//tink/absl/base:exception_testing",
+        "//tink/absl/hash:hash_testing",
+        "//tink/absl/memory",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -90,8 +90,8 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":fixed_array",
-        "//absl/base:config",
-        "//absl/base:exception_safety_testing",
+        "//tink/absl/base:config",
+        "//tink/absl/base:exception_safety_testing",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -116,10 +116,10 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":compressed_tuple",
-        "//absl/base:core_headers",
-        "//absl/memory",
-        "//absl/meta:type_traits",
-        "//absl/types:span",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/memory",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/types:span",
     ],
 )
 
@@ -130,11 +130,11 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":inlined_vector_internal",
-        "//absl/algorithm",
-        "//absl/base:core_headers",
-        "//absl/base:throw_delegate",
-        "//absl/memory",
-        "//absl/meta:type_traits",
+        "//tink/absl/algorithm",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:throw_delegate",
+        "//tink/absl/memory",
+        "//tink/absl/meta:type_traits",
     ],
 )
 
@@ -145,7 +145,7 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = ["//visibility:private"],
-    deps = ["//absl/base:config"],
+    deps = ["//tink/absl/base:config"],
 )
 
 cc_test(
@@ -157,13 +157,13 @@ cc_test(
         ":counting_allocator",
         ":inlined_vector",
         ":test_instance_tracker",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:exception_testing",
-        "//absl/hash:hash_testing",
-        "//absl/log:check",
-        "//absl/memory",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:exception_testing",
+        "//tink/absl/hash:hash_testing",
+        "//tink/absl/log:check",
+        "//tink/absl/memory",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -177,9 +177,9 @@ cc_binary(
     tags = ["benchmark"],
     deps = [
         ":inlined_vector",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/strings",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/strings",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -190,8 +190,8 @@ cc_test(
     copts = ABSL_TEST_COPTS,
     deps = [
         ":inlined_vector",
-        "//absl/base:config",
-        "//absl/base:exception_safety_testing",
+        "//tink/absl/base:config",
+        "//tink/absl/base:exception_safety_testing",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -204,9 +204,9 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = [
-        "//absl:__subpackages__",
+        "//tink/absl:__subpackages__",
     ],
-    deps = ["//absl/types:compare"],
+    deps = ["//tink/absl/types:compare"],
 )
 
 cc_test(
@@ -236,9 +236,9 @@ cc_library(
         ":container_memory",
         ":hash_function_defaults",
         ":raw_hash_map",
-        "//absl/algorithm:container",
-        "//absl/base:core_headers",
-        "//absl/memory",
+        "//tink/absl/algorithm:container",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/memory",
     ],
 )
 
@@ -255,8 +255,8 @@ cc_test(
         ":unordered_map_lookup_test",
         ":unordered_map_members_test",
         ":unordered_map_modifiers_test",
-        "//absl/log:check",
-        "//absl/types:any",
+        "//tink/absl/log:check",
+        "//tink/absl/types:any",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -270,9 +270,9 @@ cc_library(
         ":container_memory",
         ":hash_function_defaults",
         ":raw_hash_set",
-        "//absl/algorithm:container",
-        "//absl/base:core_headers",
-        "//absl/memory",
+        "//tink/absl/algorithm:container",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/memory",
     ],
 )
 
@@ -289,9 +289,9 @@ cc_test(
         ":unordered_set_lookup_test",
         ":unordered_set_members_test",
         ":unordered_set_modifiers_test",
-        "//absl/log:check",
-        "//absl/memory",
-        "//absl/strings",
+        "//tink/absl/log:check",
+        "//tink/absl/memory",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -306,9 +306,9 @@ cc_library(
         ":hash_function_defaults",
         ":node_slot_policy",
         ":raw_hash_map",
-        "//absl/algorithm:container",
-        "//absl/base:core_headers",
-        "//absl/memory",
+        "//tink/absl/algorithm:container",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/memory",
     ],
 )
 
@@ -339,9 +339,9 @@ cc_library(
         ":hash_function_defaults",
         ":node_slot_policy",
         ":raw_hash_set",
-        "//absl/algorithm:container",
-        "//absl/base:core_headers",
-        "//absl/memory",
+        "//tink/absl/algorithm:container",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/memory",
     ],
 )
 
@@ -367,10 +367,10 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/memory",
-        "//absl/meta:type_traits",
-        "//absl/utility",
+        "//tink/absl/base:config",
+        "//tink/absl/memory",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/utility",
     ],
 )
 
@@ -383,7 +383,7 @@ cc_test(
     deps = [
         ":container_memory",
         ":test_instance_tracker",
-        "//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -397,10 +397,10 @@ cc_library(
         "//visibility:private",
     ],
     deps = [
-        "//absl/base:config",
-        "//absl/hash",
-        "//absl/strings",
-        "//absl/strings:cord",
+        "//tink/absl/base:config",
+        "//tink/absl/hash",
+        "//tink/absl/strings",
+        "//tink/absl/strings:cord",
     ],
 )
 
@@ -412,11 +412,11 @@ cc_test(
     tags = NOTEST_TAGS_MOBILE + ["no_test_loonix"],
     deps = [
         ":hash_function_defaults",
-        "//absl/hash",
-        "//absl/random",
-        "//absl/strings",
-        "//absl/strings:cord",
-        "//absl/strings:cord_test_helpers",
+        "//tink/absl/hash",
+        "//tink/absl/random",
+        "//tink/absl/strings",
+        "//tink/absl/strings:cord",
+        "//tink/absl/strings:cord_test_helpers",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -430,9 +430,9 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":hash_policy_testing",
-        "//absl/memory",
-        "//absl/meta:type_traits",
-        "//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/strings",
     ],
 )
 
@@ -443,8 +443,8 @@ cc_library(
     copts = ABSL_TEST_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/hash",
-        "//absl/strings",
+        "//tink/absl/hash",
+        "//tink/absl/strings",
     ],
 )
 
@@ -466,7 +466,7 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":common_policy_traits",
-        "//absl/meta:type_traits",
+        "//tink/absl/meta:type_traits",
     ],
 )
 
@@ -487,7 +487,7 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = ["//visibility:private"],
-    deps = ["//absl/meta:type_traits"],
+    deps = ["//tink/absl/meta:type_traits"],
 )
 
 cc_test(
@@ -517,7 +517,7 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
+        "//tink/absl/base:config",
     ],
 )
 
@@ -531,17 +531,17 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/debugging:stacktrace",
-        "//absl/memory",
-        "//absl/profiling:exponential_biased",
-        "//absl/profiling:sample_recorder",
-        "//absl/synchronization",
-        "//absl/time",
-        "//absl/utility",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/debugging:stacktrace",
+        "//tink/absl/memory",
+        "//tink/absl/profiling:exponential_biased",
+        "//tink/absl/profiling:sample_recorder",
+        "//tink/absl/synchronization",
+        "//tink/absl/time",
+        "//tink/absl/utility",
     ],
 )
 
@@ -554,12 +554,12 @@ cc_test(
     ],
     deps = [
         ":hashtablez_sampler",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/profiling:sample_recorder",
-        "//absl/synchronization",
-        "//absl/synchronization:thread_pool",
-        "//absl/time",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/profiling:sample_recorder",
+        "//tink/absl/synchronization",
+        "//tink/absl/synchronization:thread_pool",
+        "//tink/absl/time",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -569,7 +569,7 @@ cc_library(
     hdrs = ["internal/node_slot_policy.h"],
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
-    deps = ["//absl/base:config"],
+    deps = ["//tink/absl/base:config"],
 )
 
 cc_test(
@@ -592,7 +592,7 @@ cc_library(
     deps = [
         ":container_memory",
         ":raw_hash_set",
-        "//absl/base:throw_delegate",
+        "//tink/absl/base:throw_delegate",
     ],
 )
 
@@ -602,8 +602,8 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/meta:type_traits",
-        "//absl/types:optional",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/types:optional",
     ],
 )
 
@@ -620,17 +620,17 @@ cc_library(
         ":hash_policy_traits",
         ":hashtable_debug_hooks",
         ":hashtablez_sampler",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
-        "//absl/base:endian",
-        "//absl/base:prefetch",
-        "//absl/base:raw_logging_internal",
-        "//absl/hash",
-        "//absl/memory",
-        "//absl/meta:type_traits",
-        "//absl/numeric:bits",
-        "//absl/utility",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
+        "//tink/absl/base:endian",
+        "//tink/absl/base:prefetch",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/hash",
+        "//tink/absl/memory",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/numeric:bits",
+        "//tink/absl/utility",
     ],
 )
 
@@ -652,12 +652,12 @@ cc_test(
         ":hash_policy_testing",
         ":hashtable_debug",
         ":raw_hash_set",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:prefetch",
-        "//absl/log",
-        "//absl/strings",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:prefetch",
+        "//tink/absl/log",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -673,8 +673,8 @@ cc_binary(
     deps = [
         ":hash_function_defaults",
         ":raw_hash_set",
-        "//absl/base:raw_logging_internal",
-        "//absl/strings:str_format",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/strings:str_format",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -694,10 +694,10 @@ cc_binary(
         ":hash_function_defaults",
         ":hashtable_debug",
         ":raw_hash_set",
-        "//absl/random",
-        "//absl/random:distributions",
-        "//absl/strings",
-        "//absl/strings:str_format",
+        "//tink/absl/random",
+        "//tink/absl/random:distributions",
+        "//tink/absl/strings",
+        "//tink/absl/strings:str_format",
     ],
 )
 
@@ -710,7 +710,7 @@ cc_test(
     deps = [
         ":raw_hash_set",
         ":tracked",
-        "//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -721,12 +721,12 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/meta:type_traits",
-        "//absl/strings",
-        "//absl/types:span",
-        "//absl/utility",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/strings",
+        "//tink/absl/types:span",
+        "//tink/absl/utility",
     ],
 )
 
@@ -740,10 +740,10 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":layout",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/log:check",
-        "//absl/types:span",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/log:check",
+        "//tink/absl/types:span",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -758,8 +758,8 @@ cc_binary(
     visibility = ["//visibility:private"],
     deps = [
         ":layout",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -771,7 +771,7 @@ cc_library(
     copts = ABSL_TEST_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
+        "//tink/absl/base:config",
     ],
 )
 
@@ -823,7 +823,7 @@ cc_library(
     deps = [
         ":hash_generator_testing",
         ":hash_policy_testing",
-        "//absl/meta:type_traits",
+        "//tink/absl/meta:type_traits",
         "@com_google_googletest//:gtest",
     ],
 )
@@ -835,7 +835,7 @@ cc_library(
     copts = ABSL_TEST_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/meta:type_traits",
+        "//tink/absl/meta:type_traits",
         "@com_google_googletest//:gtest",
     ],
 )
@@ -847,7 +847,7 @@ cc_library(
     copts = ABSL_TEST_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/meta:type_traits",
+        "//tink/absl/meta:type_traits",
         "@com_google_googletest//:gtest",
     ],
 )
@@ -943,15 +943,15 @@ cc_library(
         ":compressed_tuple",
         ":container_memory",
         ":layout",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/base:throw_delegate",
-        "//absl/memory",
-        "//absl/meta:type_traits",
-        "//absl/strings",
-        "//absl/strings:cord",
-        "//absl/types:compare",
-        "//absl/utility",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/base:throw_delegate",
+        "//tink/absl/memory",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/strings",
+        "//tink/absl/strings:cord",
+        "//tink/absl/types:compare",
+        "//tink/absl/utility",
     ],
 )
 
@@ -965,9 +965,9 @@ cc_library(
     deps = [
         ":btree",
         ":flat_hash_set",
-        "//absl/strings",
-        "//absl/strings:cord",
-        "//absl/time",
+        "//tink/absl/strings",
+        "//tink/absl/strings:cord",
+        "//tink/absl/time",
     ],
 )
 
@@ -991,16 +991,16 @@ cc_test(
         ":btree_test_common",
         ":counting_allocator",
         ":test_instance_tracker",
-        "//absl/algorithm:container",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
-        "//absl/flags:flag",
-        "//absl/hash:hash_testing",
-        "//absl/memory",
-        "//absl/random",
-        "//absl/strings",
-        "//absl/types:compare",
-        "//absl/types:optional",
+        "//tink/absl/algorithm:container",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/flags:flag",
+        "//tink/absl/hash:hash_testing",
+        "//tink/absl/memory",
+        "//tink/absl/random",
+        "//tink/absl/strings",
+        "//tink/absl/types:compare",
+        "//tink/absl/types:optional",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -1021,15 +1021,15 @@ cc_binary(
         ":flat_hash_map",
         ":flat_hash_set",
         ":hashtable_debug",
-        "//absl/algorithm:container",
-        "//absl/base:raw_logging_internal",
-        "//absl/hash",
-        "//absl/log",
-        "//absl/memory",
-        "//absl/random",
-        "//absl/strings:cord",
-        "//absl/strings:str_format",
-        "//absl/time",
+        "//tink/absl/algorithm:container",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/hash",
+        "//tink/absl/log",
+        "//tink/absl/memory",
+        "//tink/absl/random",
+        "//tink/absl/strings:cord",
+        "//tink/absl/strings:str_format",
+        "//tink/absl/time",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )

@@ -19,7 +19,7 @@
 #include <memory>
 #include <string>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/public_key_sign.h"
 #include "tink/public_key_verify.h"
 

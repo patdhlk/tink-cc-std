@@ -17,9 +17,9 @@
 #include <ctime>
 #include <string>
 
-#include "absl/base/attributes.h"
-#include "absl/flags/flag.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/time/time.h"
 #include "benchmark/benchmark.h"
 
 ABSL_FLAG(absl::Duration, absl_duration_flag_for_benchmark,

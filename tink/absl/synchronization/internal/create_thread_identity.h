@@ -20,13 +20,13 @@
 // This file is separate from thread_identity.h because creating a new
 // ThreadIdentity requires slightly higher level libraries (per_thread_sem
 // and low_level_alloc) than accessing an existing one.  This separation allows
-// us to have a smaller //absl/base:base.
+// us to have a smaller //tink/absl/base:base.
 
 #ifndef ABSL_SYNCHRONIZATION_INTERNAL_CREATE_THREAD_IDENTITY_H_
 #define ABSL_SYNCHRONIZATION_INTERNAL_CREATE_THREAD_IDENTITY_H_
 
-#include "absl/base/internal/thread_identity.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/internal/thread_identity.h"
+#include "tink/absl/base/port.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

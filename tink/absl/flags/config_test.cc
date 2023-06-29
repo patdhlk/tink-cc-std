@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/config.h"
+#include "tink/absl/flags/config.h"
 
 #ifdef __APPLE__
 #include <TargetConditionals.h>

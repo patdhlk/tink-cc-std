@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/internal/compressed_tuple.h"
+#include "tink/absl/container/internal/compressed_tuple.h"
 
 #include <memory>
 #include <string>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/internal/test_instance_tracker.h"
-#include "absl/memory/memory.h"
-#include "absl/types/any.h"
-#include "absl/types/optional.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/container/internal/test_instance_tracker.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/types/any.h"
+#include "tink/absl/types/optional.h"
+#include "tink/absl/utility/utility.h"
 
 // These are declared at global scope purely so that error messages
 // are smaller and easier to understand.

@@ -19,7 +19,7 @@
 #include <memory>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/hybrid/internal/hpke_encrypt.h"
 #include "tink/hybrid_encrypt.h"
 #include "tink/subtle/hybrid_test_util.h"

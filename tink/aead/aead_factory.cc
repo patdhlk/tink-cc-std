@@ -18,7 +18,7 @@
 
 #include <memory>
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/aead.h"
 #include "tink/aead/aead_wrapper.h"
 #include "tink/key_manager.h"

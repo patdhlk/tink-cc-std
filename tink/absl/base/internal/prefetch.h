@@ -17,9 +17,9 @@
 #ifndef ABSL_BASE_INTERNAL_PREFETCH_H_
 #define ABSL_BASE_INTERNAL_PREFETCH_H_
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/prefetch.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/prefetch.h"
 
 #ifdef __SSE__
 #include <xmmintrin.h>

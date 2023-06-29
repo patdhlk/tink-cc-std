@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/internal/common_policy_traits.h"
+#include "tink/absl/container/internal/common_policy_traits.h"
 
 #include <functional>
 #include <memory>

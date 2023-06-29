@@ -20,13 +20,13 @@
 #include <sstream>
 #include <string>
 
-#include "absl/base/port.h"
-#include "absl/container/inlined_vector.h"
-#include "absl/strings/internal/str_format/arg.h"
-#include "absl/strings/internal/str_format/checker.h"
-#include "absl/strings/internal/str_format/parser.h"
-#include "absl/types/span.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/container/inlined_vector.h"
+#include "tink/absl/strings/internal/str_format/arg.h"
+#include "tink/absl/strings/internal/str_format/checker.h"
+#include "tink/absl/strings/internal/str_format/parser.h"
+#include "tink/absl/types/span.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

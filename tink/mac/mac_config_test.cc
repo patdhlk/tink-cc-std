@@ -22,7 +22,7 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/chunked_mac.h"
 #include "tink/insecure_secret_key_access.h"
 #include "tink/internal/fips_utils.h"

@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/die_if_null.h"
+#include "tink/absl/log/die_if_null.h"
 
-#include "absl/base/config.h"
-#include "absl/log/log.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

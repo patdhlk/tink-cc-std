@@ -22,8 +22,8 @@
 #include <ostream>
 #include <utility>
 
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead.h"
 #include "tink/json_keyset_writer.h"
 #include "tink/keyset_handle.h"

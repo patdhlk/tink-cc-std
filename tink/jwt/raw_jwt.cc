@@ -20,11 +20,11 @@
 #include <utility>
 #include <vector>
 
-#include "absl/status/status.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/substitute.h"
-#include "absl/time/time.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/substitute.h"
+#include "tink/absl/time/time.h"
 #include "tink/jwt/internal/json_util.h"
 
 namespace crypto {

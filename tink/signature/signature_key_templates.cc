@@ -18,8 +18,8 @@
 
 #include <memory>
 
-#include "absl/memory/memory.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/str_cat.h"
 #include "openssl/bn.h"
 #include "openssl/rsa.h"
 #include "tink/internal/bn_util.h"

@@ -22,7 +22,7 @@
 #include <cmath>
 #include <cstdint>
 
-#include "absl/numeric/bits.h"
+#include "tink/absl/numeric/bits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

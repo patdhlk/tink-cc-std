@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/log_entry.h"
+#include "tink/absl/log/log_entry.h"
 
 #include <stddef.h>
 #include <stdint.h>
@@ -27,18 +27,18 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/internal/append_truncated.h"
-#include "absl/log/internal/log_format.h"
-#include "absl/log/internal/test_helpers.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_split.h"
-#include "absl/strings/string_view.h"
-#include "absl/time/civil_time.h"
-#include "absl/time/time.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/internal/append_truncated.h"
+#include "tink/absl/log/internal/log_format.h"
+#include "tink/absl/log/internal/test_helpers.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/str_split.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/time/civil_time.h"
+#include "tink/absl/time/time.h"
+#include "tink/absl/types/span.h"
 
 namespace {
 using ::absl::log_internal::LogEntryTestPeer;

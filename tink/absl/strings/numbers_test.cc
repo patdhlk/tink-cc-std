@@ -14,7 +14,7 @@
 
 // This file tests string processing functions related to numeric values.
 
-#include "absl/strings/numbers.h"
+#include "tink/absl/strings/numbers.h"
 
 #include <sys/types.h>
 
@@ -37,13 +37,13 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/log/log.h"
-#include "absl/random/distributions.h"
-#include "absl/random/random.h"
-#include "absl/strings/internal/numbers_test_common.h"
-#include "absl/strings/internal/ostringstream.h"
-#include "absl/strings/internal/pow10_helper.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/random/distributions.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/internal/numbers_test_common.h"
+#include "tink/absl/strings/internal/ostringstream.h"
+#include "tink/absl/strings/internal/pow10_helper.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace {
 

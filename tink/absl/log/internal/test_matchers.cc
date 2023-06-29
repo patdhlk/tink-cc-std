@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/internal/test_matchers.h"
+#include "tink/absl/log/internal/test_matchers.h"
 
 #include <ostream>
 #include <sstream>
@@ -23,12 +23,12 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/log/internal/test_helpers.h"
-#include "absl/strings/string_view.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/log/internal/test_helpers.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

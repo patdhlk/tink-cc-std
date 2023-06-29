@@ -22,10 +22,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/hash/internal/spy_hash_state.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/str_cat.h"
-#include "absl/types/variant.h"
+#include "tink/absl/hash/internal/spy_hash_state.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/types/variant.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

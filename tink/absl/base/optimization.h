@@ -24,7 +24,7 @@
 
 #include <assert.h>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // ABSL_BLOCK_TAIL_CALL_OPTIMIZATION
 //

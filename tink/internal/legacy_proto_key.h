@@ -19,8 +19,8 @@
 
 #include <string>
 
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 #include "tink/internal/proto_key_serialization.h"
 #include "tink/key.h"
 #include "tink/parameters.h"

@@ -38,14 +38,14 @@
 #include <limits>
 #include <type_traits>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #if ABSL_INTERNAL_CPLUSPLUS_LANG >= 202002L
 #include <bit>
 #endif
 
-#include "absl/base/attributes.h"
-#include "absl/numeric/internal/bits.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/numeric/internal/bits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

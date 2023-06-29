@@ -23,8 +23,8 @@
 #include <cstdint>
 #include <ctime>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/errno_saver.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/errno_saver.h"
 
 // The SpinLock lockword is `std::atomic<uint32_t>`. Here we assert that
 // `std::atomic<uint32_t>` is bitwise equivalent of the `int` expected

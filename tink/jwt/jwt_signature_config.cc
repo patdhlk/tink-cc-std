@@ -16,7 +16,7 @@
 
 #include "tink/jwt/jwt_signature_config.h"
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/config/config_util.h"
 #include "tink/config/tink_fips.h"
 #include "tink/jwt/internal/jwt_ecdsa_sign_key_manager.h"

@@ -17,8 +17,8 @@
 
 #include <cstdint>
 
-#include "absl/base/config.h"
-#include "absl/strings/internal/cordz_update_tracker.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/internal/cordz_update_tracker.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

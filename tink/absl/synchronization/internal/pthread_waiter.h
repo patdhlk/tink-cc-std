@@ -19,9 +19,9 @@
 #ifndef _WIN32
 #include <pthread.h>
 
-#include "absl/base/config.h"
-#include "absl/synchronization/internal/kernel_timeout.h"
-#include "absl/synchronization/internal/waiter_base.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/synchronization/internal/waiter_base.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/time/internal/test_util.h"
+#include "tink/absl/time/internal/test_util.h"
 
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

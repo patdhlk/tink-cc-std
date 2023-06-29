@@ -11,12 +11,12 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-#include "absl/status/status_payload_printer.h"
+#include "tink/absl/status/status_payload_printer.h"
 
 #include <atomic>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/atomic_hook.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/atomic_hook.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

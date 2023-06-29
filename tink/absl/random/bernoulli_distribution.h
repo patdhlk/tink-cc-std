@@ -19,9 +19,9 @@
 #include <istream>
 #include <limits>
 
-#include "absl/base/optimization.h"
-#include "absl/random/internal/fast_uniform_bits.h"
-#include "absl/random/internal/iostream_state_saver.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/random/internal/fast_uniform_bits.h"
+#include "tink/absl/random/internal/iostream_state_saver.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

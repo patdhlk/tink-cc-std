@@ -19,7 +19,7 @@
 
 #include <sys/ucontext.h>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 #if defined(__linux__)
 #include <sys/mman.h>
 #include <ucontext.h>
@@ -33,8 +33,8 @@
 #include <limits>
 #include <utility>
 
-#include "absl/base/attributes.h"
-#include "absl/debugging/stacktrace.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/debugging/stacktrace.h"
 
 static const uintptr_t kUnknownFrameSize = 0;
 

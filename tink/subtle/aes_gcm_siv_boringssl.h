@@ -21,7 +21,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead.h"
 #include "tink/aead/internal/ssl_aead.h"
 #include "tink/internal/fips_utils.h"

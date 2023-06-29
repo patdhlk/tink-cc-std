@@ -34,8 +34,8 @@
 #include <functional>  // For std::bind_front.
 #endif  // defined(__cpp_lib_bind_front) && __cpp_lib_bind_front >= 201907L
 
-#include "absl/functional/internal/front_binder.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/functional/internal/front_binder.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

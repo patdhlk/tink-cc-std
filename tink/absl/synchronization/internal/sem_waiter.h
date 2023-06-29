@@ -16,7 +16,7 @@
 #ifndef ABSL_SYNCHRONIZATION_INTERNAL_SEM_WAITER_H_
 #define ABSL_SYNCHRONIZATION_INTERNAL_SEM_WAITER_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #ifdef ABSL_HAVE_SEMAPHORE_H
 #include <semaphore.h>
@@ -24,10 +24,10 @@
 #include <atomic>
 #include <cstdint>
 
-#include "absl/base/internal/thread_identity.h"
-#include "absl/synchronization/internal/futex.h"
-#include "absl/synchronization/internal/kernel_timeout.h"
-#include "absl/synchronization/internal/waiter_base.h"
+#include "tink/absl/base/internal/thread_identity.h"
+#include "tink/absl/synchronization/internal/futex.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/synchronization/internal/waiter_base.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

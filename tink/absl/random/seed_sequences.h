@@ -28,11 +28,11 @@
 #include <iterator>
 #include <random>
 
-#include "absl/base/config.h"
-#include "absl/random/internal/salted_seed_seq.h"
-#include "absl/random/internal/seed_material.h"
-#include "absl/random/seed_gen_exception.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/random/internal/salted_seed_seq.h"
+#include "tink/absl/random/internal/seed_material.h"
+#include "tink/absl/random/seed_gen_exception.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

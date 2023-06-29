@@ -23,7 +23,7 @@
 #include <ostream>
 #include <set>
 
-#include "absl/log/log.h"
+#include "tink/absl/log/log.h"
 #include "tink/crypto_format.h"
 #include "tink/internal/util.h"
 #include "tink/util/status.h"

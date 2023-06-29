@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/ascii.h"
+#include "tink/absl/strings/ascii.h"
 
 #include <climits>
 #include <cstring>

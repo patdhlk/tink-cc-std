@@ -15,10 +15,10 @@
 #include <iostream>
 #include <limits>
 
-#include "absl/base/attributes.h"
-#include "absl/debugging/internal/address_is_readable.h"
-#include "absl/debugging/internal/vdso_support.h"  // a no-op on non-elf or non-glibc systems
-#include "absl/debugging/stacktrace.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/debugging/internal/address_is_readable.h"
+#include "tink/absl/debugging/internal/vdso_support.h"  // a no-op on non-elf or non-glibc systems
+#include "tink/absl/debugging/stacktrace.h"
 
 static const size_t kUnknownFrameSize = 0;
 // Stack end to use when we don't know the actual stack end

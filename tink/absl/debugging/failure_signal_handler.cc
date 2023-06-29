@@ -14,9 +14,9 @@
 // limitations under the License.
 //
 
-#include "absl/debugging/failure_signal_handler.h"
+#include "tink/absl/debugging/failure_signal_handler.h"
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #ifdef _WIN32
 #include <windows.h>
@@ -45,11 +45,11 @@
 #include <cstring>
 #include <ctime>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/sysinfo.h"
-#include "absl/debugging/internal/examine_stack.h"
-#include "absl/debugging/stacktrace.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/sysinfo.h"
+#include "tink/absl/debugging/internal/examine_stack.h"
+#include "tink/absl/debugging/stacktrace.h"
 
 #ifndef _WIN32
 #define ABSL_HAVE_SIGACTION

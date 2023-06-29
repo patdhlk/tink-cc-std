@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/nonsecure_base.h"
+#include "tink/absl/random/internal/nonsecure_base.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -22,9 +22,9 @@
 #include <sstream>
 
 #include "gtest/gtest.h"
-#include "absl/random/distributions.h"
-#include "absl/random/random.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/random/distributions.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace {
 

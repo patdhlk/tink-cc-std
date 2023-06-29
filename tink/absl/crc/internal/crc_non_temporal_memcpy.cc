@@ -14,11 +14,11 @@
 
 #include <cstdint>
 
-#include "absl/base/config.h"
-#include "absl/crc/crc32c.h"
-#include "absl/crc/internal/crc_memcpy.h"
-#include "absl/crc/internal/non_temporal_memcpy.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/crc/crc32c.h"
+#include "tink/absl/crc/internal/crc_memcpy.h"
+#include "tink/absl/crc/internal/non_temporal_memcpy.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

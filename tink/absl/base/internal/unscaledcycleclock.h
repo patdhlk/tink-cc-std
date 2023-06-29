@@ -42,8 +42,8 @@
 #include <TargetConditionals.h>
 #endif
 
-#include "absl/base/config.h"
-#include "absl/base/internal/unscaledcycleclock_config.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/unscaledcycleclock_config.h"
 
 #if ABSL_USE_UNSCALED_CYCLECLOCK
 

@@ -27,10 +27,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/log/internal/test_helpers.h"
-#include "absl/status/status.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/log/internal/test_helpers.h"
+#include "tink/absl/status/status.h"
 
 // NOLINTBEGIN(misc-definitions-in-headers)
 

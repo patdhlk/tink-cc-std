@@ -13,7 +13,7 @@
 // limitations under the License.
 
 // The implementation of the absl::Time class, which is declared in
-// //absl/time.h.
+// //tink/absl/time.h.
 //
 // The representation for an absl::Time is an absl::Duration offset from the
 // epoch.  We use the traditional Unix epoch (1970-01-01 00:00:00 +0000)
@@ -31,7 +31,7 @@
 // cl: A cctz::time_zone::civil_lookup
 // al: A cctz::time_zone::absolute_lookup
 
-#include "absl/time/time.h"
+#include "tink/absl/time/time.h"
 
 #if defined(_MSC_VER)
 #include <winsock2.h>  // for timeval
@@ -41,8 +41,8 @@
 #include <ctime>
 #include <limits>
 
-#include "absl/time/internal/cctz/include/cctz/civil_time.h"
-#include "absl/time/internal/cctz/include/cctz/time_zone.h"
+#include "tink/absl/time/internal/cctz/include/cctz/civil_time.h"
+#include "tink/absl/time/internal/cctz/include/cctz/time_zone.h"
 
 namespace cctz = absl::time_internal::cctz;
 

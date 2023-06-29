@@ -13,8 +13,8 @@
 // limitations under the License.
 
 #include "gtest/gtest.h"
-#include "absl/base/optimization.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/strings/string_view.h"
 
 // This test by itself does not do anything fancy, but it serves as binary I can
 // query in shell test.

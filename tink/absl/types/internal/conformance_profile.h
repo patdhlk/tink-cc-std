@@ -42,13 +42,13 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/algorithm/container.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/internal/conformance_testing_helpers.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/algorithm/container.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/internal/conformance_testing_helpers.h"
+#include "tink/absl/utility/utility.h"
 
 // TODO(calabrese) Add support for extending profiles.
 

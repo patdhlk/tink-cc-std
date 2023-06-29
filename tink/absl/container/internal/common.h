@@ -18,8 +18,8 @@
 #include <cassert>
 #include <type_traits>
 
-#include "absl/meta/type_traits.h"
-#include "absl/types/optional.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/types/optional.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

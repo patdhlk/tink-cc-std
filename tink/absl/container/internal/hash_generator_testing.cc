@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/internal/hash_generator_testing.h"
+#include "tink/absl/container/internal/hash_generator_testing.h"
 
 #include <deque>
 

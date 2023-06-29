@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/uniform_helper.h"
+#include "tink/absl/random/internal/uniform_helper.h"
 
 #include <cmath>
 #include <cstdint>

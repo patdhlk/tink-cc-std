@@ -19,16 +19,16 @@
 #include <atomic>
 #include <cstdint>
 
-#include "absl/base/internal/spinlock_wait.h"
+#include "tink/absl/base/internal/spinlock_wait.h"
 
 #if defined(_WIN32)
-#include "absl/base/internal/spinlock_win32.inc"
+#include "tink/absl/base/internal/spinlock_win32.inc"
 #elif defined(__linux__)
-#include "absl/base/internal/spinlock_linux.inc"
+#include "tink/absl/base/internal/spinlock_linux.inc"
 #elif defined(__akaros__)
-#include "absl/base/internal/spinlock_akaros.inc"
+#include "tink/absl/base/internal/spinlock_akaros.inc"
 #else
-#include "absl/base/internal/spinlock_posix.inc"
+#include "tink/absl/base/internal/spinlock_posix.inc"
 #endif
 
 namespace absl {

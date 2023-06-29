@@ -20,7 +20,7 @@
 #include <memory>
 #include <utility>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "openssl/curve25519.h"
 #include "openssl/ec.h"
 #include "openssl/hrss.h"

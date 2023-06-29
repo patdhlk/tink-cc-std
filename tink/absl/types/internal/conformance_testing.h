@@ -37,17 +37,17 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/internal/conformance_aliases.h"
-#include "absl/types/internal/conformance_archetype.h"
-#include "absl/types/internal/conformance_profile.h"
-#include "absl/types/internal/conformance_testing_helpers.h"
-#include "absl/types/internal/parentheses.h"
-#include "absl/types/internal/transform_args.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/internal/conformance_aliases.h"
+#include "tink/absl/types/internal/conformance_archetype.h"
+#include "tink/absl/types/internal/conformance_profile.h"
+#include "tink/absl/types/internal/conformance_testing_helpers.h"
+#include "tink/absl/types/internal/parentheses.h"
+#include "tink/absl/types/internal/transform_args.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

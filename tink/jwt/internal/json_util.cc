@@ -19,8 +19,8 @@
 #include <string>
 
 #include <google/protobuf/util/json_util.h>
-#include "absl/status/status.h"
-#include "absl/strings/substitute.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/substitute.h"
 
 namespace crypto {
 namespace tink {

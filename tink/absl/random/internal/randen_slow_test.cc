@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/randen_slow.h"
+#include "tink/absl/random/internal/randen_slow.h"
 
 #include <cstring>
 
 #include "gtest/gtest.h"
-#include "absl/base/internal/endian.h"
-#include "absl/random/internal/randen_traits.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/random/internal/randen_traits.h"
 
 namespace {
 

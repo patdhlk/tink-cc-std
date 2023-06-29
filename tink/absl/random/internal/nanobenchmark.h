@@ -50,7 +50,7 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -20,9 +20,9 @@
 #include <utility>
 #include <vector>
 
-#include "absl/status/status.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/str_split.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/str_split.h"
 #include "tink/jwt/internal/json_util.h"
 #include "tink/jwt/internal/jwt_format.h"
 

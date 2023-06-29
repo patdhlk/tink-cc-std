@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 
 #include <errno.h>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 
 namespace {
 

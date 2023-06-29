@@ -13,23 +13,23 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/reflection.h"
+#include "tink/absl/flags/reflection.h"
 
 #include <assert.h>
 
 #include <atomic>
 #include <string>
 
-#include "absl/base/config.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/flags/commandlineflag.h"
-#include "absl/flags/internal/private_handle_accessor.h"
-#include "absl/flags/internal/registry.h"
-#include "absl/flags/usage_config.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/flags/commandlineflag.h"
+#include "tink/absl/flags/internal/private_handle_accessor.h"
+#include "tink/absl/flags/internal/registry.h"
+#include "tink/absl/flags/usage_config.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/synchronization/mutex.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

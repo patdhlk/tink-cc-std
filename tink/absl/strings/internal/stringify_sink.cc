@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/stringify_sink.h"
+#include "tink/absl/strings/internal/stringify_sink.h"
 namespace absl {
 ABSL_NAMESPACE_BEGIN
 namespace strings_internal {

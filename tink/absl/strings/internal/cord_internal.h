@@ -21,15 +21,15 @@
 #include <cstdint>
 #include <type_traits>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/endian.h"
-#include "absl/base/internal/invoke.h"
-#include "absl/base/optimization.h"
-#include "absl/container/internal/compressed_tuple.h"
-#include "absl/container/internal/container_memory.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/base/internal/invoke.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/container/internal/compressed_tuple.h"
+#include "tink/absl/container/internal/container_memory.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/string_view.h"
 
 // We can only add poisoning if we can detect consteval executions.
 #if defined(ABSL_HAVE_CONSTANT_EVALUATED) && \

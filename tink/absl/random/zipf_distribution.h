@@ -22,9 +22,9 @@
 #include <ostream>
 #include <type_traits>
 
-#include "absl/random/internal/iostream_state_saver.h"
-#include "absl/random/internal/traits.h"
-#include "absl/random/uniform_real_distribution.h"
+#include "tink/absl/random/internal/iostream_state_saver.h"
+#include "tink/absl/random/internal/traits.h"
+#include "tink/absl/random/uniform_real_distribution.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

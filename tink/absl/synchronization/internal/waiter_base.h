@@ -16,9 +16,9 @@
 #ifndef ABSL_SYNCHRONIZATION_INTERNAL_WAITER_BASE_H_
 #define ABSL_SYNCHRONIZATION_INTERNAL_WAITER_BASE_H_
 
-#include "absl/base/config.h"
-#include "absl/base/internal/thread_identity.h"
-#include "absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/thread_identity.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

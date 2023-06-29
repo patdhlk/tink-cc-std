@@ -17,16 +17,16 @@
 #include <new>
 
 // This file is a no-op if the required LowLevelAlloc support is missing.
-#include "absl/base/internal/low_level_alloc.h"
-#include "absl/synchronization/internal/waiter.h"
+#include "tink/absl/base/internal/low_level_alloc.h"
+#include "tink/absl/synchronization/internal/waiter.h"
 #ifndef ABSL_LOW_LEVEL_ALLOC_MISSING
 
 #include <string.h>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/base/internal/thread_identity.h"
-#include "absl/synchronization/internal/per_thread_sem.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/base/internal/thread_identity.h"
+#include "tink/absl/synchronization/internal/per_thread_sem.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

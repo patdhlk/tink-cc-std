@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/escaping.h"
+#include "tink/absl/strings/internal/escaping.h"
 
-#include "absl/base/internal/endian.h"
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

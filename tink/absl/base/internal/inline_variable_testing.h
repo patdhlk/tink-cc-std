@@ -15,7 +15,7 @@
 #ifndef ABSL_BASE_INTERNAL_INLINE_VARIABLE_TESTING_H_
 #define ABSL_BASE_INTERNAL_INLINE_VARIABLE_TESTING_H_
 
-#include "absl/base/internal/inline_variable.h"
+#include "tink/absl/base/internal/inline_variable.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -12,20 +12,20 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-#include "absl/flags/usage.h"
+#include "tink/absl/flags/usage.h"
 
 #include <stdlib.h>
 
 #include <string>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/const_init.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/flags/internal/usage.h"
-#include "absl/strings/string_view.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/const_init.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/flags/internal/usage.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/synchronization/mutex.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

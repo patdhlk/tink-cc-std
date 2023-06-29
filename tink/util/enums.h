@@ -17,7 +17,7 @@
 #ifndef TINK_UTIL_ENUMS_H_
 #define TINK_UTIL_ENUMS_H_
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/subtle/common_enums.h"
 #include "tink/util/statusor.h"
 #include "proto/common.pb.h"

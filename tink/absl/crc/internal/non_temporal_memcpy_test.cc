@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/crc/internal/non_temporal_memcpy.h"
+#include "tink/absl/crc/internal/non_temporal_memcpy.h"
 
 #include <algorithm>
 #include <cstdint>

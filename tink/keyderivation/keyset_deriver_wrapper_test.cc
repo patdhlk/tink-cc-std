@@ -23,7 +23,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/cleartext_keyset_handle.h"
 #include "tink/keyderivation/keyset_deriver.h"
 #include "tink/primitive_set.h"

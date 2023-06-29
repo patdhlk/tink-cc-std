@@ -64,12 +64,12 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/invoke.h"
-#include "absl/base/macros.h"
-#include "absl/base/optimization.h"
-#include "absl/meta/type_traits.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/invoke.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

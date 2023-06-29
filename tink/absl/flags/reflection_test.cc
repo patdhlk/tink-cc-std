@@ -13,20 +13,20 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/reflection.h"
+#include "tink/absl/flags/reflection.h"
 
 #include <memory>
 #include <string>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/flags/declare.h"
-#include "absl/flags/flag.h"
-#include "absl/flags/internal/commandlineflag.h"
-#include "absl/flags/marshalling.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_split.h"
+#include "tink/absl/flags/declare.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/flags/internal/commandlineflag.h"
+#include "tink/absl/flags/marshalling.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_split.h"
 
 ABSL_FLAG(int, int_flag, 1, "int_flag help");
 ABSL_FLAG(std::string, string_flag, "dflt", "string_flag help");

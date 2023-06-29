@@ -15,8 +15,8 @@ cc_library(
         "//tink/util:secret_data",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -35,7 +35,7 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
     ],
 )
 
@@ -57,8 +57,8 @@ cc_library(
         "//tink/util:secret_data",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -76,9 +76,9 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/base:core_headers",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -98,7 +98,7 @@ cc_library(
         "//tink:hybrid_encrypt",
         "//proto:hpke_cc_proto",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
     ],
 )
 
@@ -115,10 +115,10 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/algorithm:container",
-        "@com_google_absl//absl/base:core_headers",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/algorithm:container",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -134,8 +134,8 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/base:core_headers",
-        "@com_google_absl//absl/status",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/status",
     ],
 )
 
@@ -148,7 +148,7 @@ cc_library(
         "//proto:hpke_cc_proto",
         "//tink/util:status",
         "//tink/util:validation",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
     ],
 )
 
@@ -172,7 +172,7 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "//tink/util:validation",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
     ],
 )
 
@@ -195,8 +195,8 @@ cc_library(
         "//tink/util:protobuf_helper",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/memory",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/strings",
     ],
 )
 
@@ -211,8 +211,8 @@ cc_library(
         "//proto:hpke_cc_proto",
         "//tink/util:status",
         "//tink/util:statusor",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -226,7 +226,7 @@ cc_library(
         "//proto:hpke_cc_proto",
         "//tink/subtle:common_enums",
         "//tink/util:statusor",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
     ],
 )
 
@@ -242,8 +242,8 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
     ],
 )
 
@@ -264,7 +264,7 @@ cc_library(
         "//tink/util:status",
         "//tink/util:statusor",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/strings",
     ],
 )
 
@@ -302,8 +302,8 @@ cc_test(
         "//tink/util:test_matchers",
         "//tink/util:test_util",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -321,8 +321,8 @@ cc_test(
         "//tink/util:test_matchers",
         "//tink/util:test_util",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -339,8 +339,8 @@ cc_test(
         "//proto:hpke_cc_proto",
         "//tink/util:statusor",
         "//tink/util:test_matchers",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -358,8 +358,8 @@ cc_test(
         "//tink/util:test_matchers",
         "//tink/util:test_util",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -375,8 +375,8 @@ cc_test(
         ":hpke_util",
         "//proto:hpke_cc_proto",
         "//tink/util:test_matchers",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -394,8 +394,8 @@ cc_test(
         "//tink/util:test_matchers",
         "//tink/util:test_util",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/status",
-        "@com_google_absl//absl/strings",
+        "//tink/absl/status",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -409,7 +409,7 @@ cc_test(
         ":hpke_test_util",
         "//tink/util:status",
         "//tink/util:test_matchers",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -430,7 +430,7 @@ cc_test(
         "//tink/util:statusor",
         "//tink/util:test_matchers",
         "//tink/util:test_util",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -446,7 +446,7 @@ cc_test(
         "//proto:hpke_cc_proto",
         "//tink/util:test_matchers",
         "//tink/util:test_util",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
         "@com_google_googletest//:gtest_main",
     ],
 )

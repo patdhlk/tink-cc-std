@@ -18,8 +18,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/time/internal/test_util.h"
-#include "absl/time/time.h"
+#include "tink/absl/time/internal/test_util.h"
+#include "tink/absl/time/time.h"
 
 using testing::HasSubstr;
 

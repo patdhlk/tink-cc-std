@@ -21,8 +21,8 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "openssl/cmac.h"
 #include "openssl/evp.h"
 #include "tink/internal/aes_util.h"

@@ -22,11 +22,11 @@
 #include <ostream>
 #include <type_traits>
 
-#include "absl/random/internal/fast_uniform_bits.h"
-#include "absl/random/internal/fastmath.h"
-#include "absl/random/internal/generate_real.h"
-#include "absl/random/internal/iostream_state_saver.h"
-#include "absl/random/internal/traits.h"
+#include "tink/absl/random/internal/fast_uniform_bits.h"
+#include "tink/absl/random/internal/fastmath.h"
+#include "tink/absl/random/internal/generate_real.h"
+#include "tink/absl/random/internal/iostream_state_saver.h"
+#include "tink/absl/random/internal/traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

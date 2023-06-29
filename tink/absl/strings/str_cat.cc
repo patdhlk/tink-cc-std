@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 
 #include <assert.h>
 
@@ -22,10 +22,10 @@
 #include <cstring>
 #include <string>
 
-#include "absl/strings/ascii.h"
-#include "absl/strings/internal/resize_uninitialized.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/internal/resize_uninitialized.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

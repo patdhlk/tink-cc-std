@@ -20,7 +20,7 @@
 #include <memory>
 #include <vector>
 
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/synchronization/mutex.h"
 #include "tink/random_access_stream.h"
 #include "tink/subtle/stream_segment_decrypter.h"
 #include "tink/util/statusor.h"

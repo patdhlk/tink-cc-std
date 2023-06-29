@@ -19,9 +19,9 @@
 #include <cstddef>
 #include <cstdint>
 
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_ring.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_ring.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

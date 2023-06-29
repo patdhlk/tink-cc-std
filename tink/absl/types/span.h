@@ -60,13 +60,13 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/throw_delegate.h"
-#include "absl/base/macros.h"
-#include "absl/base/optimization.h"
-#include "absl/base/port.h"    // TODO(strel): remove this include
-#include "absl/meta/type_traits.h"
-#include "absl/types/internal/span.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/throw_delegate.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/base/port.h"    // TODO(strel): remove this include
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/types/internal/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

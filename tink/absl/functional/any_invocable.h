@@ -38,10 +38,10 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/functional/internal/any_invocable.h"
-#include "absl/meta/type_traits.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/functional/internal/any_invocable.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

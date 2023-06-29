@@ -12,15 +12,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/match.h"
+#include "tink/absl/strings/match.h"
 
 #include <algorithm>
 #include <cstdint>
 
-#include "absl/base/internal/endian.h"
-#include "absl/numeric/bits.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/internal/memutil.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/numeric/bits.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/internal/memutil.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

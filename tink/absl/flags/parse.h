@@ -26,8 +26,8 @@
 #include <string>
 #include <vector>
 
-#include "absl/base/config.h"
-#include "absl/flags/internal/parse.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/flags/internal/parse.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

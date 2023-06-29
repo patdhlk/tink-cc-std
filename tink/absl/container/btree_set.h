@@ -52,8 +52,8 @@
 #ifndef ABSL_CONTAINER_BTREE_SET_H_
 #define ABSL_CONTAINER_BTREE_SET_H_
 
-#include "absl/container/internal/btree.h"  // IWYU pragma: export
-#include "absl/container/internal/btree_container.h"  // IWYU pragma: export
+#include "tink/absl/container/internal/btree.h"  // IWYU pragma: export
+#include "tink/absl/container/internal/btree_container.h"  // IWYU pragma: export
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

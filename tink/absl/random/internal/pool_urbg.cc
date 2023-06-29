@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/pool_urbg.h"
+#include "tink/absl/random/internal/pool_urbg.h"
 
 #include <algorithm>
 #include <atomic>
@@ -20,18 +20,18 @@
 #include <cstring>
 #include <iterator>
 
-#include "absl/base/attributes.h"
-#include "absl/base/call_once.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/endian.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/spinlock.h"
-#include "absl/base/internal/sysinfo.h"
-#include "absl/base/internal/unaligned_access.h"
-#include "absl/base/optimization.h"
-#include "absl/random/internal/randen.h"
-#include "absl/random/internal/seed_material.h"
-#include "absl/random/seed_gen_exception.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/spinlock.h"
+#include "tink/absl/base/internal/sysinfo.h"
+#include "tink/absl/base/internal/unaligned_access.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/random/internal/randen.h"
+#include "tink/absl/random/internal/seed_material.h"
+#include "tink/absl/random/seed_gen_exception.h"
 
 using absl::base_internal::SpinLock;
 using absl::base_internal::SpinLockHolder;

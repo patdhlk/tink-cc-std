@@ -21,7 +21,7 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/hybrid/internal/hpke_test_util.h"
 #include "tink/hybrid/internal/hpke_util.h"
 #include "tink/hybrid/internal/test_hpke_context_boringssl.h"

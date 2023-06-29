@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/blocking_counter.h"
+#include "tink/absl/synchronization/blocking_counter.h"
 
 #include <thread>  // NOLINT(build/c++11)
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

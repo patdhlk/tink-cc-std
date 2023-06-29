@@ -12,17 +12,17 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/internal/hash_function_defaults.h"
+#include "tink/absl/container/internal/hash_function_defaults.h"
 
 #include <functional>
 #include <type_traits>
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/random/random.h"
-#include "absl/strings/cord.h"
-#include "absl/strings/cord_test_helpers.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/cord.h"
+#include "tink/absl/strings/cord_test_helpers.h"
+#include "tink/absl/strings/string_view.h"
 
 #ifdef ABSL_HAVE_STD_STRING_VIEW
 #include <string_view>

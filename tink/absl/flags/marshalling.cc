@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/marshalling.h"
+#include "tink/absl/flags/marshalling.h"
 
 #include <stddef.h>
 
@@ -24,18 +24,18 @@
 #include <type_traits>
 #include <vector>
 
-#include "absl/base/config.h"
-#include "absl/base/log_severity.h"
-#include "absl/base/macros.h"
-#include "absl/numeric/int128.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/match.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/str_join.h"
-#include "absl/strings/str_split.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/str_join.h"
+#include "tink/absl/strings/str_split.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

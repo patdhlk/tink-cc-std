@@ -21,7 +21,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "openssl/curve25519.h"
 #include "openssl/hrss.h"
 #include "tink/config/tink_fips.h"

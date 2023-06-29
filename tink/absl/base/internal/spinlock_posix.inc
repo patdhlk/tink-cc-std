@@ -19,9 +19,9 @@
 #include <atomic>
 #include <ctime>
 
-#include "absl/base/internal/errno_saver.h"
-#include "absl/base/internal/scheduling_mode.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/internal/errno_saver.h"
+#include "tink/absl/base/internal/scheduling_mode.h"
+#include "tink/absl/base/port.h"
 
 extern "C" {
 

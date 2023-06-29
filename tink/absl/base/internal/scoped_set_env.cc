@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/scoped_set_env.h"
+#include "tink/absl/base/internal/scoped_set_env.h"
 
 #ifdef _WIN32
 #include <windows.h>
@@ -20,7 +20,7 @@
 
 #include <cstdlib>
 
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

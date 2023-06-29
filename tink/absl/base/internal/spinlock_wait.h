@@ -21,7 +21,7 @@
 #include <stdint.h>
 #include <atomic>
 
-#include "absl/base/internal/scheduling_mode.h"
+#include "tink/absl/base/internal/scheduling_mode.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

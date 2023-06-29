@@ -39,8 +39,8 @@
 #include <functional>
 #include <type_traits>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
 
 // Defines the default alignment. `__STDCPP_DEFAULT_NEW_ALIGNMENT__` is a C++17
 // feature.

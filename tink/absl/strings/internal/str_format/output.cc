@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/str_format/output.h"
+#include "tink/absl/strings/internal/str_format/output.h"
 
 #include <errno.h>
 #include <cstring>

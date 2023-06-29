@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/time/time.h"
+#include "tink/absl/time/time.h"
 
 #if defined(_MSC_VER)
 #include <winsock2.h>  // for timeval
@@ -27,10 +27,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/numeric/int128.h"
-#include "absl/strings/str_format.h"
-#include "absl/time/clock.h"
-#include "absl/time/internal/test_util.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/internal/test_util.h"
 
 namespace {
 

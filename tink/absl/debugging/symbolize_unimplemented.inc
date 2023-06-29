@@ -14,7 +14,7 @@
 
 #include <cstdint>
 
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

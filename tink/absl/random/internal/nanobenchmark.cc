@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/nanobenchmark.h"
+#include "tink/absl/random/internal/nanobenchmark.h"
 
 #include <sys/types.h>
 
@@ -27,10 +27,10 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/random/internal/platform.h"
-#include "absl/random/internal/randen_engine.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/random/internal/platform.h"
+#include "tink/absl/random/internal/randen_engine.h"
 
 // OS
 #if defined(_WIN32) || defined(_WIN64)

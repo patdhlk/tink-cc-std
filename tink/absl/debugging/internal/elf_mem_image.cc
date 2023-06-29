@@ -15,15 +15,15 @@
 // Allow dynamic symbol lookup in an in-memory Elf image.
 //
 
-#include "absl/debugging/internal/elf_mem_image.h"
+#include "tink/absl/debugging/internal/elf_mem_image.h"
 
 #ifdef ABSL_HAVE_ELF_MEM_IMAGE  // defined in elf_mem_image.h
 
 #include <string.h>
 #include <cassert>
 #include <cstddef>
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 // From binutils/include/elf/common.h (this doesn't appear to be documented
 // anywhere else).

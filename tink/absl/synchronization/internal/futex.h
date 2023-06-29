@@ -14,7 +14,7 @@
 #ifndef ABSL_SYNCHRONIZATION_INTERNAL_FUTEX_H_
 #define ABSL_SYNCHRONIZATION_INTERNAL_FUTEX_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #ifndef _WIN32
 #include <sys/time.h>
@@ -34,8 +34,8 @@
 #include <cstdint>
 #include <limits>
 
-#include "absl/base/optimization.h"
-#include "absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
 
 #ifdef ABSL_INTERNAL_HAVE_FUTEX
 #error ABSL_INTERNAL_HAVE_FUTEX may not be set on the command line

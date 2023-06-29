@@ -17,7 +17,7 @@
 #ifndef TINK_EXPERIMENTAL_PQCRYPTO_KEM_CECPQ2_HYBRID_CONFIG_H_
 #define TINK_EXPERIMENTAL_PQCRYPTO_KEM_CECPQ2_HYBRID_CONFIG_H_
 
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 #include "tink/util/status.h"
 
 namespace crypto {

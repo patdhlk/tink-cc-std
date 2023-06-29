@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/strerror.h"
+#include "tink/absl/base/internal/strerror.h"
 
 #include <array>
 #include <cerrno>
@@ -22,7 +22,7 @@
 #include <string>
 #include <type_traits>
 
-#include "absl/base/internal/errno_saver.h"
+#include "tink/absl/base/internal/errno_saver.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

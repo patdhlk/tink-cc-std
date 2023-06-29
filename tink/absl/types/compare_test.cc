@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/types/compare.h"
+#include "tink/absl/types/compare.h"
 
 #include "gtest/gtest.h"
-#include "absl/base/casts.h"
+#include "tink/absl/base/casts.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

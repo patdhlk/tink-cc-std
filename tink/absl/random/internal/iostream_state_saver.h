@@ -20,8 +20,8 @@
 #include <limits>
 #include <type_traits>
 
-#include "absl/meta/type_traits.h"
-#include "absl/numeric/int128.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/numeric/int128.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

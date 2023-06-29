@@ -19,15 +19,15 @@
 // possible hash functions, by using SIMD instructions, or by
 // compromising on hash quality.
 
-#include "absl/hash/internal/city.h"
+#include "tink/absl/hash/internal/city.h"
 
 #include <string.h>  // for memcpy and memset
 #include <algorithm>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/endian.h"
-#include "absl/base/internal/unaligned_access.h"
-#include "absl/base/optimization.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/base/internal/unaligned_access.h"
+#include "tink/absl/base/optimization.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

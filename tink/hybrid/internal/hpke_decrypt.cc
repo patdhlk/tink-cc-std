@@ -20,7 +20,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/hybrid/internal/hpke_context.h"
 #include "tink/hybrid/internal/hpke_util.h"
 #include "tink/util/secret_data.h"

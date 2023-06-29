@@ -18,7 +18,7 @@
 
 #include <string>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/subtle/aes_ctr_hmac_streaming.h"
 #include "tink/subtle/random.h"
 #include "tink/util/input_stream_util.h"

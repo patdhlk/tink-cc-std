@@ -13,7 +13,7 @@
 // limitations under the License.
 
 #include <iostream>
-#include "absl/base/internal/thread_identity.h"
+#include "tink/absl/base/internal/thread_identity.h"
 
 int main() {
   auto* tid = absl::base_internal::CurrentThreadIdentityIfPresent();

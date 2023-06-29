@@ -22,9 +22,9 @@
 #define ABSL_LOG_INTERNAL_TEST_HELPERS_H_
 
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/globals.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/globals.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

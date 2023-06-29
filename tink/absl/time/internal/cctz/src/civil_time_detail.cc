@@ -12,13 +12,13 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-#include "absl/time/internal/cctz/include/cctz/civil_time_detail.h"
+#include "tink/absl/time/internal/cctz/include/cctz/civil_time_detail.h"
 
 #include <iomanip>
 #include <ostream>
 #include <sstream>
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

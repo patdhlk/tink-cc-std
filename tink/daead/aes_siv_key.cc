@@ -18,8 +18,8 @@
 
 #include <string>
 
-#include "absl/strings/escaping.h"
-#include "absl/types/optional.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/types/optional.h"
 #include "tink/daead/aes_siv_parameters.h"
 #include "tink/partial_key_access_token.h"
 #include "tink/restricted_data.h"

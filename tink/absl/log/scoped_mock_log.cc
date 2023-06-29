@@ -13,18 +13,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/scoped_mock_log.h"
+#include "tink/absl/log/scoped_mock_log.h"
 
 #include <atomic>
 #include <string>
 
 #include "gmock/gmock.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/log/log_entry.h"
-#include "absl/log/log_sink.h"
-#include "absl/log/log_sink_registry.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/log/log_entry.h"
+#include "tink/absl/log/log_sink.h"
+#include "tink/absl/log/log_sink_registry.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

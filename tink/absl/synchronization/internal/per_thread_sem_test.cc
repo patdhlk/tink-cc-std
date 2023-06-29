@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/internal/per_thread_sem.h"
+#include "tink/absl/synchronization/internal/per_thread_sem.h"
 
 #include <atomic>
 #include <condition_variable>  // NOLINT(build/c++11)
@@ -23,12 +23,12 @@
 #include <thread>              // NOLINT(build/c++11)
 
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/cycleclock.h"
-#include "absl/base/internal/thread_identity.h"
-#include "absl/strings/str_cat.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/cycleclock.h"
+#include "tink/absl/base/internal/thread_identity.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/time.h"
 
 // In this test we explicitly avoid the use of synchronization
 // primitives which might use PerThreadSem, most notably absl::Mutex.

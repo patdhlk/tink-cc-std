@@ -24,10 +24,10 @@
 #include <cstddef>
 #include <string>
 
-#include "absl/base/macros.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/match.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

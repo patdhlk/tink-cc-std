@@ -20,9 +20,9 @@
 #include <ostream>
 #include <string>
 
-#include "absl/flags/flag.h"
-#include "absl/flags/parse.h"
-#include "absl/log/check.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/flags/parse.h"
+#include "tink/absl/log/check.h"
 #include "util/util.h"
 #include "tink/keyset_handle.h"
 #include "tink/public_key_sign.h"

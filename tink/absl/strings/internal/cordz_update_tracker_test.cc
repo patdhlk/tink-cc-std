@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/cordz_update_tracker.h"
+#include "tink/absl/strings/internal/cordz_update_tracker.h"
 
 #include <array>
 #include <thread>  // NOLINT
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/synchronization/notification.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/synchronization/notification.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

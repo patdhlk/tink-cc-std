@@ -77,16 +77,16 @@
 #include <type_traits>
 #include <vector>
 
-#include "absl/base/macros.h"
-#include "absl/base/port.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/internal/stringify_sink.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_split.h"
-#include "absl/strings/string_view.h"
-#include "absl/strings/strip.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/internal/stringify_sink.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_split.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/strings/strip.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -13,7 +13,7 @@
 # limitations under the License.
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -33,8 +33,8 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = ["//visibility:private"],
     deps = [
-        "//absl/base",
-        "//absl/base:config",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
     ],
 )
 
@@ -54,15 +54,15 @@ cc_library(
     visibility = ["//visibility:private"],
     deps = [
         ":cpu_detect",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
-        "//absl/base:endian",
-        "//absl/base:prefetch",
-        "//absl/base:raw_logging_internal",
-        "//absl/memory",
-        "//absl/numeric:bits",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
+        "//tink/absl/base:endian",
+        "//tink/absl/base:prefetch",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/memory",
+        "//tink/absl/numeric:bits",
     ],
 )
 
@@ -87,12 +87,12 @@ cc_library(
         ":cpu_detect",
         ":crc_internal",
         ":non_temporal_memcpy",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
-        "//absl/base:endian",
-        "//absl/base:prefetch",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
+        "//tink/absl/base:endian",
+        "//tink/absl/base:prefetch",
+        "//tink/absl/strings",
     ],
 )
 
@@ -104,7 +104,7 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":crc32c",
-        "//absl/strings",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -116,7 +116,7 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = ["//visibility:private"],
     deps = [
-        "//absl/base:config",
+        "//tink/absl/base:config",
     ],
 )
 
@@ -128,8 +128,8 @@ cc_library(
     visibility = ["//visibility:private"],
     deps = [
         ":non_temporal_arm_intrinsics",
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -143,10 +143,10 @@ cc_test(
     visibility = ["//visibility:private"],
     deps = [
         ":crc32c",
-        "//absl/memory",
-        "//absl/random",
-        "//absl/random:distributions",
-        "//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/random",
+        "//tink/absl/random:distributions",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -169,12 +169,12 @@ cc_library(
     hdrs = ["internal/crc_cord_state.h"],
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
-    visibility = ["//absl/strings:__pkg__"],
+    visibility = ["//tink/absl/strings:__pkg__"],
     deps = [
         ":crc32c",
-        "//absl/base:config",
-        "//absl/numeric:bits",
-        "//absl/strings",
+        "//tink/absl/base:config",
+        "//tink/absl/numeric:bits",
+        "//tink/absl/strings",
     ],
 )
 
@@ -203,8 +203,8 @@ cc_binary(
     visibility = ["//visibility:private"],
     deps = [
         ":crc32c",
-        "//absl/memory",
-        "//absl/strings",
+        "//tink/absl/memory",
+        "//tink/absl/strings",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )

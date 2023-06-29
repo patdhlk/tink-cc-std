@@ -19,10 +19,10 @@
 #include <cstdint>
 #include <cstdlib>
 
-#include "absl/base/casts.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/unaligned_access.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/unaligned_access.h"
+#include "tink/absl/base/port.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -12,8 +12,8 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-#include "absl/base/config.h"
-#include "absl/time/internal/cctz/include/cctz/time_zone.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/time/internal/cctz/include/cctz/time_zone.h"
 
 #if defined(__ANDROID__)
 #include <sys/system_properties.h>

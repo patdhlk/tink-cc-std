@@ -31,12 +31,12 @@
 #include <cstdint>
 #include <cstdio>
 
-#include "absl/base/attributes.h"
-#include "absl/base/optimization.h"
-#include "absl/base/port.h"
-#include "absl/debugging/stacktrace.h"
-#include "absl/debugging/internal/address_is_readable.h"
-#include "absl/debugging/internal/vdso_support.h"  // a no-op on non-elf or non-glibc systems
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/debugging/stacktrace.h"
+#include "tink/absl/debugging/internal/address_is_readable.h"
+#include "tink/absl/debugging/internal/vdso_support.h"  // a no-op on non-elf or non-glibc systems
 
 // Given a stack pointer, return the saved link register value.
 // Note that this is the link register for a callee.

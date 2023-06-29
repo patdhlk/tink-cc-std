@@ -22,7 +22,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/daead/failing_daead.h"
 #include "tink/deterministic_aead.h"
 #include "tink/internal/registry_impl.h"

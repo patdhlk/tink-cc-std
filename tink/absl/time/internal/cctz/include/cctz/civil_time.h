@@ -15,8 +15,8 @@
 #ifndef ABSL_TIME_INTERNAL_CCTZ_CIVIL_TIME_H_
 #define ABSL_TIME_INTERNAL_CCTZ_CIVIL_TIME_H_
 
-#include "absl/base/config.h"
-#include "absl/time/internal/cctz/include/cctz/civil_time_detail.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/time/internal/cctz/include/cctz/civil_time_detail.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

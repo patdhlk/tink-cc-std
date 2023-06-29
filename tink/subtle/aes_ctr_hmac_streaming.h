@@ -22,7 +22,7 @@
 #include <utility>
 #include <vector>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "openssl/evp.h"
 #include "tink/internal/fips_utils.h"
 #include "tink/mac.h"

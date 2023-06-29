@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/hash/internal/low_level_hash.h"
+#include "tink/absl/hash/internal/low_level_hash.h"
 
-#include "absl/base/internal/unaligned_access.h"
-#include "absl/numeric/int128.h"
+#include "tink/absl/base/internal/unaligned_access.h"
+#include "tink/absl/numeric/int128.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

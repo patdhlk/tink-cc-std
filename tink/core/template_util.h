@@ -20,7 +20,7 @@
 #include <tuple>
 #include <type_traits>
 
-#include "absl/meta/type_traits.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace crypto {
 namespace tink {

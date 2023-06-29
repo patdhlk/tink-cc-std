@@ -34,11 +34,11 @@
 #ifndef ABSL_LOG_CHECK_H_
 #define ABSL_LOG_CHECK_H_
 
-#include "absl/log/internal/check_impl.h"
-#include "absl/log/internal/check_op.h"     // IWYU pragma: export
-#include "absl/log/internal/conditions.h"   // IWYU pragma: export
-#include "absl/log/internal/log_message.h"  // IWYU pragma: export
-#include "absl/log/internal/strip.h"        // IWYU pragma: export
+#include "tink/absl/log/internal/check_impl.h"
+#include "tink/absl/log/internal/check_op.h"     // IWYU pragma: export
+#include "tink/absl/log/internal/conditions.h"   // IWYU pragma: export
+#include "tink/absl/log/internal/log_message.h"  // IWYU pragma: export
+#include "tink/absl/log/internal/strip.h"        // IWYU pragma: export
 
 // CHECK()
 //

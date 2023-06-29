@@ -23,11 +23,11 @@
 #include <utility>
 #include <vector>
 
-#include "absl/algorithm/container.h"
-#include "absl/base/config.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/types/span.h"
+#include "tink/absl/algorithm/container.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/types/span.h"
 #include "openssl/err.h"
 #include "openssl/evp.h"
 #include "tink/aead.h"

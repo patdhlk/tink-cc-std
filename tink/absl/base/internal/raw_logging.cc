@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 #include <cstdarg>
 #include <cstddef>
@@ -25,11 +25,11 @@
 #include <emscripten/console.h>
 #endif
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/atomic_hook.h"
-#include "absl/base/internal/errno_saver.h"
-#include "absl/base/log_severity.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/atomic_hook.h"
+#include "tink/absl/base/internal/errno_saver.h"
+#include "tink/absl/base/log_severity.h"
 
 // We know how to perform low-level writes to stderr in POSIX and Windows.  For
 // these platforms, we define the token ABSL_LOW_LEVEL_WRITE_SUPPORTED.

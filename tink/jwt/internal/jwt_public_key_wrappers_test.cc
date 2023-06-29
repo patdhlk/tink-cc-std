@@ -20,7 +20,7 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/strings/str_split.h"
+#include "tink/absl/strings/str_split.h"
 #include "tink/cleartext_keyset_handle.h"
 #include "tink/jwt/internal/json_util.h"
 #include "tink/jwt/internal/jwt_ecdsa_sign_key_manager.h"

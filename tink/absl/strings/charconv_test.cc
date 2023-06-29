@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/charconv.h"
+#include "tink/absl/strings/charconv.h"
 
 #include <cstdlib>
 #include <string>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/internal/pow10_helper.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_format.h"
+#include "tink/absl/strings/internal/pow10_helper.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_format.h"
 
 #ifdef _MSC_FULL_VER
 #define ABSL_COMPILER_DOES_EXACT_ROUNDING 0

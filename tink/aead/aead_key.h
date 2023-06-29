@@ -17,7 +17,7 @@
 #ifndef TINK_AEAD_AEAD_KEY_H_
 #define TINK_AEAD_AEAD_KEY_H_
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead/aead_parameters.h"
 #include "tink/key.h"
 

@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/internal/usage.h"
+#include "tink/absl/flags/internal/usage.h"
 
 #include <stdint.h>
 
@@ -27,19 +27,19 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/config.h"
-#include "absl/flags/commandlineflag.h"
-#include "absl/flags/flag.h"
-#include "absl/flags/internal/flag.h"
-#include "absl/flags/internal/path_util.h"
-#include "absl/flags/internal/private_handle_accessor.h"
-#include "absl/flags/internal/program_name.h"
-#include "absl/flags/internal/registry.h"
-#include "absl/flags/usage_config.h"
-#include "absl/strings/match.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_split.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/flags/commandlineflag.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/flags/internal/flag.h"
+#include "tink/absl/flags/internal/path_util.h"
+#include "tink/absl/flags/internal/private_handle_accessor.h"
+#include "tink/absl/flags/internal/program_name.h"
+#include "tink/absl/flags/internal/registry.h"
+#include "tink/absl/flags/usage_config.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_split.h"
+#include "tink/absl/strings/string_view.h"
 
 // Dummy global variables to prevent anyone else defining these.
 bool FLAGS_help = false;

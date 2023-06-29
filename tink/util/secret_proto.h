@@ -21,7 +21,7 @@
 #include <utility>
 
 #include "google/protobuf/arena.h"
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/util/secret_data.h"
 #include "tink/util/status.h"
 #include "tink/util/statusor.h"

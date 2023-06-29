@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/types/any.h"
+#include "tink/absl/types/any.h"
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // This test is a no-op when absl::any is an alias for std::any and when
 // exceptions are not enabled.
@@ -24,7 +24,7 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/internal/exception_safety_testing.h"
+#include "tink/absl/base/internal/exception_safety_testing.h"
 
 using Thrower = testing::ThrowingValue<>;
 using NoThrowMoveThrower =

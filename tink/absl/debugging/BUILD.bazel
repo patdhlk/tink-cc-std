@@ -15,7 +15,7 @@
 #
 
 load(
-    "//tink-cc/absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -47,10 +47,10 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":debugging_internal",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -61,7 +61,7 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":stacktrace",
-        "//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -82,9 +82,9 @@ cc_library(
     ],
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS + select({
-        "//absl:msvc_compiler": ["-DEFAULTLIB:dbghelp.lib"],
-        "//absl:clang-cl_compiler": ["-DEFAULTLIB:dbghelp.lib"],
-        "//absl:mingw_compiler": [
+        "//tink/absl:msvc_compiler": ["-DEFAULTLIB:dbghelp.lib"],
+        "//tink/absl:clang-cl_compiler": ["-DEFAULTLIB:dbghelp.lib"],
+        "//tink/absl:mingw_compiler": [
             "-DEFAULTLIB:dbghelp.lib",
             "-ldbghelp",
         ],
@@ -93,13 +93,13 @@ cc_library(
     deps = [
         ":debugging_internal",
         ":demangle_internal",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
-        "//absl/base:malloc_internal",
-        "//absl/base:raw_logging_internal",
-        "//absl/strings",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
+        "//tink/absl/base:malloc_internal",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/strings",
     ],
 )
 
@@ -107,25 +107,25 @@ cc_test(
     name = "symbolize_test",
     srcs = ["symbolize_test.cc"],
     copts = ABSL_TEST_COPTS + select({
-        "//absl:msvc_compiler": ["/Z7"],
-        "//absl:clang-cl_compiler": ["/Z7"],
+        "//tink/absl:msvc_compiler": ["/Z7"],
+        "//tink/absl:clang-cl_compiler": ["/Z7"],
         "//conditions:default": [],
     }),
     linkopts = ABSL_DEFAULT_LINKOPTS + select({
-        "//absl:msvc_compiler": ["/DEBUG"],
-        "//absl:clang-cl_compiler": ["/DEBUG"],
+        "//tink/absl:msvc_compiler": ["/DEBUG"],
+        "//tink/absl:clang-cl_compiler": ["/DEBUG"],
         "//conditions:default": [],
     }),
     deps = [
         ":stack_consumption",
         ":symbolize",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/log",
-        "//absl/log:check",
-        "//absl/memory",
-        "//absl/strings",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/log",
+        "//tink/absl/log:check",
+        "//tink/absl/memory",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest",
     ],
 )
@@ -140,13 +140,13 @@ cc_library(
     ],
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
-    visibility = ["//absl/log/internal:__pkg__"],
+    visibility = ["//tink/absl/log/internal:__pkg__"],
     deps = [
         ":stacktrace",
         ":symbolize",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -159,10 +159,10 @@ cc_library(
     deps = [
         ":examine_stack",
         ":stacktrace",
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -171,18 +171,18 @@ cc_test(
     srcs = ["failure_signal_handler_test.cc"],
     copts = ABSL_TEST_COPTS,
     linkopts = select({
-        "//absl:msvc_compiler": [],
-        "//absl:clang-cl_compiler": [],
-        "//absl:wasm": [],
+        "//tink/absl:msvc_compiler": [],
+        "//tink/absl:clang-cl_compiler": [],
+        "//tink/absl:wasm": [],
         "//conditions:default": ["-pthread"],
     }) + ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":failure_signal_handler",
         ":stacktrace",
         ":symbolize",
-        "//absl/base:raw_logging_internal",
-        "//absl/log:check",
-        "//absl/strings",
+        "//tink/absl/base:raw_logging_internal",
+        "//tink/absl/log:check",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest",
     ],
 )
@@ -203,11 +203,11 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = ["//visibility:private"],
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:dynamic_annotations",
-        "//absl/base:errno_saver",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:dynamic_annotations",
+        "//tink/absl/base:errno_saver",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -219,9 +219,9 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = ["//visibility:private"],
     deps = [
-        "//absl/base",
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -233,10 +233,10 @@ cc_test(
     deps = [
         ":demangle_internal",
         ":stack_consumption",
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/log",
-        "//absl/memory",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/log",
+        "//tink/absl/memory",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -248,8 +248,8 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -261,8 +261,8 @@ cc_test(
     tags = ["notsan"],
     deps = [
         ":leak_check",
-        "//absl/base:config",
-        "//absl/log",
+        "//tink/absl/base:config",
+        "//tink/absl/log",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -279,7 +279,7 @@ cc_binary(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":leak_check",
-        "//absl/log",
+        "//tink/absl/log",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -293,9 +293,9 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     visibility = ["//visibility:private"],
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
-        "//absl/base:raw_logging_internal",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/base:raw_logging_internal",
     ],
 )
 
@@ -307,8 +307,8 @@ cc_test(
     tags = ["notsan"],
     deps = [
         ":stack_consumption",
-        "//absl/base:core_headers",
-        "//absl/log",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/log",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -322,8 +322,8 @@ cc_binary(
     tags = ["benchmark"],
     deps = [
         ":stacktrace",
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )

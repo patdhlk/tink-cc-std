@@ -23,10 +23,10 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/attributes.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
 #include "tink/aead.h"
 #include "tink/configuration.h"
 #include "tink/internal/configuration_impl.h"

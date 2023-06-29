@@ -37,17 +37,17 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/internal/fast_type_id.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/meta/type_traits.h"
-#include "absl/random/distributions.h"
-#include "absl/random/internal/distribution_caller.h"
-#include "absl/random/random.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_join.h"
-#include "absl/types/span.h"
-#include "absl/types/variant.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/internal/fast_type_id.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/random/distributions.h"
+#include "tink/absl/random/internal/distribution_caller.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_join.h"
+#include "tink/absl/types/span.h"
+#include "tink/absl/types/variant.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

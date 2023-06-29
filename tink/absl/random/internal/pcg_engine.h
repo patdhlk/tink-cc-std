@@ -17,12 +17,12 @@
 
 #include <type_traits>
 
-#include "absl/base/config.h"
-#include "absl/meta/type_traits.h"
-#include "absl/numeric/bits.h"
-#include "absl/numeric/int128.h"
-#include "absl/random/internal/fastmath.h"
-#include "absl/random/internal/iostream_state_saver.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/numeric/bits.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/random/internal/fastmath.h"
+#include "tink/absl/random/internal/iostream_state_saver.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

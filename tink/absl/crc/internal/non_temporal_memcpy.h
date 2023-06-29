@@ -36,7 +36,7 @@
 #endif
 
 #ifdef __aarch64__
-#include "absl/crc/internal/non_temporal_arm_intrinsics.h"
+#include "tink/absl/crc/internal/non_temporal_arm_intrinsics.h"
 #endif
 
 #include <algorithm>
@@ -44,8 +44,8 @@
 #include <cstdint>
 #include <cstring>
 
-#include "absl/base/config.h"
-#include "absl/base/optimization.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/optimization.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/internal/container_memory.h"
+#include "tink/absl/container/internal/container_memory.h"
 
 #include <cstdint>
 #include <tuple>
@@ -22,8 +22,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/internal/test_instance_tracker.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/container/internal/test_instance_tracker.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -18,13 +18,13 @@
 #include <string>
 #include <vector>
 
-#include "absl/flags/flag.h"
-#include "absl/flags/marshalling.h"
-#include "absl/flags/parse.h"
-#include "absl/flags/reflection.h"
-#include "absl/strings/string_view.h"
-#include "absl/time/time.h"
-#include "absl/types/optional.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/flags/marshalling.h"
+#include "tink/absl/flags/parse.h"
+#include "tink/absl/flags/reflection.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/time/time.h"
+#include "tink/absl/types/optional.h"
 #include "benchmark/benchmark.h"
 
 namespace {

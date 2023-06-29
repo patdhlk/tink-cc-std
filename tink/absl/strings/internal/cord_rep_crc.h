@@ -18,10 +18,10 @@
 #include <cassert>
 #include <cstdint>
 
-#include "absl/base/config.h"
-#include "absl/base/optimization.h"
-#include "absl/crc/internal/crc_cord_state.h"
-#include "absl/strings/internal/cord_internal.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/crc/internal/crc_cord_state.h"
+#include "tink/absl/strings/internal/cord_internal.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

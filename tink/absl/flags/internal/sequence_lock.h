@@ -23,7 +23,7 @@
 #include <cassert>
 #include <cstring>
 
-#include "absl/base/optimization.h"
+#include "tink/absl/base/optimization.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

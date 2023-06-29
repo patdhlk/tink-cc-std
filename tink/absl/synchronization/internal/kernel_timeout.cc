@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
 
 #ifndef _WIN32
 #include <sys/types.h>
@@ -26,10 +26,10 @@
 #include <ctime>
 #include <limits>
 
-#include "absl/base/attributes.h"
-#include "absl/base/call_once.h"
-#include "absl/base/config.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -24,9 +24,9 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/output_stream.h"
 #include "tink/subtle/random.h"
 #include "tink/subtle/stream_segment_encrypter.h"

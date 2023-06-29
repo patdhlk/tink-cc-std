@@ -15,9 +15,9 @@
 #include <cstdint>
 #include <memory>
 
-#include "absl/base/config.h"
-#include "absl/crc/crc32c.h"
-#include "absl/crc/internal/crc_memcpy.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/crc/crc32c.h"
+#include "tink/absl/crc/internal/crc_memcpy.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

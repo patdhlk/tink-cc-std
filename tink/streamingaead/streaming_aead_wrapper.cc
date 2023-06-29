@@ -20,7 +20,7 @@
 #include <utility>
 #include <vector>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/crypto_format.h"
 #include "tink/input_stream.h"
 #include "tink/output_stream.h"

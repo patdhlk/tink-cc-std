@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/str_split.h"
+#include "tink/absl/strings/str_split.h"
 
 #include <algorithm>
 #include <cassert>
@@ -23,8 +23,8 @@
 #include <limits>
 #include <memory>
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/strings/ascii.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/strings/ascii.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

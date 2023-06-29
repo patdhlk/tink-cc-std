@@ -25,10 +25,10 @@
 
 #include <string>
 
-#include "absl/base/config.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/flags/commandlineflag.h"
-#include "absl/flags/internal/commandlineflag.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/flags/commandlineflag.h"
+#include "tink/absl/flags/internal/commandlineflag.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

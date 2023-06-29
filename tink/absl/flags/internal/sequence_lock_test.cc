@@ -11,7 +11,7 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-#include "absl/flags/internal/sequence_lock.h"
+#include "tink/absl/flags/internal/sequence_lock.h"
 
 #include <algorithm>
 #include <atomic>
@@ -20,9 +20,9 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/internal/sysinfo.h"
-#include "absl/container/fixed_array.h"
-#include "absl/time/clock.h"
+#include "tink/absl/base/internal/sysinfo.h"
+#include "tink/absl/container/fixed_array.h"
+#include "tink/absl/time/clock.h"
 
 namespace {
 

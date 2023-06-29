@@ -21,9 +21,9 @@
 #include <string>
 #include <type_traits>
 
-#include "absl/algorithm/algorithm.h"
-#include "absl/base/internal/throw_delegate.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/algorithm/algorithm.h"
+#include "tink/absl/base/internal/throw_delegate.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

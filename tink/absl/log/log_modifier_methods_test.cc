@@ -17,15 +17,15 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/log/internal/test_actions.h"
-#include "absl/log/internal/test_helpers.h"
-#include "absl/log/internal/test_matchers.h"
-#include "absl/log/log.h"
-#include "absl/log/log_sink.h"
-#include "absl/log/scoped_mock_log.h"
-#include "absl/strings/match.h"
-#include "absl/strings/string_view.h"
-#include "absl/time/time.h"
+#include "tink/absl/log/internal/test_actions.h"
+#include "tink/absl/log/internal/test_helpers.h"
+#include "tink/absl/log/internal/test_matchers.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/log/log_sink.h"
+#include "tink/absl/log/scoped_mock_log.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/time/time.h"
 
 namespace {
 #if GTEST_HAS_DEATH_TEST

@@ -19,7 +19,7 @@
 #ifndef ABSL_BASE_INTERNAL_TSAN_MUTEX_INTERFACE_H_
 #define ABSL_BASE_INTERNAL_TSAN_MUTEX_INTERFACE_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 // ABSL_INTERNAL_HAVE_TSAN_INTERFACE
 // Macro intended only for internal use.

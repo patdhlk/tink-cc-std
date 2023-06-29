@@ -12,24 +12,24 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/internal/waiter.h"
+#include "tink/absl/synchronization/internal/waiter.h"
 
 #include <ctime>
 #include <iostream>
 #include <ostream>
 
-#include "absl/base/config.h"
-#include "absl/random/random.h"
-#include "absl/synchronization/internal/create_thread_identity.h"
-#include "absl/synchronization/internal/futex_waiter.h"
-#include "absl/synchronization/internal/kernel_timeout.h"
-#include "absl/synchronization/internal/pthread_waiter.h"
-#include "absl/synchronization/internal/sem_waiter.h"
-#include "absl/synchronization/internal/stdcpp_waiter.h"
-#include "absl/synchronization/internal/thread_pool.h"
-#include "absl/synchronization/internal/win32_waiter.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/random/random.h"
+#include "tink/absl/synchronization/internal/create_thread_identity.h"
+#include "tink/absl/synchronization/internal/futex_waiter.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/synchronization/internal/pthread_waiter.h"
+#include "tink/absl/synchronization/internal/sem_waiter.h"
+#include "tink/absl/synchronization/internal/stdcpp_waiter.h"
+#include "tink/absl/synchronization/internal/thread_pool.h"
+#include "tink/absl/synchronization/internal/win32_waiter.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/time.h"
 #include "gtest/gtest.h"
 
 // Test go/btm support by randomizing the value of clock_gettime() for

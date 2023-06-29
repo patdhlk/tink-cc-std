@@ -17,7 +17,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "openssl/crypto.h"
 #include "tink/util/status.h"
 #include "tink/util/test_matchers.h"

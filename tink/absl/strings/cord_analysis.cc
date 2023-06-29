@@ -12,24 +12,24 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/cord_analysis.h"
+#include "tink/absl/strings/cord_analysis.h"
 
 #include <cstddef>
 #include <cstdint>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/container/inlined_vector.h"
-#include "absl/strings/internal/cord_data_edge.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_btree.h"
-#include "absl/strings/internal/cord_rep_crc.h"
-#include "absl/strings/internal/cord_rep_flat.h"
-#include "absl/strings/internal/cord_rep_ring.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/container/inlined_vector.h"
+#include "tink/absl/strings/internal/cord_data_edge.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_btree.h"
+#include "tink/absl/strings/internal/cord_rep_crc.h"
+#include "tink/absl/strings/internal/cord_rep_flat.h"
+#include "tink/absl/strings/internal/cord_rep_ring.h"
 //
-#include "absl/base/macros.h"
-#include "absl/base/port.h"
-#include "absl/functional/function_ref.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/functional/function_ref.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -17,17 +17,17 @@
 #include <cstddef>
 #include <cstdint>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/internal/endian.h"
-#include "absl/base/prefetch.h"
-#include "absl/crc/internal/cpu_detect.h"
-#include "absl/crc/internal/crc.h"
-#include "absl/crc/internal/crc32_x86_arm_combined_simd.h"
-#include "absl/crc/internal/crc_internal.h"
-#include "absl/memory/memory.h"
-#include "absl/numeric/bits.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/base/prefetch.h"
+#include "tink/absl/crc/internal/cpu_detect.h"
+#include "tink/absl/crc/internal/crc.h"
+#include "tink/absl/crc/internal/crc32_x86_arm_combined_simd.h"
+#include "tink/absl/crc/internal/crc_internal.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/numeric/bits.h"
 
 #if defined(ABSL_CRC_INTERNAL_HAVE_ARM_SIMD) || \
     defined(ABSL_CRC_INTERNAL_HAVE_X86_SIMD)

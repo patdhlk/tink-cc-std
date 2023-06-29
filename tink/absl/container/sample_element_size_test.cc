@@ -14,10 +14,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/container/flat_hash_set.h"
-#include "absl/container/node_hash_map.h"
-#include "absl/container/node_hash_set.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/container/flat_hash_set.h"
+#include "tink/absl/container/node_hash_map.h"
+#include "tink/absl/container/node_hash_set.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

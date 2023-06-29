@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/status/statusor.h"
+#include "tink/absl/status/statusor.h"
 
 #include <array>
 #include <initializer_list>
@@ -23,12 +23,12 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/casts.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/any.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/any.h"
+#include "tink/absl/utility/utility.h"
 
 namespace {
 

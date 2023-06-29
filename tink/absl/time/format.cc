@@ -17,10 +17,10 @@
 #include <cctype>
 #include <cstdint>
 
-#include "absl/strings/match.h"
-#include "absl/strings/string_view.h"
-#include "absl/time/internal/cctz/include/cctz/time_zone.h"
-#include "absl/time/time.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/time/internal/cctz/include/cctz/time_zone.h"
+#include "tink/absl/time/time.h"
 
 namespace cctz = absl::time_internal::cctz;
 

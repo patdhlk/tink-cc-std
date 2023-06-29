@@ -20,7 +20,7 @@ cc_library(
         "//tink/signature:signature_config",
         "//tink/streamingaead:streaming_aead_config",
         "//tink/util:status",
-        "@com_google_absl//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -48,7 +48,7 @@ cc_library(
         "//tink/internal:registry_impl",
         "//tink/util:status",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/base:core_headers",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -78,7 +78,7 @@ cc_library(
         "//tink/signature:rsa_ssa_pkcs1_verify_key_manager",
         "//tink/signature:rsa_ssa_pss_sign_key_manager",
         "//tink/signature:rsa_ssa_pss_verify_key_manager",
-        "@com_google_absl//absl/log:check",
+        "//tink/absl/log:check",
     ],
 )
 
@@ -102,7 +102,7 @@ cc_library(
         "//tink/signature:rsa_ssa_pkcs1_verify_key_manager",
         "//tink/signature:rsa_ssa_pss_sign_key_manager",
         "//tink/signature:rsa_ssa_pss_verify_key_manager",
-        "@com_google_absl//absl/log:check",
+        "//tink/absl/log:check",
     ],
 )
 
@@ -125,7 +125,7 @@ cc_test(
         "//tink/aead:aes_gcm_key_manager",
         "//tink/util:status",
         "//tink/util:test_matchers",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -153,7 +153,7 @@ cc_test(
         "//tink/util:status",
         "//tink/util:test_matchers",
         "@boringssl//:crypto",
-        "@com_google_absl//absl/status",
+        "//tink/absl/status",
         "@com_google_googletest//:gtest_main",
     ],
 )

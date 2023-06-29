@@ -33,9 +33,9 @@
 #include <bit>  // For std::bit_cast.
 #endif  // defined(__cpp_lib_bit_cast) && __cpp_lib_bit_cast >= 201806L
 
-#include "absl/base/internal/identity.h"
-#include "absl/base/macros.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/base/internal/identity.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

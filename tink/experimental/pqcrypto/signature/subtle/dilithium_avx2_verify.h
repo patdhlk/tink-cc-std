@@ -20,7 +20,7 @@
 #include <memory>
 #include <string>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/experimental/pqcrypto/signature/subtle/dilithium_key.h"
 #include "tink/internal/fips_utils.h"
 #include "tink/public_key_verify.h"

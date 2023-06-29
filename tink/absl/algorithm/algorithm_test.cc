@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/algorithm/algorithm.h"
+#include "tink/absl/algorithm/algorithm.h"
 
 #include <algorithm>
 #include <list>
@@ -20,7 +20,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace {
 

@@ -1,10 +1,10 @@
-#include "absl/time/clock.h"
+#include "tink/absl/time/clock.h"
 
 #include <sys/time.h>
 #include <ctime>
 #include <cstdint>
 
-#include "absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/raw_logging.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

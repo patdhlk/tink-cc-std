@@ -20,9 +20,9 @@
 #include <string>
 #include <utility>
 
-#include "absl/memory/memory.h"
-#include "absl/strings/str_format.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/strings/str_format.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/util/secret_data.h"
 #include "tink/util/statusor.h"
 

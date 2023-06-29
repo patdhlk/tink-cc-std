@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/types/optional.h"
+#include "tink/absl/types/optional.h"
 
 // This test is a no-op when absl::optional is an alias for std::optional.
 #if !defined(ABSL_USES_STD_OPTIONAL)
@@ -22,10 +22,10 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/log/log.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/string_view.h"
 
 #if defined(__cplusplus) && __cplusplus >= 202002L
 // In C++20, volatile-qualified return types are deprecated.

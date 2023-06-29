@@ -35,7 +35,7 @@
 #ifndef ABSL_LOG_ABSL_CHECK_H_
 #define ABSL_LOG_ABSL_CHECK_H_
 
-#include "absl/log/internal/check_impl.h"
+#include "tink/absl/log/internal/check_impl.h"
 
 #define ABSL_CHECK(condition) \
   ABSL_LOG_INTERNAL_CHECK_IMPL((condition), #condition)

@@ -19,7 +19,7 @@
 #include <memory>
 #include <string>
 
-#include "absl/container/flat_hash_map.h"
+#include "tink/absl/container/flat_hash_map.h"
 #include "tink/util/statusor.h"
 #include "proto/tink.pb.h"
 

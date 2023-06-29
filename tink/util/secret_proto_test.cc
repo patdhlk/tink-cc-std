@@ -22,7 +22,7 @@
 #include "google/protobuf/util/message_differencer.h"
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "proto/test_proto.pb.h"
 
 namespace crypto {

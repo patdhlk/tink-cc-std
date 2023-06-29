@@ -13,13 +13,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 //
-#include "absl/random/bit_gen_ref.h"
+#include "tink/absl/random/bit_gen_ref.h"
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/internal/fast_type_id.h"
-#include "absl/random/internal/sequence_urbg.h"
-#include "absl/random/random.h"
+#include "tink/absl/base/internal/fast_type_id.h"
+#include "tink/absl/random/internal/sequence_urbg.h"
+#include "tink/absl/random/random.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

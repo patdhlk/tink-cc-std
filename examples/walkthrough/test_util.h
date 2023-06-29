@@ -20,7 +20,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead.h"
 #include "tink/kms_client.h"
 #include "tink/util/statusor.h"

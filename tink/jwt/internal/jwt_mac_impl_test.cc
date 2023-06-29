@@ -23,9 +23,9 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/str_split.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/str_split.h"
 #include "tink/jwt/internal/json_util.h"
 #include "tink/jwt/internal/jwt_format.h"
 #include "tink/jwt/jwt_mac.h"

@@ -20,7 +20,7 @@
 #include <string>
 
 #include "gmock/gmock.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead.h"
 #include "tink/aead/aead_config.h"
 #include "tink/registry.h"

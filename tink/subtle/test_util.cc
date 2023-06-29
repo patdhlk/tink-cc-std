@@ -19,7 +19,7 @@
 #include <algorithm>
 #include <string>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 
 namespace crypto {
 namespace tink {

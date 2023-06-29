@@ -18,7 +18,7 @@
 
 #include <string>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/hybrid/internal/hpke_util.h"
 #include "tink/util/status.h"
 #include "proto/hpke.pb.h"

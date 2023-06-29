@@ -42,19 +42,19 @@
 #include <utility>
 #include <vector>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/unaligned_access.h"
-#include "absl/base/port.h"
-#include "absl/container/fixed_array.h"
-#include "absl/hash/internal/city.h"
-#include "absl/hash/internal/low_level_hash.h"
-#include "absl/meta/type_traits.h"
-#include "absl/numeric/bits.h"
-#include "absl/numeric/int128.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
-#include "absl/types/variant.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/unaligned_access.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/container/fixed_array.h"
+#include "tink/absl/hash/internal/city.h"
+#include "tink/absl/hash/internal/low_level_hash.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/numeric/bits.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
+#include "tink/absl/types/variant.h"
+#include "tink/absl/utility/utility.h"
 
 #ifdef ABSL_HAVE_STD_STRING_VIEW
 #include <string_view>

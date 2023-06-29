@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/cord.h"
+#include "tink/absl/strings/cord.h"
 
 #include <algorithm>
 #include <atomic>
@@ -29,27 +29,27 @@
 #include <unordered_set>
 #include <vector>
 
-#include "absl/base/casts.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/macros.h"
-#include "absl/base/port.h"
-#include "absl/container/fixed_array.h"
-#include "absl/container/inlined_vector.h"
-#include "absl/crc/internal/crc_cord_state.h"
-#include "absl/strings/cord_buffer.h"
-#include "absl/strings/escaping.h"
-#include "absl/strings/internal/cord_data_edge.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_btree.h"
-#include "absl/strings/internal/cord_rep_crc.h"
-#include "absl/strings/internal/cord_rep_flat.h"
-#include "absl/strings/internal/cordz_statistics.h"
-#include "absl/strings/internal/cordz_update_scope.h"
-#include "absl/strings/internal/cordz_update_tracker.h"
-#include "absl/strings/internal/resize_uninitialized.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/str_join.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/container/fixed_array.h"
+#include "tink/absl/container/inlined_vector.h"
+#include "tink/absl/crc/internal/crc_cord_state.h"
+#include "tink/absl/strings/cord_buffer.h"
+#include "tink/absl/strings/escaping.h"
+#include "tink/absl/strings/internal/cord_data_edge.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_btree.h"
+#include "tink/absl/strings/internal/cord_rep_crc.h"
+#include "tink/absl/strings/internal/cord_rep_flat.h"
+#include "tink/absl/strings/internal/cordz_statistics.h"
+#include "tink/absl/strings/internal/cordz_update_scope.h"
+#include "tink/absl/strings/internal/cordz_update_tracker.h"
+#include "tink/absl/strings/internal/resize_uninitialized.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/str_join.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

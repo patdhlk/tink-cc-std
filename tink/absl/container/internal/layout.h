@@ -171,11 +171,11 @@
 #include <typeinfo>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/meta/type_traits.h"
-#include "absl/strings/str_cat.h"
-#include "absl/types/span.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/types/span.h"
+#include "tink/absl/utility/utility.h"
 
 #ifdef ABSL_HAVE_ADDRESS_SANITIZER
 #include <sanitizer/asan_interface.h>

@@ -12,18 +12,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/profiling/internal/sample_recorder.h"
+#include "tink/absl/profiling/internal/sample_recorder.h"
 
 #include <atomic>
 #include <random>
 #include <vector>
 
 #include "gmock/gmock.h"
-#include "absl/base/thread_annotations.h"
-#include "absl/synchronization/internal/thread_pool.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/synchronization/notification.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/synchronization/internal/thread_pool.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/synchronization/notification.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

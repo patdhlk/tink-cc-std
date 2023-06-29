@@ -28,11 +28,11 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/internal/fast_type_id.h"
-#include "absl/base/macros.h"
-#include "absl/meta/type_traits.h"
-#include "absl/random/internal/distribution_caller.h"
-#include "absl/random/internal/fast_uniform_bits.h"
+#include "tink/absl/base/internal/fast_type_id.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/random/internal/distribution_caller.h"
+#include "tink/absl/random/internal/fast_uniform_bits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

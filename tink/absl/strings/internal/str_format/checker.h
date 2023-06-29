@@ -17,10 +17,10 @@
 
 #include <algorithm>
 
-#include "absl/base/attributes.h"
-#include "absl/strings/internal/str_format/arg.h"
-#include "absl/strings/internal/str_format/constexpr_parser.h"
-#include "absl/strings/internal/str_format/extension.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/strings/internal/str_format/arg.h"
+#include "tink/absl/strings/internal/str_format/constexpr_parser.h"
+#include "tink/absl/strings/internal/str_format/extension.h"
 
 // Compile time check support for entry points.
 

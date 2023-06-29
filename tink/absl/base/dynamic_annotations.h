@@ -48,10 +48,10 @@
 #include <stddef.h>
 #include <stdint.h>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
 #ifdef __cplusplus
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 #endif
 
 #ifdef ABSL_HAVE_HWADDRESS_SANITIZER
@@ -59,7 +59,7 @@
 #endif
 
 // TODO(rogeeff): Remove after the backward compatibility period.
-#include "absl/base/internal/dynamic_annotations.h"  // IWYU pragma: export
+#include "tink/absl/base/internal/dynamic_annotations.h"  // IWYU pragma: export
 
 // -------------------------------------------------------------------------
 // Decide which features are enabled.

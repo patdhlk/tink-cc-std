@@ -28,13 +28,13 @@
 #include <string>
 #include <utility>
 
-#include "absl/base/config.h"
-#include "absl/base/log_severity.h"
-#include "absl/log/absl_log.h"
-#include "absl/strings/internal/ostringstream.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
-#include "absl/utility/utility.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/log/absl_log.h"
+#include "tink/absl/strings/internal/ostringstream.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
+#include "tink/absl/utility/utility.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

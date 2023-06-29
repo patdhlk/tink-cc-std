@@ -21,7 +21,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/escaping.h"
+#include "tink/absl/strings/escaping.h"
 #include "tink/config/tink_config.h"
 #include "tink/insecure_secret_key_access.h"
 #include "tink/internal/legacy_proto_parameters.h"

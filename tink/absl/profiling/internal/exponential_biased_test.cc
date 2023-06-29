@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/profiling/internal/exponential_biased.h"
+#include "tink/absl/profiling/internal/exponential_biased.h"
 
 #include <stddef.h>
 
@@ -22,7 +22,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 
 using ::testing::Ge;
 

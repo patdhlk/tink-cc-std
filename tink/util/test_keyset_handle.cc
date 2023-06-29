@@ -19,7 +19,7 @@
 #include <memory>
 #include <utility>
 
-#include "absl/memory/memory.h"
+#include "tink/absl/memory/memory.h"
 #include "tink/keyset_handle.h"
 #include "proto/tink.pb.h"
 

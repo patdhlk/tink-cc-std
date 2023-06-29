@@ -19,8 +19,8 @@
 #ifndef ABSL_SYNCHRONIZATION_BARRIER_H_
 #define ABSL_SYNCHRONIZATION_BARRIER_H_
 
-#include "absl/base/thread_annotations.h"
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/base/thread_annotations.h"
+#include "tink/absl/synchronization/mutex.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

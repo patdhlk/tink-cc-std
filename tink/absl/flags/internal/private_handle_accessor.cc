@@ -13,15 +13,15 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/internal/private_handle_accessor.h"
+#include "tink/absl/flags/internal/private_handle_accessor.h"
 
 #include <memory>
 #include <string>
 
-#include "absl/base/config.h"
-#include "absl/flags/commandlineflag.h"
-#include "absl/flags/internal/commandlineflag.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/flags/commandlineflag.h"
+#include "tink/absl/flags/internal/commandlineflag.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

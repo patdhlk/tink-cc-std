@@ -20,11 +20,11 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/debugging/leak_check.h"
-#include "absl/strings/internal/cord_internal.h"
-#include "absl/strings/internal/cord_rep_ring.h"
-#include "absl/strings/internal/cord_rep_ring_reader.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/debugging/leak_check.h"
+#include "tink/absl/strings/internal/cord_internal.h"
+#include "tink/absl/strings/internal/cord_rep_ring.h"
+#include "tink/absl/strings/internal/cord_rep_ring_reader.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

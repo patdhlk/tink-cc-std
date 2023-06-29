@@ -12,10 +12,10 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/optimization.h"
-#include "absl/debugging/stacktrace.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/debugging/stacktrace.h"
 #include "benchmark/benchmark.h"
 
 namespace absl {

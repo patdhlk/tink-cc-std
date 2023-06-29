@@ -13,13 +13,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/flags/internal/program_name.h"
+#include "tink/absl/flags/internal/program_name.h"
 
 #include <string>
 
 #include "gtest/gtest.h"
-#include "absl/strings/match.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/match.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace {
 

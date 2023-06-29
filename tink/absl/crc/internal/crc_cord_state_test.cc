@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/crc/internal/crc_cord_state.h"
+#include "tink/absl/crc/internal/crc_cord_state.h"
 
 #include <algorithm>
 #include <cstdint>
@@ -20,7 +20,7 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/crc/crc32c.h"
+#include "tink/absl/crc/crc32c.h"
 
 namespace {
 

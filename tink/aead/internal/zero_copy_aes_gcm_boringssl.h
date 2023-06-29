@@ -21,7 +21,7 @@
 #include <memory>
 #include <utility>
 
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 #include "tink/aead/internal/ssl_aead.h"
 #include "tink/aead/internal/zero_copy_aead.h"
 #include "tink/util/secret_data.h"

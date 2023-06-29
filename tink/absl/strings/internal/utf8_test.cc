@@ -12,13 +12,13 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/strings/internal/utf8.h"
+#include "tink/absl/strings/internal/utf8.h"
 
 #include <cstdint>
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/base/port.h"
+#include "tink/absl/base/port.h"
 
 namespace {
 

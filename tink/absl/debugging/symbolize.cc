@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/debugging/symbolize.h"
+#include "tink/absl/debugging/symbolize.h"
 
 #ifdef _WIN32
 #include <winapifamily.h>
@@ -29,15 +29,15 @@
 #endif
 
 #if defined(ABSL_INTERNAL_HAVE_ELF_SYMBOLIZE)
-#include "absl/debugging/symbolize_elf.inc"
+#include "tink/absl/debugging/symbolize_elf.inc"
 #elif defined(ABSL_INTERNAL_HAVE_SYMBOLIZE_WIN32)
 // The Windows Symbolizer only works if PDB files containing the debug info
 // are available to the program at runtime.
-#include "absl/debugging/symbolize_win32.inc"
+#include "tink/absl/debugging/symbolize_win32.inc"
 #elif defined(__APPLE__)
-#include "absl/debugging/symbolize_darwin.inc"
+#include "tink/absl/debugging/symbolize_darwin.inc"
 #elif defined(ABSL_INTERNAL_HAVE_SYMBOLIZE_WASM)
-#include "absl/debugging/symbolize_emscripten.inc"
+#include "tink/absl/debugging/symbolize_emscripten.inc"
 #else
-#include "absl/debugging/symbolize_unimplemented.inc"
+#include "tink/absl/debugging/symbolize_unimplemented.inc"
 #endif

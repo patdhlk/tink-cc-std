@@ -18,8 +18,8 @@
 #include <memory>
 #include <type_traits>
 
-#include "absl/base/attributes.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 

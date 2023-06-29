@@ -35,7 +35,7 @@
 #include <type_traits>
 #include <vector>
 
-#include "absl/container/internal/hashtable_debug_hooks.h"
+#include "tink/absl/container/internal/hashtable_debug_hooks.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

@@ -29,12 +29,12 @@
 #include <string>
 #include <utility>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/optimization.h"
-#include "absl/log/internal/nullguard.h"
-#include "absl/log/internal/nullstream.h"
-#include "absl/log/internal/strip.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/log/internal/nullguard.h"
+#include "tink/absl/log/internal/nullstream.h"
+#include "tink/absl/log/internal/strip.h"
 
 // `ABSL_LOG_INTERNAL_STRIP_STRING_LITERAL` wraps string literals that
 // should be stripped when `ABSL_MIN_LOG_LEVEL` exceeds `kFatal`.

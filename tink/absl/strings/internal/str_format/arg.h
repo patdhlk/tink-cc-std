@@ -28,12 +28,12 @@
 #include <type_traits>
 #include <utility>
 
-#include "absl/base/port.h"
-#include "absl/meta/type_traits.h"
-#include "absl/numeric/int128.h"
-#include "absl/strings/internal/has_absl_stringify.h"
-#include "absl/strings/internal/str_format/extension.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/port.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/numeric/int128.h"
+#include "tink/absl/strings/internal/has_absl_stringify.h"
+#include "tink/absl/strings/internal/str_format/extension.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

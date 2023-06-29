@@ -21,7 +21,7 @@
 #include <memory>
 #include <string>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/keyset_reader.h"
 #include "tink/util/statusor.h"
 #include "proto/tink.pb.h"

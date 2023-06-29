@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/fixed_array.h"
+#include "tink/absl/container/fixed_array.h"
 
 #include <stdio.h>
 
@@ -27,12 +27,12 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/exception_testing.h"
-#include "absl/base/options.h"
-#include "absl/container/internal/counting_allocator.h"
-#include "absl/hash/hash_testing.h"
-#include "absl/memory/memory.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/exception_testing.h"
+#include "tink/absl/base/options.h"
+#include "tink/absl/container/internal/counting_allocator.h"
+#include "tink/absl/hash/hash_testing.h"
+#include "tink/absl/memory/memory.h"
 
 using ::testing::ElementsAreArray;
 

@@ -20,9 +20,9 @@
 #include <string>
 #include <utility>
 
-#include "absl/flags/flag.h"
-#include "absl/flags/parse.h"
-#include "absl/log/check.h"
+#include "tink/absl/flags/flag.h"
+#include "tink/absl/flags/parse.h"
+#include "tink/absl/log/check.h"
 #include "tink/aead.h"
 #include "tink/aead/aead_config.h"
 #include "util/util.h"

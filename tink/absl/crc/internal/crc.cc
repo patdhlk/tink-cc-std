@@ -39,14 +39,14 @@
 // CRCs by appending zeroes until the data lengths agree then XORing
 // the CRCs.
 
-#include "absl/crc/internal/crc.h"
+#include "tink/absl/crc/internal/crc.h"
 
 #include <cstdint>
 
-#include "absl/base/internal/endian.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/prefetch.h"
-#include "absl/crc/internal/crc_internal.h"
+#include "tink/absl/base/internal/endian.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/prefetch.h"
+#include "tink/absl/crc/internal/crc_internal.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

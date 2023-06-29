@@ -29,11 +29,11 @@
 #include <memory>
 #include <string>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/fast_type_id.h"
-#include "absl/flags/internal/commandlineflag.h"
-#include "absl/strings/string_view.h"
-#include "absl/types/optional.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/fast_type_id.h"
+#include "tink/absl/flags/internal/commandlineflag.h"
+#include "tink/absl/strings/string_view.h"
+#include "tink/absl/types/optional.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

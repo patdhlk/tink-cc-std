@@ -17,7 +17,7 @@
 #ifndef TINK_KEY_H_
 #define TINK_KEY_H_
 
-#include "absl/types/optional.h"
+#include "tink/absl/types/optional.h"
 #include "tink/parameters.h"
 
 namespace crypto {

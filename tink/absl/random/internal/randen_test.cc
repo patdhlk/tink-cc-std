@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/internal/randen.h"
+#include "tink/absl/random/internal/randen.h"
 
 #include <cstring>
 
 #include "gtest/gtest.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace {
 

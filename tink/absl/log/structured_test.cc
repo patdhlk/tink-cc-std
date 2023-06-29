@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/structured.h"
+#include "tink/absl/log/structured.h"
 
 #include <ios>
 #include <sstream>
@@ -21,11 +21,11 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/log/internal/test_helpers.h"
-#include "absl/log/internal/test_matchers.h"
-#include "absl/log/log.h"
-#include "absl/log/scoped_mock_log.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/log/internal/test_helpers.h"
+#include "tink/absl/log/internal/test_matchers.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/log/scoped_mock_log.h"
 
 namespace {
 using ::absl::log_internal::MatchesOstream;

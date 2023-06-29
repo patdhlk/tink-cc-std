@@ -20,10 +20,10 @@
 #include <iostream>
 #include <string>
 
-#include "absl/base/config.h"
-#include "absl/strings/ascii.h"
-#include "absl/strings/internal/charconv_parse.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/strings/ascii.h"
+#include "tink/absl/strings/internal/charconv_parse.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

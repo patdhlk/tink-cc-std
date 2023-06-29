@@ -15,9 +15,9 @@
 #include <string>
 
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/debugging/leak_check.h"
-#include "absl/log/log.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/debugging/leak_check.h"
+#include "tink/absl/log/log.h"
 
 namespace {
 

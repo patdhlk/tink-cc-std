@@ -24,11 +24,11 @@
 #include <utility>
 #include <vector>
 
-#include "absl/container/inlined_vector.h"
-#include "absl/meta/type_traits.h"
-#include "absl/random/internal/seed_material.h"
-#include "absl/types/optional.h"
-#include "absl/types/span.h"
+#include "tink/absl/container/inlined_vector.h"
+#include "tink/absl/meta/type_traits.h"
+#include "tink/absl/random/internal/seed_material.h"
+#include "tink/absl/types/optional.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

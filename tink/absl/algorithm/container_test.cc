@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/algorithm/container.h"
+#include "tink/absl/algorithm/container.h"
 
 #include <functional>
 #include <initializer_list>
@@ -29,10 +29,10 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/casts.h"
-#include "absl/base/macros.h"
-#include "absl/memory/memory.h"
-#include "absl/types/span.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/types/span.h"
 
 namespace {
 

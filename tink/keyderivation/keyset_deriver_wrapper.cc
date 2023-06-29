@@ -19,7 +19,7 @@
 #include <memory>
 #include <utility>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/cleartext_keyset_handle.h"
 #include "proto/tink.pb.h"
 

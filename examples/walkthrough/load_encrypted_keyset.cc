@@ -21,7 +21,7 @@
 #include <memory>
 #include <utility>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/aead.h"
 #include "tink/json_keyset_reader.h"
 #include "tink/keyset_handle.h"

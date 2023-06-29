@@ -21,7 +21,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/types/variant.h"
+#include "tink/absl/types/variant.h"
 #include "tink/aead.h"
 #include "tink/deterministic_aead.h"
 

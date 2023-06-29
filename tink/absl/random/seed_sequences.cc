@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/random/seed_sequences.h"
+#include "tink/absl/random/seed_sequences.h"
 
-#include "absl/random/internal/pool_urbg.h"
+#include "tink/absl/random/internal/pool_urbg.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

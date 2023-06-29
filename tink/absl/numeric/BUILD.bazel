@@ -13,7 +13,7 @@
 # limitations under the License.
 
 load(
-    "//absl:copts/configure_copts.bzl",
+    "//tink/absl:copts/configure_copts.bzl",
     "ABSL_DEFAULT_COPTS",
     "ABSL_DEFAULT_LINKOPTS",
     "ABSL_TEST_COPTS",
@@ -32,8 +32,8 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -45,8 +45,8 @@ cc_binary(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":bits",
-        "//absl/base:core_headers",
-        "//absl/random",
+        "//tink/absl/base:core_headers",
+        "//tink/absl/random",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -61,7 +61,7 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":bits",
-        "//absl/random",
+        "//tink/absl/random",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -78,8 +78,8 @@ cc_library(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":bits",
-        "//absl/base:config",
-        "//absl/base:core_headers",
+        "//tink/absl/base:config",
+        "//tink/absl/base:core_headers",
     ],
 )
 
@@ -94,10 +94,10 @@ cc_test(
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
         ":int128",
-        "//absl/base",
-        "//absl/hash:hash_testing",
-        "//absl/meta:type_traits",
-        "//absl/strings",
+        "//tink/absl/base",
+        "//tink/absl/hash:hash_testing",
+        "//tink/absl/meta:type_traits",
+        "//tink/absl/strings",
         "@com_google_googletest//:gtest_main",
     ],
 )
@@ -110,7 +110,7 @@ cc_test(
     tags = ["benchmark"],
     deps = [
         ":int128",
-        "//absl/base:config",
+        "//tink/absl/base:config",
         "@com_github_google_benchmark//:benchmark_main",
     ],
 )
@@ -123,6 +123,6 @@ cc_library(
     copts = ABSL_DEFAULT_COPTS,
     linkopts = ABSL_DEFAULT_LINKOPTS,
     deps = [
-        "//absl/base:config",
+        "//tink/absl/base:config",
     ],
 )

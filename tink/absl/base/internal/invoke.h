@@ -37,7 +37,7 @@
 #ifndef ABSL_BASE_INTERNAL_INVOKE_H_
 #define ABSL_BASE_INTERNAL_INVOKE_H_
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 #if ABSL_INTERNAL_CPLUSPLUS_LANG >= 201703L
 
@@ -61,7 +61,7 @@ ABSL_NAMESPACE_END
 #include <type_traits>
 #include <utility>
 
-#include "absl/meta/type_traits.h"
+#include "tink/absl/meta/type_traits.h"
 
 // The following code is internal implementation detail.  See the comment at the
 // top of this file for the API documentation.

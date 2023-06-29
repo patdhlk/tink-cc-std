@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/container/internal/raw_hash_set.h"
+#include "tink/absl/container/internal/raw_hash_set.h"
 
 #include <algorithm>
 #include <atomic>
@@ -37,18 +37,18 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/cycleclock.h"
-#include "absl/base/prefetch.h"
-#include "absl/container/flat_hash_map.h"
-#include "absl/container/flat_hash_set.h"
-#include "absl/container/internal/container_memory.h"
-#include "absl/container/internal/hash_function_defaults.h"
-#include "absl/container/internal/hash_policy_testing.h"
-#include "absl/container/internal/hashtable_debug.h"
-#include "absl/log/log.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/cycleclock.h"
+#include "tink/absl/base/prefetch.h"
+#include "tink/absl/container/flat_hash_map.h"
+#include "tink/absl/container/flat_hash_set.h"
+#include "tink/absl/container/internal/container_memory.h"
+#include "tink/absl/container/internal/hash_function_defaults.h"
+#include "tink/absl/container/internal/hash_policy_testing.h"
+#include "tink/absl/container/internal/hashtable_debug.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

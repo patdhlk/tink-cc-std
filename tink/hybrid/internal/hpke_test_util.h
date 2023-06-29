@@ -20,7 +20,7 @@
 #include <string>
 #include <vector>
 
-#include "absl/strings/escaping.h"
+#include "tink/absl/strings/escaping.h"
 #include "tink/hybrid/internal/hpke_util.h"
 #include "tink/util/statusor.h"
 #include "proto/hpke.pb.h"

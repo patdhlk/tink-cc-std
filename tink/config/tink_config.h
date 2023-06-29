@@ -17,7 +17,7 @@
 #ifndef TINK_CONFIG_TINK_CONFIG_H_
 #define TINK_CONFIG_TINK_CONFIG_H_
 
-#include "absl/base/macros.h"
+#include "tink/absl/base/macros.h"
 #include "tink/util/status.h"
 #include "proto/config.pb.h"
 

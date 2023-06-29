@@ -17,7 +17,7 @@
 
 #include <cstdint>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

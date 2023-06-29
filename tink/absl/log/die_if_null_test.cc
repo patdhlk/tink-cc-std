@@ -13,7 +13,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/die_if_null.h"
+#include "tink/absl/log/die_if_null.h"
 
 #include <stdint.h>
 
@@ -21,8 +21,8 @@
 #include <utility>
 
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/log/internal/test_helpers.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/log/internal/test_helpers.h"
 
 namespace {
 

@@ -12,11 +12,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/debugging/stacktrace.h"
+#include "tink/absl/debugging/stacktrace.h"
 
 #include "gtest/gtest.h"
-#include "absl/base/macros.h"
-#include "absl/base/optimization.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/optimization.h"
 
 namespace {
 

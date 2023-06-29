@@ -18,11 +18,11 @@
 #include <algorithm>
 #include <cstring>
 
-#include "absl/base/internal/raw_logging.h"
-#include "absl/debugging/internal/demangle.h"
-#include "absl/strings/numbers.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/debugging/internal/demangle.h"
+#include "tink/absl/strings/numbers.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

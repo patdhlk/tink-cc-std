@@ -17,16 +17,16 @@
 // This allocator is slow and wasteful of memory;
 // it should not be used when performance is key.
 
-#include "absl/base/internal/low_level_alloc.h"
+#include "tink/absl/base/internal/low_level_alloc.h"
 
 #include <type_traits>
 
-#include "absl/base/call_once.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/direct_mmap.h"
-#include "absl/base/internal/scheduling_mode.h"
-#include "absl/base/macros.h"
-#include "absl/base/thread_annotations.h"
+#include "tink/absl/base/call_once.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/direct_mmap.h"
+#include "tink/absl/base/internal/scheduling_mode.h"
+#include "tink/absl/base/macros.h"
+#include "tink/absl/base/thread_annotations.h"
 
 // LowLevelAlloc requires that the platform support low-level
 // allocation of virtual memory. Platforms lacking this cannot use
@@ -53,9 +53,9 @@
 #include <cstddef>
 #include <new>                   // for placement-new
 
-#include "absl/base/dynamic_annotations.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/spinlock.h"
+#include "tink/absl/base/dynamic_annotations.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/spinlock.h"
 
 // MAP_ANONYMOUS
 #if defined(__APPLE__)

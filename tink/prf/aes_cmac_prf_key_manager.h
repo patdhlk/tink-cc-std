@@ -21,9 +21,9 @@
 #include <string>
 #include <vector>
 
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/core/key_type_manager.h"
 #include "tink/key_manager.h"
 #include "tink/subtle/prf/prf_set_util.h"

@@ -19,7 +19,7 @@
 #include <unistd.h>
 #include <algorithm>
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/util/errors.h"
 #include "tink/util/status.h"
 #include "tink/util/statusor.h"

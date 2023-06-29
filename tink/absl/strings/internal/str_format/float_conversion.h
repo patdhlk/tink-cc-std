@@ -15,7 +15,7 @@
 #ifndef ABSL_STRINGS_INTERNAL_STR_FORMAT_FLOAT_CONVERSION_H_
 #define ABSL_STRINGS_INTERNAL_STR_FORMAT_FLOAT_CONVERSION_H_
 
-#include "absl/strings/internal/str_format/extension.h"
+#include "tink/absl/strings/internal/str_format/extension.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

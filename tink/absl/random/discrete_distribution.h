@@ -24,9 +24,9 @@
 #include <utility>
 #include <vector>
 
-#include "absl/random/bernoulli_distribution.h"
-#include "absl/random/internal/iostream_state_saver.h"
-#include "absl/random/uniform_int_distribution.h"
+#include "tink/absl/random/bernoulli_distribution.h"
+#include "tink/absl/random/internal/iostream_state_saver.h"
+#include "tink/absl/random/uniform_int_distribution.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

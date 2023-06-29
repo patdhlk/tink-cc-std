@@ -16,7 +16,7 @@
 
 #include "tink/hybrid/internal/hpke_util.h"
 
-#include "absl/strings/str_cat.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/internal/ec_util.h"
 #include "tink/subtle/common_enums.h"
 #include "proto/hpke.pb.h"

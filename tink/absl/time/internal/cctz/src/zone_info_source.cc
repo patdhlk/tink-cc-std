@@ -12,9 +12,9 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-#include "absl/time/internal/cctz/include/cctz/zone_info_source.h"
+#include "tink/absl/time/internal/cctz/include/cctz/zone_info_source.h"
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

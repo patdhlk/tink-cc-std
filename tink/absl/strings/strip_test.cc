@@ -15,7 +15,7 @@
 // This file contains functions that remove a defined part from the string,
 // i.e., strip the string.
 
-#include "absl/strings/strip.h"
+#include "tink/absl/strings/strip.h"
 
 #include <cassert>
 #include <cstdio>
@@ -23,7 +23,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace {
 

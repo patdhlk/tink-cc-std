@@ -23,7 +23,7 @@
 #include <string>
 #include <utility>
 
-#include "absl/strings/string_view.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/hybrid/internal/hpke_context_boringssl.h"
 #include "tink/hybrid/internal/hpke_util.h"
 #include "tink/util/secret_data.h"

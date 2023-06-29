@@ -16,7 +16,7 @@
 
 #include "tink/hybrid/internal/hpke_key_manager_util.h"
 
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/util/status.h"
 #include "tink/util/validation.h"
 #include "proto/hpke.pb.h"

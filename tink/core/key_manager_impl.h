@@ -21,10 +21,10 @@
 #include <string>
 #include <utility>
 
-#include "absl/base/casts.h"
-#include "absl/memory/memory.h"
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
+#include "tink/absl/base/casts.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
 #include "tink/core/key_type_manager.h"
 #include "tink/key_manager.h"
 #include "tink/util/constants.h"

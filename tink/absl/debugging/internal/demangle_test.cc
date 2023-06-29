@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/debugging/internal/demangle.h"
+#include "tink/absl/debugging/internal/demangle.h"
 
 #include <cstdlib>
 #include <string>
 
 #include "gtest/gtest.h"
-#include "absl/base/config.h"
-#include "absl/debugging/internal/stack_consumption.h"
-#include "absl/log/log.h"
-#include "absl/memory/memory.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/debugging/internal/stack_consumption.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/memory/memory.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

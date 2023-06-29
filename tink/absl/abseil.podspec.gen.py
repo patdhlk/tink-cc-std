@@ -68,7 +68,7 @@ def get_elem_value(elem, name):
 
 def normalize_paths(paths):
   """Returns the list of normalized path."""
-  # e.g. ["//absl/strings:dir/header.h"] -> ["absl/strings/dir/header.h"]
+  # e.g. ["//tink/absl/strings:dir/header.h"] -> ["absl/strings/dir/header.h"]
   return [path.lstrip("/").replace(":", "/") for path in paths]
 
 
@@ -126,9 +126,9 @@ def get_spec_var(depth):
 
 def get_spec_name(label):
   """Converts the label of bazel rule to the name of podspec."""
-  assert label.startswith("//absl/"), "{} doesn't start with //absl/".format(
+  assert label.startswith("//tink/absl/"), "{} doesn't start with //tink/absl/".format(
       label)
-  # e.g. //absl/apple/banana -> abseil/apple/banana
+  # e.g. //tink/absl/apple/banana -> abseil/apple/banana
   return "abseil/" + label[7:]
 
 

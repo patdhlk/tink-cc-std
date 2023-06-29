@@ -21,8 +21,8 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/flat_hash_set.h"
-#include "absl/status/status.h"
+#include "tink/absl/container/flat_hash_set.h"
+#include "tink/absl/status/status.h"
 #include "tink/public_key_sign.h"
 #include "tink/registry.h"
 #include "tink/signature/ed25519_verify_key_manager.h"

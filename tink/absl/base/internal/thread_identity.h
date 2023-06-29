@@ -30,9 +30,9 @@
 #include <atomic>
 #include <cstdint>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/per_thread_tls.h"
-#include "absl/base/optimization.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/per_thread_tls.h"
+#include "tink/absl/base/optimization.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

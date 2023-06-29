@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/numeric/int128.h"
+#include "tink/absl/numeric/int128.h"
 
 #include <stddef.h>
 
@@ -23,8 +23,8 @@
 #include <string>
 #include <type_traits>
 
-#include "absl/base/optimization.h"
-#include "absl/numeric/bits.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/numeric/bits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

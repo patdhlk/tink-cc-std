@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/time/civil_time.h"
+#include "tink/absl/time/civil_time.h"
 
 #include <cstdlib>
 #include <ostream>
 #include <string>
 
-#include "absl/strings/str_cat.h"
-#include "absl/time/time.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/time/time.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

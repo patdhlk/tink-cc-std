@@ -19,9 +19,9 @@
 #include <memory>
 #include <utility>
 
-#include "absl/status/status.h"
-#include "absl/strings/str_cat.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/status/status.h"
+#include "tink/absl/strings/str_cat.h"
+#include "tink/absl/strings/string_view.h"
 #include "tink/internal/bn_util.h"
 #include "tink/internal/md_util.h"
 #include "tink/internal/rsa_util.h"

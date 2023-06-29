@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/log/globals.h"
+#include "tink/absl/log/globals.h"
 
 #include <atomic>
 #include <cstddef>
@@ -21,13 +21,13 @@
 #include <cstring>
 #include <string>
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/atomic_hook.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/log_severity.h"
-#include "absl/hash/hash.h"
-#include "absl/strings/string_view.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/atomic_hook.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/log_severity.h"
+#include "tink/absl/hash/hash.h"
+#include "tink/absl/strings/string_view.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

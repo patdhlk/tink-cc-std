@@ -12,16 +12,16 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/functional/function_ref.h"
+#include "tink/absl/functional/function_ref.h"
 
 #include <functional>
 #include <memory>
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/container/internal/test_instance_tracker.h"
-#include "absl/functional/any_invocable.h"
-#include "absl/memory/memory.h"
+#include "tink/absl/container/internal/test_instance_tracker.h"
+#include "tink/absl/functional/any_invocable.h"
+#include "tink/absl/memory/memory.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

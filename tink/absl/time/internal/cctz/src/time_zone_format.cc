@@ -24,8 +24,8 @@
 #endif
 #endif
 
-#include "absl/base/config.h"
-#include "absl/time/internal/cctz/include/cctz/time_zone.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/time/internal/cctz/include/cctz/time_zone.h"
 
 // Include time.h directly since, by C++ standards, ctime doesn't have to
 // declare strptime.
@@ -45,7 +45,7 @@
 #include <sstream>
 #endif
 
-#include "absl/time/internal/cctz/include/cctz/civil_time.h"
+#include "tink/absl/time/internal/cctz/include/cctz/civil_time.h"
 #include "time_zone_if.h"
 
 namespace absl {

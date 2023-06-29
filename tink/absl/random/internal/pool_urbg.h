@@ -18,8 +18,8 @@
 #include <cinttypes>
 #include <limits>
 
-#include "absl/random/internal/traits.h"
-#include "absl/types/span.h"
+#include "tink/absl/random/internal/traits.h"
+#include "tink/absl/types/span.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

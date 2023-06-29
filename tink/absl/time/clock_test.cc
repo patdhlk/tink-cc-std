@@ -12,9 +12,9 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/time/clock.h"
+#include "tink/absl/time/clock.h"
 
-#include "absl/base/config.h"
+#include "tink/absl/base/config.h"
 #if defined(ABSL_HAVE_ALARM)
 #include <signal.h>
 #include <unistd.h>
@@ -27,7 +27,7 @@ typedef void (*sig_t)(int);
 #endif
 
 #include "gtest/gtest.h"
-#include "absl/time/time.h"
+#include "tink/absl/time/time.h"
 
 namespace {
 

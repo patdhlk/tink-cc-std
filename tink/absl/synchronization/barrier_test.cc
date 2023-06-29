@@ -12,14 +12,14 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/barrier.h"
+#include "tink/absl/synchronization/barrier.h"
 
 #include <thread>  // NOLINT(build/c++11)
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/synchronization/mutex.h"
-#include "absl/time/clock.h"
+#include "tink/absl/synchronization/mutex.h"
+#include "tink/absl/time/clock.h"
 
 
 TEST(Barrier, SanityTest) {

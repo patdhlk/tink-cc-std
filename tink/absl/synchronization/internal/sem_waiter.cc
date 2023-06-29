@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/internal/sem_waiter.h"
+#include "tink/absl/synchronization/internal/sem_waiter.h"
 
 #ifdef ABSL_INTERNAL_HAVE_SEM_WAITER
 
@@ -23,11 +23,11 @@
 #include <cstdint>
 #include <cerrno>
 
-#include "absl/base/config.h"
-#include "absl/base/internal/raw_logging.h"
-#include "absl/base/internal/thread_identity.h"
-#include "absl/base/optimization.h"
-#include "absl/synchronization/internal/kernel_timeout.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/raw_logging.h"
+#include "tink/absl/base/internal/thread_identity.h"
+#include "tink/absl/base/optimization.h"
+#include "tink/absl/synchronization/internal/kernel_timeout.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

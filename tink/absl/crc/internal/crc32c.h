@@ -15,8 +15,8 @@
 #ifndef ABSL_CRC_INTERNAL_CRC32C_H_
 #define ABSL_CRC_INTERNAL_CRC32C_H_
 
-#include "absl/base/config.h"
-#include "absl/crc/crc32c.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/crc/crc32c.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

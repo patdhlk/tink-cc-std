@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/base/internal/exception_safety_testing.h"
+#include "tink/absl/base/internal/exception_safety_testing.h"
 
 #ifdef ABSL_HAVE_EXCEPTIONS
 
 #include "gtest/gtest.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace testing {
 

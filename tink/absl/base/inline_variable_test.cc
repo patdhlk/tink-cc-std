@@ -14,8 +14,8 @@
 
 #include <type_traits>
 
-#include "absl/base/internal/inline_variable.h"
-#include "absl/base/internal/inline_variable_testing.h"
+#include "tink/absl/base/internal/inline_variable.h"
+#include "tink/absl/base/internal/inline_variable_testing.h"
 
 #include "gtest/gtest.h"
 

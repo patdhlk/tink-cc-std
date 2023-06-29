@@ -18,10 +18,10 @@
 // even when the lsan_interface (and LeakSanitizer) is not available. When
 // LeakSanitizer is not linked in, these functions become no-op stubs.
 
-#include "absl/debugging/leak_check.h"
+#include "tink/absl/debugging/leak_check.h"
 
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
 
 #if defined(ABSL_HAVE_LEAK_SANITIZER)
 

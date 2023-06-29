@@ -20,12 +20,12 @@
 #include <iterator>
 #include <utility>
 
-#include "absl/base/attributes.h"
-#include "absl/base/internal/throw_delegate.h"
-#include "absl/container/internal/btree.h"  // IWYU pragma: export
-#include "absl/container/internal/common.h"
-#include "absl/memory/memory.h"
-#include "absl/meta/type_traits.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/internal/throw_delegate.h"
+#include "tink/absl/container/internal/btree.h"  // IWYU pragma: export
+#include "tink/absl/container/internal/common.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/meta/type_traits.h"
 
 namespace absl {
 ABSL_NAMESPACE_BEGIN

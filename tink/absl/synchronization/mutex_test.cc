@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "absl/synchronization/mutex.h"
+#include "tink/absl/synchronization/mutex.h"
 
 #ifdef _WIN32
 #include <windows.h>
@@ -30,15 +30,15 @@
 #include <vector>
 
 #include "gtest/gtest.h"
-#include "absl/base/attributes.h"
-#include "absl/base/config.h"
-#include "absl/base/internal/sysinfo.h"
-#include "absl/log/check.h"
-#include "absl/log/log.h"
-#include "absl/memory/memory.h"
-#include "absl/synchronization/internal/thread_pool.h"
-#include "absl/time/clock.h"
-#include "absl/time/time.h"
+#include "tink/absl/base/attributes.h"
+#include "tink/absl/base/config.h"
+#include "tink/absl/base/internal/sysinfo.h"
+#include "tink/absl/log/check.h"
+#include "tink/absl/log/log.h"
+#include "tink/absl/memory/memory.h"
+#include "tink/absl/synchronization/internal/thread_pool.h"
+#include "tink/absl/time/clock.h"
+#include "tink/absl/time/time.h"
 
 namespace {
 

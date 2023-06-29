@@ -19,7 +19,7 @@
 
 #include "gmock/gmock.h"
 #include "gtest/gtest.h"
-#include "absl/status/status.h"
+#include "tink/absl/status/status.h"
 #include "tink/internal/fips_utils.h"
 #include "tink/keyset_handle.h"
 #include "tink/prf/hmac_prf_key_manager.h"
