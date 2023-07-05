@@ -1,3 +1,5 @@
+load("@rules_fuzzing//fuzzing:cc_defs.bzl", "cc_fuzz_test")
+
 package(default_visibility = ["//:__subpackages__"])
 
 licenses(["notice"])
@@ -273,5 +275,22 @@ cc_test(
         "//tink/absl/strings",
         "//tink/absl/types:span",
         "@com_google_googletest//:gtest_main",
+    ],
+)
+
+cc_fuzz_test(
+    name = "zero_copy_aes_gcm_boringssl_fuzz_test",
+    srcs = ["zero_copy_aes_gcm_boringssl_fuzz_test.cc"],
+    deps = [
+        ":zero_copy_aead",
+        ":zero_copy_aes_gcm_boringssl",
+        "//tink/subtle:subtle_util",
+        "//tink/util:statusor",
+        "@boringssl//:crypto",
+        "//tink/absl/status",
+        "//tink/absl/strings",
+        "//tink/absl/types:span",
+        "@com_google_googletest//:gtest_main",
+        "@cifuzz"
     ],
 )

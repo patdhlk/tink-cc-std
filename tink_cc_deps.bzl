@@ -113,4 +113,10 @@ def tink_cc_deps():
         urls = ["https://github.com/bazelbuild/platforms/archive/3fbc687756043fb58a407c2ea8c944bc2fe1d922.zip"],
     )
 
-    
+    http_archive(
+        name = "rules_foreign_cc",
+        strip_prefix = "rules_foreign_cc-main",
+        url = "https://github.com/bazelbuild/rules_foreign_cc/archive/main.zip",
+    )
+
+

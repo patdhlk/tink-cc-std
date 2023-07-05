@@ -1,5 +1,6 @@
 load("//:version.bzl", "TINK_CC_VERSION_LABEL")
 load("//:template_rule.bzl", "template_rule")
+load("@rules_fuzzing//fuzzing:cc_defs.bzl", "cc_fuzz_test")
 
 package(default_visibility = ["//:__subpackages__"])
 
@@ -1136,4 +1137,17 @@ cc_library(
     include_prefix = "tink",
     visibility = ["//visibility:public"],
     deps = ["//tink/internal:key_type_info_store"],
+)
+
+# fuzzing
+cc_fuzz_test(
+    name = "crypto_format_fuzz_test",
+    
+    srcs = ["core/crypto_format_fuzz_test.cc"],
+    deps = [
+        ":crypto_format",
+        "//proto:tink_cc_proto",
+        "@com_google_googletest//:gtest_main",
+        "@cifuzz",
+    ],
 )
